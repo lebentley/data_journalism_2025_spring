@@ -52,7 +52,7 @@ number * number
 
 What does it return? Type your answer below:
 
-**Answer:** the code returns the number 4
+**Answer: 4** 
 
 ### Task 3: Install packages
 
@@ -84,7 +84,14 @@ library(tidyverse)
 
 ### Task 2: Load data
 
+```{r}
+library(tidyverse)
+```
+
+
 **Task** Load the Maryland WinRed contributions dataset by running the following codeblock.
+
+
 
 ```{r}
 maryland_winred_contributions <- read_rds("pre_lab_01.rds")
@@ -92,7 +99,7 @@ maryland_winred_contributions <- read_rds("pre_lab_01.rds")
 
 Once it loads, look at the environment window at right in RStudio for maryland_winred_contributions. It's next to a small blue circle with a white arrow in it. To the right of that, look at how many "obs" the dataset has ("obs" is short for observation, which is another way of saying rows or records). Look at how many variables it has (another way of saying columns or fields). Write the number of observations and variables below.
 
-**Answer**
+**Answer: 131395 obs.** 
 
 ### Task 3: Glimpse data
 
@@ -102,7 +109,7 @@ Once it loads, look at the environment window at right in RStudio for maryland_w
 glimpse(maryland_winred_contributions)
 ```
 
-In the space below, write the data type for the "last_name" column and the "amount" columns (it's in light gray, offset by \< \>). Also offer your best guess as to what the "last_name" column and the "amount" column represent. **Answer**
+In the space below, write the data type for the "last_name" column and the "amount" columns (it's in light gray, offset by \< \>). Also offer your best guess as to what the "last_name" column and the "amount" column represent. **The data type for the "last_name" column is <chr>. The data type "amount" column is <dbl>. I think these might represent when the data is presented as words like in "last_name" or numerals, such as in "amount." **
 
 ### Task 4: Examine data "head"
 
@@ -112,7 +119,7 @@ In the space below, write the data type for the "last_name" column and the "amou
 head(maryland_winred_contributions)
 ```
 
-In the space below, write the first and last name from the _second_ row of the data. **Answer**
+In the space below, write the first and last name from the _second_ row of the data. **The first name from the second row of data is "Peggy." The last name from the second row of data is "Mukai." **
 
 ### Task 5: Explore data with interactive dataframe
 
@@ -127,12 +134,12 @@ maryland_winred_contributions |>
   group_by(date) |>
   summarise(
     count_contribs = n()
-  )
+  ) 
 ```
 
 Describe what you think this code is doing below. What does the answer represent, compared to the results from `head()`?
 
-**Answer**
+**I think the code below is going to reverse the data to be grouped from most recent to earliest, rather than earliest to most recent.**
 
 ### Task 7: Adding arrange()
 
@@ -149,7 +156,7 @@ maryland_winred_contributions |>
 
 Compared to the previous codeblock, what has changed and how did that affect the result?
 
-**Answer**
+**It changed the way the data is grouped, it is now ordered from most recently to the earliest date it started.**
 
 ### Task 8: Multiple grouping
 
@@ -166,7 +173,7 @@ maryland_winred_contributions |>
 
 Compared to the previous codeblock, what has changed and how did that affect the result?
 
-**Answer**
+**The data is no longer grouped by the categories "memo_text" and "amount." **
 
 ### Task 9
 
@@ -184,7 +191,7 @@ maryland_winred_contributions |>
 
 Compared to the previous codeblock, what has changed and how did that affect the result? 
 
-**Answer**
+**The data is no longer grouped by "amount" as well as "memo_text." It is now soley organized by "memo_text."**
 
 ### Task 10: More descriptive statistics
 
@@ -204,7 +211,7 @@ maryland_winred_contributions |>
 
 Compared to the previous codeblock, what has changed and how did that affect the result? Glancing at the names, which of the top results from Maryland?
 
-**Answer**
+**The top result from Maryland is "Earmarked for HOGAN FOR MARYLAND INC. (C00869016)" **
 
 ### Task 11
 
@@ -224,4 +231,4 @@ maryland_winred_contributions |>
   arrange(desc(total_amount))
 ```
 
-Compared to the previous codeblock, what has changed and how did that affect the result? How is the data sorted? **Answer**
+Compared to the previous codeblock, what has changed and how did that affect the result? How is the data sorted? ****
