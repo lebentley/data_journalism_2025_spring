@@ -22,7 +22,7 @@ Remember to add any new verbs or concepts to your reference notebook!
 **Task** Import the Tidyverse. Write the code needed to load the library. To run the codeblock, hit the little green play button in the upper right corner of the gray area (the codeblock) below.
 
 ```{r}
-
+library(tidyverse)
 ```
 
 ## Load Data
@@ -32,7 +32,7 @@ In this lab, we will be recreating the first data story I ever did as a data jou
 **Task** Using the example from the pre_lab, write code to load the CSV file in the data file and assign it to a good variable name. This data is only charges for homeless people.
 
 ```{r}
-
+okaloosa_court_charges <- read_csv ("data/okaloosa-court-charges.csv")
 ```
 
 ## Examine the data
@@ -41,56 +41,84 @@ In this lab, we will be recreating the first data story I ever did as a data jou
 
 **Q1** How many rows and columns does this dataframe have?
 
-**A1**
+**A1** This dataframe has 15,386 rows and 56 columns.
 
 ```{r}
-
+glimpse (okaloosa_court_charges)
 ```
 
 ## Answer questions
 
-**Q2** Which charges are homeless people most often charged with?
+**Q2** narcotic equip possess or use
 
-**A2**
+**A2** 
 
 ```{r}
-
+okaloosa_court_charges |>
+  group_by(court_statute) |>
+  summarize(
+    count_statutes = n()
+  ) |>
+  arrange(desc(count_statutes))
 ```
 
 **Q3** What charges against homeless people have been charged the least?
 
-**A3**
+**A3** adult permits under 16 yoa to possess weapon
 
 ```{r}
-
+okaloosa_court_charges |>
+  group_by(court_statute) |>
+  summarize(
+    count_statutes = n()
+  ) |>
+  arrange(count_statutes)
 ```
 
 **Q4** Why do you think there are so many charges identified in **A3** that are tied for the least common? Hint: You can't answer this question with code.
 
-**A4**
+**A4** A lot of the charges that are tied for least common are really specific or rare circumstances. If you look at the most common offenses, they are not nearly as specific as the least common. 
 
 **Q5** Which prosecutor has prosecuted the most charges against homeless people? Is the top prosecutor related to any famous Floridians?
 
-**A5**
+**A5** ginger bowden madden
 
 ```{r}
-
+okaloosa_court_charges |> 
+  group_by(prosecutor) |>
+  summarise(
+    count_prosecutors = n()
+  ) |>
+  arrange(desc(count_prosecutors))
+  
 ```
 
 
 **Q6** Which judge has overseen the most cases involving homeless people? Hint: Cases and charges are not the same thing.
 
-**A6**
+**A6** patricia s grinstead
 
 ```{r}
+okaloosa_court_charges |>
+  group_by(judge) |>
+  summarise(
+    cases = n_distinct(case_number)
+  ) |>
+  arrange(desc(cases))
 
 ```
 
 **Q7** What prosecutor has prosecuted the most cases against a single homeless person?
 
-**A7**
+**A7** athenia c singleton
 
 ```{r}
+okaloosa_court_charges |>
+  group_by(prosecutor, defendant) |>
+  summarise (
+    cases = n_distinct(case_number)
+  ) |>
+  arrange (desc(cases))
 
 ```
 
@@ -99,9 +127,17 @@ In this lab, we will be recreating the first data story I ever did as a data jou
 **A8**
 
 ```{r}
-
+okaloosa_court_charges |>
+  group_by(defendant) |>
+  summarise( 
+    count_charges = n(),
+    count_cases = n(),
+    total_amount = sum(total_assessed),
+    mean_amount = mean (total_assessed),
+    median_amount = median(total_assessed)
+  )
 ```
 
 **Q9** Please describe a short reporting plan for how you would use the data you have generated in **A8** to report on the criminal justice system in Okaloosa County, Florida. Who are the people we should talk to? What more should we do with our data analysis to be certain we know what the story is?
 
-**A9**
+**A9** I would talk to the defendants with the largest average amount of fines. We could potentially clean the data to understand what the story is. I would also make sure to talk to defendants who have a smaller amount of cases with a larger average fine amount. Furthermore, we could also specify the data even more by adding a category as to what crime they committed that resulted in the largest amount fined.
