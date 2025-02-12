@@ -59,7 +59,7 @@ primary_24 |>
 
 Describe what you think this code is doing below.
 
-**Answer**
+**Answer** I think it is using primary election data from 2024, showing Maryland congressional candidates along with their party affiliation and district. It is also telling me the amount of votes cast on election day, number of total votes, and calculating the percentage of votes cast for each candidate on election day. 
 
 ### Task 5: Better percentage calculation
 
@@ -90,7 +90,7 @@ primary_24 |>
 
 How did the results change from the previous task, and why?
 
-**Answer**
+**Answer** It is organized differently, because the office_name begins with U.S. Senators. The percentage of votes cast on election day is now ordered descending. 
 
 ### Task 7: Mutate with ordering, part 2
 
@@ -108,7 +108,7 @@ primary_24 |>
 
 Is this a more interesting or useful answer? Why?
 
-**Answer**
+**Answer** Yes, because this way you can see what candidates had least and/or most votes cast on election day. This way its easier to notice patterns in catsing votes and election day and political part affiliation. 
 
 ### Task 8: Standardize existing data using mutate
 
@@ -138,7 +138,7 @@ standardized_maryland_cities <- maryland_cities |>
 
 **Task** Search the Internet for tidyverse functions similar to str_to_upper. Name at least two and describe what they do.
 
-**Answer**
+**Answer** str_to_lower() converts a string to lowercase instead of uppercase and str_to_title() will capitalize just the first letter of each word. 
 
 There are lots of potential uses for standardization - addresses, zip codes, anything that can be misspelled or abbreviated.
 
@@ -166,7 +166,7 @@ Now that we've gotten a look, we can use `case_when` to give our new category co
 
 **Task** Run the following code and look at the output. Then write a sentence or two describing what you think the mutate statement is doing step by step.
 
-**Answer**
+**Answer** I think the case_when function is categorizing the data by the ranges of numbers that were put into the code. The mutate statement might be recreating catagories that we can then modify afterwards. 
 
 ```{r}
 maryland_winred_categories <- maryland_winred_contributions |>
@@ -196,7 +196,8 @@ maryland_winred_categories |>
 ```
 What's the largest category in terms of dollar amount?
 
-**Answer** 
+
+**Answer** The largest category in terms of dollar amound is Between $500 and $2999.
 
 Mutate is there to make your data more useful and to make it easier for you to ask more and better questions of it.
 
@@ -244,7 +245,7 @@ And now we only have five columns of data for whatever analysis we might want to
 
 Notice that we made a new variable to hold the result. Why is that important?
 
-**Answer**
+**Answer** It is important so that you do not lose other data while you are trying to categorize/just look at specific columns of it.
 
 ### Task 12: Combining filters
 
@@ -306,7 +307,7 @@ maryland_expenses <- maryland_expenses |> mutate(expenditure_date=mdy(expenditur
 head(maryland_expenses)
 ```
 
-**Answer:**
+**Answer:** The dates are now shown in a different order, wheras the previous data column displayed them in the order: month, day, and year.
 
 Lubridate has functions for basically any type of character date format: mdy, ymd, even datetimes like ymd_hms.
 
@@ -342,4 +343,4 @@ So the month of June 2022 had the most expenditures by far in this data. We'll b
 
 Describe the values in the new `month` column - what do you think the data is showing here?
 
-**Answer**
+**Answer** I think the data is showing the exact date of expenditure, at least based off of the code above. Using this data you can see the total amount spent and when exactly it was spent. 
