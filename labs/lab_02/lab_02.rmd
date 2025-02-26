@@ -37,32 +37,61 @@ Take a look at the data, getting familiar with what it contains. Most of the col
 
 **Q1** How many voters appear to be *new* registrants since July 21, when President Joe Biden announced he would leave the race, based on the information above? Create a dataframe to hold the only those voters. Which counties have seen the most? Take a look at county population figures here and compare the two in your answer: https://worldpopulationreview.com/us-counties/maryland.
 
-**A1**
+**A1** When I tried to go to this link, it said the page is not found. However, from viewing the column I created that indicates the same registration day, an overwhelming amount of the statements are true, meaning the registration dates are the same. (I found this from doing view instead to head to view the entire dataframe in a different tab)
 
 ```{r}
+md_voters_2024 <- md_voters_2024 |>
+  mutate(same_registration_date = STATE_REGISTRATION_DATE == COUNTY_REGISTRATION_DATE)
+
+head (md_voters_2024)
 ```
 
 **Q2** A better question is whether the new voters you found in Q1 are an outlier compared to other weeks this year. Using the original dataframe with 2024 registrants, use `mutate()` and lubridate to produce week numbers from the COUNTY_REGISTRATION_DATE (Lubridate has a function that turns a date into a week number. Use that to answer this question). Save that to the original dataframe. Then calculate how many voters are in each week. Describe the distribution of voters groups in a sentence - are the weeks from July 21-August 7 different from the rest, and if so, how?
 
-**A2**
+**A2** Yes, nearly all of those dates are marked "true" meaning the people who registered on that date have the same registration dates, and are likely new voters. 
 
 ```{r}
+md_voters_2024 |>
+  mutate (week_number = week (COUNTY_REGISTRATION_DATE)) |>
+  
+  arrange(desc(COUNTY_REGISTRATION_DATE))
 ```
 
-**Q3** Using lubridate, show which month saw the largest number of registrations. Does the answer help shed more light on Q2?
-**A3** 
+**Q3** Using lubridate, show which month saw the largest number of registrations. Does the answer help shed more light on Q2? 
+**A3**  *I used ChatGPT for the mutate section of this question, because I was confused as to how I should use the month function in lubridate* It does help with question 2 as well, because you are able to see that registrations increase between the dates mentioned in that question. Registrations are very high starting in July.
 
 ```{r}
+md_voters_2024 <- md_voters_2024 |>
+  mutate(registration_month = month(COUNTY_REGISTRATION_DATE, label = TRUE, abbr = TRUE))
+monthly_registrations <- md_voters_2024 |>
+  group_by(registration_month) |>
+  summarise(registration_count = n()) |>
+  arrange(desc(registration_month))
+
+head (md_voters_2024)
 
 ```
 
 **Q4** Maryland has, officially, five regions: https://www.visitmaryland.org/article/maryland-regions. Modify the original dataframe again to add a `region` column based on the `COUNTY` value using case_when. Are you going to have to do this for every Maryland county plus Baltimore City? Yes, you are. Which regions and parties account for the most new voters?
 
-**A4** 
+**A4** *I also asked ChatGPT several questions in order to get this answer. It gave me this formula which I modified through also looking at the pre lab and double checking the counties and regions* I believe the Western Region accounts for the most new voters.
 
 ```{r}
+md_voters_2024 <- md_voters_2024 |>
+  mutate(
+    region = case_when(
+       COUNTY %in% c("Garrett", "Allegany", "Washington") ~ "Western Region",
+        COUNTY %in% c("Montgomery", "Prince George's" , "Frederick") ~ "Capital Region",
+       COUNTY %in% c("Baltimore", "Anne Arundel", "Howard", "Baltimore City", "Harford County") ~ "Central Maryland",
+       COUNTY %in% c("Calvert", "Charles", "St. Mary's") ~ "Southern Region",
+       COUNTY %in% c("Caroline", "Cecil", "Dorchester", "Kent", "Queen Anne's", "Somerset", "Talbot", "Wicomico", "Worcester") ~ "Eastern Shore",
+        TRUE ~ "Unknown"
+    )
+  )
+head (md_voters_2024)
+
 ```
 
 **Q5** What's an additional question you could ask of this data?
 
-**A5** 
+**A5** You could ask why the Western Region accounts for the most new voters? What do their demographics look like? 
