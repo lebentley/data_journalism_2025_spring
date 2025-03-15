@@ -64,6 +64,9 @@ Then, using that `purpose_clean` column, write code to find the largest amounts 
 **A1.**
 
 ```{r}
+senate_expenses |>
+  group_by (amount) |>
+  summarise ()
 
 ```
 

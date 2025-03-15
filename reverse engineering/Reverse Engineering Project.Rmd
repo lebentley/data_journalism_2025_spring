@@ -1,0 +1,75 @@
+---
+title: "Reverse Engineering Project"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code.
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+voting_data <- read_csv("~/Downloads/reverse engineering/nonvoters_data.csv")
+```
+```{r}
+voting_data |>
+  group_by(Q2_1) |>
+  summarize(
+    election_voting=n()) 
+```
+```{r}
+voting_data |>
+  group_by(Q2_2) |>
+  summarise(serving_on_jury=n())
+```
+```{r}
+voting_data |>
+  group_by(Q2_3) |>
+  summarise(following_politics=n())
+```
+```{r}
+voting_data |>
+  group_by(Q2_4) |>
+  summarise(displaying_flag=n())
+```
+```{r}
+voting_data |>
+  group_by(Q2_5) |>
+  summarise(census_participation=n())
+```
+```{r}
+voting_data |>
+  group_by(Q2_6) |>
+  summarise(knowing_pledge=n())
+```
+```{r}
+voting_data |>
+  group_by(Q2_7) |>
+  summarise(military_support=n())
+```
+```{r}
+voting_data |>
+  group_by(Q2_8) |>
+  summarise(respecting_opinions=n())
+```
+```{r}
+voting_data |>
+  group_by(Q2_9) |>
+  summarise(belief_in_god=n())
+```
+```{r}
+voting_data |>
+  group_by(Q2_10) |>
+  summarise(protesting_government=n())
+```
+
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
