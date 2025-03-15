@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(tidyverse)
+library(dplyr)
 ```
 
 ## Getting Started
@@ -54,17 +55,11 @@ combined <- harris_donations_combined |>
 
 ```
 
-```{r}
-new_voters |>
-  glimpse ()
-```
-
-
 ## Answer questions
 
 Q1. Explain why you used the columns you did to make the join, and why that result is better than other ways you tried. Are there any problems with the join you made, such as the possibility of false positives?
 
-A1. I chose these columns because they help further distinguish people, ensuring that the data is more accurate. At first, I tried only address, but multiple people can be at the same address. 
+A1. I chose these columns because they help further distinguish people, ensuring that the data is more accurate. At first, I tried only address, but multiple people can be at the same address. There can also be people who have the same first and last names. By using those four categories, I will likely get the most specific results with little confusion, because individuals will be easily distinguished. 
 
 Q2. Based on your join, how many donations to Harris have come from people who registered this year? How many unique people does that represent, and which donors have given the largest _number_ of donations since July 20? 
 
@@ -81,17 +76,27 @@ new_voters_filtered |>
 
 Q3. What are the party and gender breakdowns of those donors? How many donations has Harris gotten from non-Democrats?
 
-A3. 
+A3. 32
 
 ```{r}
 party_gender <- new_voters_filtered |>
-  group_by(Gender)
-  summarise(
-    count = n()
+  group_by(Gender, Party) |>
+  summarize(
+    party_gender = n()
   )
 
 ```
 
 Q4. Choose your own adventure: I want you to come up with a question you could ask of one of the dataframes we've created for this lab. It could involve just the new voters, or the donors or the joined dataframe, but it cannot be a variation of a previous question (so, for example, you can't ask, "How many Republicans have given to Harris"). First write the question and then try to answer it by writing code. If you're not sure of the exact code, try googling (or ask me for advice) but, at a minimum, describe what you think you'd have to do to answer it and what the results would look like. That can help.
 
-A4:
+A4: I could ask how many new voters have a specific party affiliation, and are unemployed. For example my question could be: How many of the new voters are Republicans who are not employed? It could also be: How many of the new voters are Democrats who are not employed? The code below gives me an output that would count how many people from a specific party affiliation are marked as "not employed."
+
+
+```{r}
+new_voter_employment <- new_voters_filtered |>
+  group_by(Party, employer) |>
+  summarize(
+    employment_party = n()
+  )
+```
+
