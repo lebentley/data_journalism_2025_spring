@@ -95,7 +95,7 @@ SB17,C00840017,500673520,ORG,Katz Watson Group Inc,NA,NA,NA,NA,NA,8006 Ellingson
 SB17,C00840017,500662925,ORG,Campaign Finance Consultants Inc,NA,NA,NA,NA,NA,750 1St St NE,Ste 1070,Washington,DC,200028008,NA,2024-05-21,4000,Fundraising Consulting,Fundraising Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500659778,ORG,Scale To Win,NA,NA,NA,NA,NA,13742 Harper St,NA,Santa Ana,CA,927031419,NA,2024-05-07,3785.6,Text Messaging Services,Text Messaging Services,NA,NA,2024,Alsobrooks
 SB17,C00840017,500662941,ORG,Clipbook,NA,NA,NA,NA,NA,800 P St NW,Unit 703,Washington,DC,200013382,NA,2024-05-21,3540,Software Rental,Software Rental,NA,NA,2024,Alsobrooks
-SB17,C00840017,500663072,ORG,Country Club At Woodmore,NA,NA,NA,NA,NA,12320 Pleasant Prospect Rd,NA,Bowie,MD,207212515,NA,2024-05-18,3515.51,Site Rental/Catering,Site Rental/Catering,X,*,2024,Alsobrooks
+SB17,C00840017,500663072,ORG,Country Club At Woodmore,NA,NA,NA,NA,NA,12320 Pleasant Prospect Rd,NA,Bowie,MD,207212515,NA,2024-05-18,3515.51,Site Rental/Catering,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500673696,IND,NA,Meier,Nicholas,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-06-13,3510.4,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500673694,IND,NA,Meier,Nicholas,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-06-27,3510.4,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500661919,IND,NA,Ford,Gina,Regina,NA,NA,11319 Kettering Ter,NA,Upper Marlboro,MD,207741567,NA,2024-05-13,3473.97,Salary,Salary,X,*,2024,Alsobrooks
@@ -159,7 +159,7 @@ SB17,C00840017,500658577,ORG,Numero Inc,NA,NA,NA,NA,NA,695 Town Center Dr,Ste 58
 SB17,C00840017,500673529,ORG,Numero Inc,NA,NA,NA,NA,NA,695 Town Center Dr,Ste 580,Costa Mesa,CA,926261924,NA,2024-06-03,1880,Software Rental,Software Rental,NA,NA,2024,Alsobrooks
 SB17,C00840017,500663078,ORG,Color Pro Graphics,NA,NA,NA,NA,NA,1441 Mccormick Dr,Ste 1000,Upper Marlboro,MD,207745473,NA,2024-05-18,1855,Printing,Printing,X,*,2024,Alsobrooks
 SB17,C00840017,500673492,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-06-30,1837.5,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500673572,ORG,United States Postal Service,NA,NA,NA,NA,NA,9801 Apollo Dr,NA,Upper Marlboro,MD,207749997,NA,2024-05-30,1801,Direct Mail Services,Direct Mail Services,NA,NA,2024,Alsobrooks
+SB17,C00840017,500673572,ORG,United States Postal Service,NA,NA,NA,NA,NA,9801 Apollo Dr,NA,Upper Marlboro,MD,207749997,NA,2024-05-30,1801,Direct Mail Services,Direct Mail Production,NA,NA,2024,Alsobrooks
 SB17,C00840017,500677087,ORG,Katz Watson Group Inc,NA,NA,NA,NA,NA,8006 Ellingson Dr,NA,Chevy Chase,MD,208153030,NA,2024-05-27,1762.4,Fundraising Consulting,Fundraising Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500673727,ORG,United States Postal Service,NA,NA,NA,NA,NA,9801 Apollo Dr,NA,Upper Marlboro,MD,207749997,NA,2024-06-19,1700,Postage,Postage,X,*,2024,Alsobrooks
 SB17,C00840017,500673701,IND,NA,Southworth,Crystal,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-06-13,1618.61,Salary,Salary,X,*,2024,Alsobrooks
@@ -212,10 +212,10 @@ SB20A,C00840017,500673648,IND,NA,Brother,Thomas,NA,NA,NA,1409 E Braemere Rd,NA,B
 SB17,C00840017,500662902,ORG,AGP Strategies LLC,NA,NA,NA,NA,NA,PO Box 75443,NA,Washington,DC,200130443,NA,2024-05-21,1000,Communication Consulting,Communication Consulting,NA,NA,2024,Alsobrooks
 SB20C,C00840017,500656192,COM,Friends Of Ben Barnes,NA,NA,NA,NA,NA,10 E Hamburg St,NA,Baltimore,MD,212304010,NA,2024-04-25,999,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB17,C00840017,6445737I,PAC,ELECTING WOMEN GREATER SEATTLE PAC,NA,NA,NA,NA,NA,18336 Aurora Ave N,Ste # 105,Shoreline,WA,981334526,NA,2024-06-23,983.79,Event Food & Beverages,Event Food & Beverages,NA,* In-Kind Received,2024,Alsobrooks
-SB17,C00840017,500673449,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-06-28,936.55,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
-SB17,C00840017,500663076,ORG,Guilford Hall Brewery,NA,NA,NA,NA,NA,320 N Charles St,NA,Baltimore,MD,212014354,NA,2024-05-18,896.62,Site Rental/Catering,Site Rental/Catering,X,*,2024,Alsobrooks
+SB17,C00840017,500673449,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-06-28,936.55,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
+SB17,C00840017,500663076,ORG,Guilford Hall Brewery,NA,NA,NA,NA,NA,320 N Charles St,NA,Baltimore,MD,212014354,NA,2024-05-18,896.62,Site Rental/Catering,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500662913,ORG,Bumperactive,NA,NA,NA,NA,NA,5903 Burnet Rd,NA,Austin,TX,787573224,NA,2024-05-21,850,Printing,Printing,NA,NA,2024,Alsobrooks
-SB17,C00840017,500663108,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-05-24,780.02,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500663108,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-05-24,780.02,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500673688,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2024-05-30,778.92,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500673491,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-06-30,766.67,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500658580,ORG,GS Property 8455 LLC,NA,NA,NA,NA,NA,6116 Executive Blvd,Ste 360,Rockville,MD,208524941,NA,2024-05-06,748.5,Office Rent,Office Rent,NA,NA,2024,Alsobrooks
@@ -225,13 +225,13 @@ SB17,C00840017,500662919,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St N
 SB17,C00840017,500662918,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2024-05-21,740.94,Text Messaging Services,Text Messaging Services,NA,NA,2024,Alsobrooks
 SB17,C00840017,500673689,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2024-06-13,727.57,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500658551,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2024-04-30,700.43,List Acquisition,List Acquisition,NA,NA,2024,Alsobrooks
-SB17,C00840017,500673495,ORG,Engage USA,NA,NA,NA,NA,NA,880 N East St,Unit 205,Frederick,MD,217015045,NA,2024-05-30,650,Direct Mail Services,Direct Mail Services,NA,NA,2024,Alsobrooks
-SB17,C00840017,500656446,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-04-26,648.29,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500673495,ORG,Engage USA,NA,NA,NA,NA,NA,880 N East St,Unit 205,Frederick,MD,217015045,NA,2024-05-30,650,Direct Mail Services,Direct Mail Production,NA,NA,2024,Alsobrooks
+SB17,C00840017,500656446,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-04-26,648.29,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500673690,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2024-06-27,646.89,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500661941,PAC,EMILYS LIST,NA,NA,NA,NA,NA,1800 M St NW,Ste 375N,Washington,DC,200365862,NA,2024-05-17,641.56,Direct Mail Production,Direct Mail Production,NA,NA,2024,Alsobrooks
 SB17,C00840017,500661883,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2024-05-16,632.22,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500658558,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2024-05-02,632.22,Salary,Salary,X,*,2024,Alsobrooks
-SB17,C00840017,500661876,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-05-18,611.68,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500661876,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-05-18,611.68,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500661929,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2024-05-13,604.02,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500663079,ORG,Renaissance Baltimore,NA,NA,NA,NA,NA,202 E Pratt St,NA,Baltimore,MD,212026101,NA,2024-05-18,578.1,Lodging,Lodging,X,*,2024,Alsobrooks
 SB17,C00840017,500663065,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2024-05-18,538.2,Travel,Travel,X,*,2024,Alsobrooks
@@ -273,7 +273,7 @@ SB17,C00840017,500673504,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,C
 SB17,C00840017,500673703,IND,NA,Weinberg,Marisa,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-05-30,262.37,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500663098,ORG,Zoom,NA,NA,NA,NA,NA,55 Almaden Blvd,Ste 600,San Jose,CA,951131612,NA,2024-05-18,260.4,Software Rental,Software Rental,X,*,2024,Alsobrooks
 SB20A,C00840017,500659378,IND,NA,Gartrell,Janet,NA,NA,NA,338 Epping Way,NA,Annapolis,MD,214016666,NA,2024-05-09,250,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
-SB20A,C00840017,500677496,IND,NA,Lee-Packer,Lisa,NA,NA,NA,8518 Century Oak Ct,NA,Fairfax Station,VA,220393343,NA,2024-06-30,250,Contribution Reufnd,Contribution Reufnd,NA,NA,2024,Alsobrooks
+SB20A,C00840017,500677496,IND,NA,Lee-Packer,Lisa,NA,NA,NA,8518 Century Oak Ct,NA,Fairfax Station,VA,220393343,NA,2024-06-30,250,Contribution Reufnd,Contribution Refund,NA,NA,2024,Alsobrooks
 SB17,C00840017,500663063,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2024-05-18,249.1,Travel,Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500673507,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2024-06-27,235.84,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500661932,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2024-05-15,229.46,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
@@ -283,11 +283,11 @@ SB17,C00840017,500662711,ORG,Impark,NA,NA,NA,NA,NA,8455 Colesville Rd,NA,Silver 
 SB17,C00840017,500658556,ORG,Wave Break Digital LLC,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2024-04-29,200,Website Services,Website Services,NA,NA,2024,Alsobrooks
 SB17,C00840017,500663087,ORG,Staples,NA,NA,NA,NA,NA,10530 Campus Way S,NA,Largo,MD,207741309,NA,2024-05-18,198.73,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500658573,PAC,JSTREETPAC,NA,NA,NA,NA,NA,PO Box 33106,NA,Washington,DC,200330106,NA,2024-05-02,165.19,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500673667,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-06-19,159.95,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500673667,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-06-19,159.95,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,6195951I,PAC,SOCIAL SECURITY WORKS PAC,NA,NA,NA,NA,NA,PO Box 27380,NA,Washington,DC,200387380,NA,2024-05-20,150,Email Services,Email Services,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,500662715,ORG,Staples,NA,NA,NA,NA,NA,10530 Campus Way S,NA,Largo,MD,207741309,NA,2024-05-23,149.83,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500673479,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-06-05,138.39,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500663094,ORG,Wegmans,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2024-05-18,130.7,Food & Beverages,Food & Beverages,X,*,2024,Alsobrooks
+SB17,C00840017,500663094,ORG,Wegmans,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2024-05-18,130.7,Food & Beverages,Event Food & Beverages,X,*,2024,Alsobrooks
 SB17,C00840017,500677607,ORG,Softglamiswhoiam,NA,NA,NA,NA,NA,1709 Reisterstown Rd,NA,Pikesville,MD,212082905,NA,2024-06-19,128.75,Media Production,Media Production,X,*,2024,Alsobrooks
 SB17,C00840017,500673485,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-06-26,125.01,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500656479,IND,NA,Southworth,Crystal,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-04-29,125,Travel Stipend,Travel Stipend,NA,NA,2024,Alsobrooks
@@ -349,7 +349,7 @@ SB17,C00840017,500673588,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste
 SB17,C00840017,500673587,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-06-13,125,Travel Stipend,Travel Stipend,NA,NA,2024,Alsobrooks
 SB17,C00840017,500673586,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-05-30,125,Travel Stipend,Travel Stipend,NA,NA,2024,Alsobrooks
 SB17,C00840017,500661902,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-05-13,125,Travel Stipend,Travel Stipend,NA,NA,2024,Alsobrooks
-SB17,C00840017,500663095,ORG,Wegmans,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2024-05-18,120.97,Food & Beverages,Food & Beverages,X,*,2024,Alsobrooks
+SB17,C00840017,500663095,ORG,Wegmans,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2024-05-18,120.97,Food & Beverages,Event Food & Beverages,X,*,2024,Alsobrooks
 SB17,C00840017,500673477,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-05-29,114.98,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB20A,C00840017,500661869,IND,NA,Saidman,Harriet,B,NA,NA,800 Southerly Rd,NA,Towson,MD,212868403,NA,2024-05-19,108,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB17,C00840017,500662714,ORG,Best Buy,NA,NA,NA,NA,NA,2300 Petrie Ln,NA,Glenarden,MD,207061623,NA,2024-05-23,105.98,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
@@ -515,15 +515,15 @@ SB17,C00840017,500656073,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summe
 SB17,C00840017,500655602,IND,NA,Nealon,Ryan,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-04-12,1549.05,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500655599,IND,NA,Washington,Omar,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-04-12,1539.61,Salary,Salary,X,*,2024,Alsobrooks
 SB20A,C00840017,500654371,IND,NA,Bailey,Leon,Christopher,NA,Jr,14307 Derby Ridge Rd,NA,Bowie,MD,207211258,NA,2024-04-19,1200,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
-SB17,C00840017,500655525,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-04-16,1020.33,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500655525,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-04-16,1020.33,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB20A,C00840017,500653520,IND,NA,Stone,Anne,L,NA,NA,1055 W Joppa Rd,NA,Towson,MD,212043741,NA,2024-04-15,1000,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB20A,C00840017,500651117,IND,NA,Rogers,Estelle,NA,NA,NA,111 Marigold Ln,NA,Forestville,CA,954369321,NA,2024-04-07,1000,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
-SB17,C00840017,500656733,ORG,Autumn Joi Live LLC,NA,NA,NA,NA,NA,2112 Congresbury Pl,NA,Upper Marlboro,MD,207748081,NA,2024-04-16,1000,Event Performer,Event Performer,X,*,2024,Alsobrooks
+SB17,C00840017,500656733,ORG,Autumn Joi Live LLC,NA,NA,NA,NA,NA,2112 Congresbury Pl,NA,Upper Marlboro,MD,207748081,NA,2024-04-16,1000,Event Performer,EVENT PREP,X,*,2024,Alsobrooks
 SB17,C00840017,500655555,ORG,Paragon Payment Solutions,NA,NA,NA,NA,NA,2141 E Broadway Rd,Ste 202,Tempe,AZ,852821895,NA,2024-04-02,994.76,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500656732,ORG,Google,NA,NA,NA,NA,NA,1600 Amphitheatre Pkwy,NA,Mountain View,CA,940431351,NA,2024-04-16,978.96,Email Services,Email Services,X,*,2024,Alsobrooks
 SB17,C00840017,500656731,ORG,Montgomery County,NA,NA,NA,NA,NA,101 Monroe St,Fl 2,Rockville,MD,208502503,NA,2024-04-16,960,Site Rental,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500656730,ORG,Comcast,NA,NA,NA,NA,NA,8031 Corporate Dr,NA,Nottingham,MD,212364986,NA,2024-04-16,947.78,Utilities,Utilities,X,*,2024,Alsobrooks
-SB17,C00840017,500656729,ORG,Guilford Hall Brewery,NA,NA,NA,NA,NA,320 N Charles St,NA,Baltimore,MD,212014354,NA,2024-04-16,896.63,Site Rental/Catering,Site Rental/Catering,X,*,2024,Alsobrooks
+SB17,C00840017,500656729,ORG,Guilford Hall Brewery,NA,NA,NA,NA,NA,320 N Charles St,NA,Baltimore,MD,212014354,NA,2024-04-16,896.63,Site Rental/Catering,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500656728,ORG,Country Club At Woodmore,NA,NA,NA,NA,NA,12320 Pleasant Prospect Rd,NA,Bowie,MD,207212515,NA,2024-04-16,750,Site Rental,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500656722,ORG,United Airlines,NA,NA,NA,NA,NA,233 S Wacker Dr,NA,Chicago,IL,606067147,NA,2024-04-16,665.2,Air Travel,Air Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500655590,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2024-04-04,632.22,Salary,Salary,X,*,2024,Alsobrooks
@@ -572,7 +572,7 @@ SB17,C00840017,500655583,IND,NA,Meier,Nicholas,NA,NA,NA,1101 Mercantile Ln,Ste 1
 SB17,C00840017,500655579,IND,NA,Bridgewater,Kemia,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-04-12,125,Travel Stipend,Travel Stipend,NA,NA,2024,Alsobrooks
 SB17,C00840017,500655537,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-04-17,120.05,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500656704,ORG,Empower Project,NA,NA,NA,NA,NA,2800 Royal Ave,NA,Monona,WI,537131595,NA,2024-04-16,100,Software Rental,Software Rental,X,*,2024,Alsobrooks
-SB17,C00840017,500656703,ORG,Wegman's,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2024-04-16,99.57,Fundraising Event Supplies,Fundraising Event Supplies,X,*,2024,Alsobrooks
+SB17,C00840017,500656703,ORG,Wegman's,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2024-04-16,99.57,Fundraising Event Supplies,Fundraising Consulting,X,*,2024,Alsobrooks
 SB17,C00840017,500656702,ORG,Adobe,NA,NA,NA,NA,NA,801 N 34Th St,NA,Seattle,WA,981038882,NA,2024-04-16,95.39,Software Rental,Software Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500656701,ORG,Staples,NA,NA,NA,NA,NA,10530 Campus Way S,NA,Largo,MD,207741309,NA,2024-04-16,95.17,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500656700,ORG,Hyatt Regency Chesapeake Bay,NA,NA,NA,NA,NA,100 Heron Blvd,NA,Cambridge,MD,216133420,NA,2024-04-16,92.17,Lodging,Lodging,X,*,2024,Alsobrooks
@@ -625,7 +625,7 @@ SB17,C00840017,500634083,ORG,Hart Research Associates,NA,NA,NA,NA,NA,1250 Connec
 SB17,C00840017,500643557,ORG,Magnus Pearson Media,NA,NA,NA,NA,NA,311 Wolfe St,NA,Alexandria,VA,223143725,NA,2024-03-20,30000,Media Production,Media Production,NA,NA,2024,Alsobrooks
 SB17,C00840017,500630636,ORG,Magnus Pearson Media,NA,NA,NA,NA,NA,311 Wolfe St,NA,Alexandria,VA,223143725,NA,2024-01-24,30000,Media Production,Media Production,NA,NA,2024,Alsobrooks
 SB17,C00840017,500642305,ORG,Martins Catering,NA,NA,NA,NA,NA,7400 Greenway Center Dr,NA,Greenbelt,MD,207703503,NA,2024-03-08,26696.92,Catering,Catering,NA,NA,2024,Alsobrooks
-SB17,C00840017,500644802,ORG,The Center Club,NA,NA,NA,NA,NA,100 Light St,Fl 16,Baltimore,MD,212021153,NA,2023-12-19,20807.66,Site Rental/Catering,Site Rental/Catering,X,*,2024,Alsobrooks
+SB17,C00840017,500644802,ORG,The Center Club,NA,NA,NA,NA,NA,100 Light St,Fl 16,Baltimore,MD,212021153,NA,2023-12-19,20807.66,Site Rental/Catering,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500638218,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2024-02-14,19732.01,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500640919,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2024-02-28,19617.71,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500642301,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2024-03-14,19454.38,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
@@ -750,11 +750,11 @@ SB17,C00840017,500645114,ORG,Paxton Education Consulting,NA,NA,NA,NA,NA,336 E 22
 SB17,C00840017,500638244,ORG,Paxton Education Consulting,NA,NA,NA,NA,NA,336 E 22Nd St,NA,Baltimore,MD,212185830,NA,2024-02-20,2750,Strategy Consulting,STRATEGY CONSULTING,NA,NA,2024,Alsobrooks
 SB17,C00840017,500614408,IND,NA,Hines,Jordan,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-01-11,2663.05,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500626151,ORG,The Pivot Group Inc,NA,NA,NA,NA,NA,712 H St NE,Unit 606,Washington,DC,200023627,NA,2024-01-21,2628,Printing,Printing,NA,NA,2024,Alsobrooks
-SB17,C00840017,500644815,ORG,The Center Club,NA,NA,NA,NA,NA,100 Light St,Fl 16,Baltimore,MD,212021153,NA,2023-12-29,2560,Site Rental/Catering,Site Rental/Catering,X,*,2024,Alsobrooks
+SB17,C00840017,500644815,ORG,The Center Club,NA,NA,NA,NA,NA,100 Light St,Fl 16,Baltimore,MD,212021153,NA,2023-12-29,2560,Site Rental/Catering,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500640926,ORG,"NGP VAN, Inc.",NA,NA,NA,NA,NA,1445 New York Ave NW,# 20,Washington,DC,200052134,NA,2024-02-28,2550,Software Rental,Software Rental,NA,NA,2024,Alsobrooks
 SB17,C00840017,500634091,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-01-30,2532.9,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500645106,ORG,GS Property 8455 LLC,NA,NA,NA,NA,NA,6116 Executive Blvd,Ste 360,Rockville,MD,208524941,NA,2024-03-29,2520,Rent,Rent,NA,NA,2024,Alsobrooks
-SB21,C00840017,500651094,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2024-01-17,2500,Contribution. 1/17/2024 American Express credit card item,Contribution. 1/17/2024 American Express credit card item,X,*,2024,Alsobrooks
+SB21,C00840017,500651094,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2024-01-17,2500,Contribution. 1/17/2024 American Express credit card item,Contribution Refund,X,*,2024,Alsobrooks
 SB17,C00840017,500645103,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2024-03-27,2500,Text Messaging Services,Text Messaging Services,NA,NA,2024,Alsobrooks
 SB17,C00840017,500645109,ORG,JAB Strategies LLC,NA,NA,NA,NA,NA,525 Westfield Ave,Fl 2,Westfield,NJ,070903300,NA,2024-03-27,2500,Communication Consulting,Communication Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500614409,IND,NA,Meier,Nicholas,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-01-11,2476.75,Salary,Salary,X,*,2024,Alsobrooks
@@ -805,13 +805,13 @@ SB20A,C00840017,500640949,IND,NA,Fisher,Carole,NA,NA,NA,2990 Rogers Ave,NA,Ellic
 SB17,C00840017,500644819,ORG,Taste 222,NA,NA,NA,NA,NA,222 N Canal St,NA,Chicago,IL,606061206,NA,2024-01-24,1484.2,Catering,Catering,X,*,2024,Alsobrooks
 SB17,C00840017,500638228,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-02-21,1464,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500642290,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2024-03-10,1441.39,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500643548,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-03-18,1416.89,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500643548,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-03-18,1416.89,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500614415,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2024-01-07,1370.14,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500644734,ORG,United States Postal Service,NA,NA,NA,NA,NA,9801 Apollo Dr,NA,Upper Marlboro,MD,207749997,NA,2023-12-11,1320,Postage,Postage,X,*,2024,Alsobrooks
 SB17,C00840017,500642294,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2024-03-08,1304,Digital Consulting,Digital Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500651098,ORG,Paxton Education Consulting,NA,NA,NA,NA,NA,336 E 22Nd St,NA,Baltimore,MD,212185830,NA,2024-02-18,1250,Strategy Consulting,STRATEGY CONSULTING,X,*,2024,Alsobrooks
 SB17,C00840017,500614421,ORG,GS Property 8455 LLC,NA,NA,NA,NA,NA,6116 Executive Blvd,Ste 360,Rockville,MD,208524941,NA,2024-01-04,1200,Rent,Rent,NA,NA,2024,Alsobrooks
-SB17,C00840017,500642322,IND,NA,Rozolem Urquiaga,John Christopher,NA,NA,NA,13132 Broadmore Rd,NA,Silver Spring,MD,209043265,NA,2024-03-08,1200,Event Performance,Event Performance,NA,NA,2024,Alsobrooks
+SB17,C00840017,500642322,IND,NA,Rozolem Urquiaga,John Christopher,NA,NA,NA,13132 Broadmore Rd,NA,Silver Spring,MD,209043265,NA,2024-03-08,1200,Event Performance,EVENT PREP,NA,NA,2024,Alsobrooks
 SB17,C00840017,500638240,ORG,GS Property 8455 LLC,NA,NA,NA,NA,NA,6116 Executive Blvd,Ste 360,Rockville,MD,208524941,NA,2024-02-14,1200,Rent,Rent,NA,NA,2024,Alsobrooks
 SB17,C00840017,500640913,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-02-28,1145,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500638256,IND,NA,Southworth,Crystal,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-02-14,1092.1,Salary,Salary,X,*,2024,Alsobrooks
@@ -857,7 +857,7 @@ SB17,C00840017,5841685I,PAC,ELECTING WOMEN BAY AREA PAC,NA,NA,NA,NA,NA,855 El Ca
 SB17,C00840017,500640928,ORG,Paragon Payment Solutions,NA,NA,NA,NA,NA,2141 E Broadway Rd,Ste 202,Tempe,AZ,852821895,NA,2024-03-04,535.08,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500644719,ORG,The Home Depot,NA,NA,NA,NA,NA,901 Rhode Island Ave NE,NA,Washington,DC,200181733,NA,2023-12-28,532.64,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500640958,IND,NA,Weinberg,Marisa,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-03-07,508.46,Salary,Salary,X,*,2024,Alsobrooks
-SB17,C00840017,500645100,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-03-27,504.71,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500645100,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-03-27,504.71,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500614423,ORG,Harris Public Interest Consulting,NA,NA,NA,NA,NA,5804 Berkeley Ave,NA,Baltimore,MD,212154105,NA,2024-01-12,500,General Strategy Consulting,General Strategy Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500644721,ORG,Federal Media Solutions,NA,NA,NA,NA,NA,157 Fleet St,NA,Oxon Hill,MD,207451586,NA,2024-01-10,500,Audio Equipment Rental,Audio Equipment Rental,X,*,2024,Alsobrooks
 SB20A,C00840017,500614385,IND,NA,Broadus,Vancella,NA,NA,NA,10718 Dragoo Pl,NA,Clinton,MD,207353902,NA,2024-01-14,500,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
@@ -882,7 +882,7 @@ SB17,C00840017,500644694,ORG,Southwest Airlines,NA,NA,NA,NA,NA,2702 Love Field D
 SB17,C00840017,500644687,ORG,Comcast,NA,NA,NA,NA,NA,8031 Corporate Dr,NA,Nottingham,MD,212364986,NA,2023-12-08,419.43,Utilities,Utilities,X,*,2024,Alsobrooks
 SB17,C00840017,500644688,ORG,Comcast,NA,NA,NA,NA,NA,8031 Corporate Dr,NA,Nottingham,MD,212364986,NA,2024-01-08,419.43,Utilities,Utilities,X,*,2024,Alsobrooks
 SB17,C00840017,500640920,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2024-03-07,409.38,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
-SB17,C00840017,500638213,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-02-18,406.88,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500638213,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-02-18,406.88,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500643560,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2024-03-20,404.8,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500651095,ORG,Committee For Montgomery,NA,NA,NA,NA,NA,33 Wood Ln,NA,Rockville,MD,208502233,NA,2024-01-17,400,Event Tickets,EVENT TICKETS,X,*,2024,Alsobrooks
 SB17,C00840017,500634090,ORG,Paragon Payment Solutions,NA,NA,NA,NA,NA,2141 E Broadway Rd,Ste 202,Tempe,AZ,852821895,NA,2024-02-02,380.76,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
@@ -890,15 +890,15 @@ SB17,C00840017,500644696,ORG,Southwest Airlines,NA,NA,NA,NA,NA,2702 Love Field D
 SB20A,C00840017,500634116,IND,NA,Longtin,David,NA,NA,NA,7502 Heatherton Ln,NA,Potomac,MD,208543231,NA,2024-02-04,355,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB17,C00840017,500644796,ORG,Color Pro,NA,NA,NA,NA,NA,1441 Mccormick Dr,Ste 1000,Upper Marlboro,MD,207745473,NA,2024-01-12,355,Printing,Printing,X,*,2024,Alsobrooks
 SB17,C00840017,500644751,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2024-01-24,348.1,Air Travel,Air Travel,X,*,2024,Alsobrooks
-SB17,C00840017,500644764,ORG,Wegman's,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2023-12-12,339.58,Fundraising Event Supplies,Fundraising Event Supplies,X,*,2024,Alsobrooks
+SB17,C00840017,500644764,ORG,Wegman's,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2023-12-12,339.58,Fundraising Event Supplies,Fundraising Consulting,X,*,2024,Alsobrooks
 SB17,C00840017,500634079,ORG,Got Tint,NA,NA,NA,NA,NA,9000 Edgeworth Dr,Ste A,Capitol Heights,MD,207433705,NA,2024-02-02,337,Office Supplies,Office Supplies,NA,NA,2024,Alsobrooks
 SB17,C00840017,500614386,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2024-01-11,334.06,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500644760,ORG,Delta Airlines,NA,NA,NA,NA,NA,1030 Delta Blvd,NA,Atlanta,GA,303541989,NA,2024-02-01,331.2,Air Travel,Air Travel,X,*,2024,Alsobrooks
-SB17,C00840017,500626137,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-01-17,326.13,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
-SB17,C00840017,500640909,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-02-27,325.25,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500626137,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2024-01-17,326.13,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
+SB17,C00840017,500640909,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-02-27,325.25,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500638219,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2024-02-22,320.5,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500644817,ORG,Writey Board,NA,NA,NA,NA,NA,5030 Parkway Calabasas,NA,Calabasas,CA,913021422,NA,2024-01-10,320,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
-SB17,C00840017,500630643,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-01-26,312.26,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500630643,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2024-01-26,312.26,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500638241,ORG,Wave Break Digital LLC,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2024-02-20,300,Website Services,Website Services,NA,NA,2024,Alsobrooks
 SB17,C00840017,500634080,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2024-02-05,295.16,Payroll Fee,Payroll Fee,NA,NA,2024,Alsobrooks
 SB17,C00840017,500644757,ORG,Clipbook,NA,NA,NA,NA,NA,800 P St NW,Unit 703,Washington,DC,200013382,NA,2024-01-14,295,Software Rental,Software Rental,X,*,2024,Alsobrooks
@@ -917,7 +917,7 @@ SB17,C00840017,500638277,ORG,Soft Glam Is Who I Am,NA,NA,NA,NA,NA,1709 Reisterst
 SB17,C00840017,500644726,ORG,Office Depot,NA,NA,NA,NA,NA,10411 Martin Luther King Jr Hwy,NA,Bowie,MD,207204201,NA,2024-02-08,238.05,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500634086,ORG,Mark Weiss Associates,NA,NA,NA,NA,NA,PO Box 34407,NA,Bethesda,MD,208270407,NA,2024-02-05,233.5,Printing,Printing,NA,NA,2024,Alsobrooks
 SB17,C00840017,500638288,IND,NA,Weinberg,Marisa,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-02-22,233.38,Salary,Salary,X,*,2024,Alsobrooks
-SB17,C00840017,500644765,ORG,Wegman's,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2024-02-18,232.08,Fundraising Event Supplies,Fundraising Event Supplies,X,*,2024,Alsobrooks
+SB17,C00840017,500644765,ORG,Wegman's,NA,NA,NA,NA,NA,9001 Mchugh Dr,NA,Lanham,MD,207061619,NA,2024-02-18,232.08,Fundraising Event Supplies,Fundraising Consulting,X,*,2024,Alsobrooks
 SB17,C00840017,500644732,ORG,United Airlines,NA,NA,NA,NA,NA,233 S Wacker Dr,NA,Chicago,IL,606067147,NA,2024-02-12,224.1,Air Travel,Air Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500644752,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2024-02-12,224.1,Air Travel,Air Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500644755,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2024-02-07,219.1,Air Travel,Air Travel,X,*,2024,Alsobrooks
@@ -939,7 +939,7 @@ SB17,C00840017,500614414,ORG,Paragon Payment Solutions,NA,NA,NA,NA,NA,2141 E Bro
 SB17,C00840017,500644742,ORG,Zoom,NA,NA,NA,NA,NA,55 Almaden Blvd,Ste 600,San Jose,CA,951131612,NA,2023-12-10,174.29,Software Rental,Software Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500644743,ORG,Zoom,NA,NA,NA,NA,NA,55 Almaden Blvd,Ste 600,San Jose,CA,951131612,NA,2024-01-10,174.29,Software Rental,Software Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500638263,IND,NA,Cooper,Daniel,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-02-12,170.4,Reimbursement - See Below if Itemized,Reimbursement - See Below if Itemized,NA,NA,2024,Alsobrooks
-SB17,C00840017,500651105,ORG,U-Haul,NA,NA,NA,NA,NA,2727 N Central Ave,NA,Phoenix,AZ,850041120,NA,2024-03-18,166.48,Equipment Rental,Equipment Rental,X,*,2024,Alsobrooks
+SB17,C00840017,500651105,ORG,U-Haul,NA,NA,NA,NA,NA,2727 N Central Ave,NA,Phoenix,AZ,850041120,NA,2024-03-18,166.48,Equipment Rental,Event Equipment Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500644763,ORG,Dunkin' Donuts,NA,NA,NA,NA,NA,8909 Central Ave,NA,Capitol Heights,MD,207433804,NA,2024-01-27,161.75,Meals,MEALS,X,*,2024,Alsobrooks
 SB20A,C00840017,500614381,IND,NA,Brooks,Bernard,E,NA,Jr,12509 Plantation Dr,NA,Brandywine,MD,206132501,NA,2024-01-14,150,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB17,C00840017,500626136,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-01-17,150,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
@@ -1062,7 +1062,7 @@ SB17,C00840017,500644746,ORG,Uber,NA,NA,NA,NA,NA,1455 Market St,Ste 400,San Fran
 SB17,C00840017,500638286,ORG,Uber,NA,NA,NA,NA,NA,1455 Market St,Ste 400,San Francisco,CA,941031355,NA,2024-02-12,38.69,Auto Travel,Auto Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500638284,IND,NA,Nealon,Ryan,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2024-02-12,35,Reimbursement - See Below if Itemized,Reimbursement - See Below if Itemized,NA,NA,2024,Alsobrooks
 SB17,C00840017,500651110,ORG,Stripe,NA,NA,NA,NA,NA,354 Oyster Point Blvd,NA,South San Francisco,CA,940801912,NA,2024-03-27,32.96,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500651104,ORG,U-Haul,NA,NA,NA,NA,NA,2727 N Central Ave,NA,Phoenix,AZ,850041120,NA,2024-03-18,32.5,Equipment Rental,Equipment Rental,X,*,2024,Alsobrooks
+SB17,C00840017,500651104,ORG,U-Haul,NA,NA,NA,NA,NA,2727 N Central Ave,NA,Phoenix,AZ,850041120,NA,2024-03-18,32.5,Equipment Rental,Event Equipment Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500644747,ORG,Best Buy,NA,NA,NA,NA,NA,2300 Petrie Ln,NA,Glenarden,MD,207061623,NA,2023-11-27,31.79,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500644744,ORG,Zoom,NA,NA,NA,NA,NA,55 Almaden Blvd,Ste 600,San Jose,CA,951131612,NA,2024-01-30,30.55,Software Rental,Software Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500638224,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2024-02-14,30.05,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
@@ -1108,7 +1108,7 @@ SB17,C00840017,500643566,ORG,Stripe,NA,NA,NA,NA,NA,354 Oyster Point Blvd,NA,Sout
 SB17,C00840017,500644727,ORG,Target,NA,NA,NA,NA,NA,10500 Campus Way S,NA,Upper Marlboro,MD,207741309,NA,2023-11-30,5.93,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500640933,ORG,Stripe,NA,NA,NA,NA,NA,354 Oyster Point Blvd,NA,South San Francisco,CA,940801912,NA,2024-02-27,5.6,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500645110,PAC,JSTREETPAC,NA,NA,NA,NA,NA,PO Box 33106,NA,Washington,DC,200330106,NA,2024-03-28,5,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500651103,ORG,U-Haul,NA,NA,NA,NA,NA,2727 N Central Ave,NA,Phoenix,AZ,850041120,NA,2024-03-18,5,Equipment Rental,Equipment Rental,X,*,2024,Alsobrooks
+SB17,C00840017,500651103,ORG,U-Haul,NA,NA,NA,NA,NA,2727 N Central Ave,NA,Phoenix,AZ,850041120,NA,2024-03-18,5,Equipment Rental,Event Equipment Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500643542,ORG,Stripe,NA,NA,NA,NA,NA,354 Oyster Point Blvd,NA,South San Francisco,CA,940801912,NA,2024-03-12,4.69,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500651113,ORG,Stripe,NA,NA,NA,NA,NA,354 Oyster Point Blvd,NA,South San Francisco,CA,940801912,NA,2024-03-31,4.58,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500642303,PAC,JSTREETPAC,NA,NA,NA,NA,NA,PO Box 33106,NA,Washington,DC,200330106,NA,2024-03-14,3.5,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
@@ -1131,7 +1131,7 @@ SB17,C00840017,500644718,ORG,Staples,NA,NA,NA,NA,NA,10530 Campus Way S,NA,Largo,
 SB17,C00840017,500644701,ORG,Amtrak,NA,NA,NA,NA,NA,1 Massachusetts Ave NW,Fl 4WEST,Washington,DC,200011401,NA,2024-03-05,-174,Train Travel,Train Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500644828,ORG,Taste 222,NA,NA,NA,NA,NA,222 N Canal St,NA,Chicago,IL,606061206,NA,2024-02-20,-1484.2,Refund of Payment,Refund of Payment,X,*,2024,Alsobrooks
 SB17,C00840017,500484462,ORG,Hart Research Associates,NA,NA,NA,NA,NA,1250 Connecticut Ave NW,Ste 530,Washington,DC,200362603,NA,2023-10-03,51000,Polling,Polling,NA,NA,2024,Alsobrooks
-SB17,C00840017,500505860,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-10-11,33981,List Aquisition,List Aquisition,NA,NA,2024,Alsobrooks
+SB17,C00840017,500505860,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-10-11,33981,List Aquisition,List Acquisition,NA,NA,2024,Alsobrooks
 SB17,C00840017,500610137,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2023-12-14,17724.8,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500595329,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2023-11-29,15282.63,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500505854,ORG,Perfect Sound,NA,NA,NA,NA,NA,5524 Tuxedo Rd,NA,Hyattsville,MD,207811318,NA,2023-10-09,14445,Media Production,Media Production,NA,NA,2024,Alsobrooks
@@ -1157,7 +1157,7 @@ SB17,C00840017,500552838,ORG,Mark Weiss Associates,NA,NA,NA,NA,NA,PO Box 34407,N
 SB17,C00840017,500610127,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-12-31,6800.62,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500596924,ORG,Mark Weiss Associates,NA,NA,NA,NA,NA,PO Box 34407,NA,Bethesda,MD,208270407,NA,2023-12-06,6375,Printing,Printing,NA,NA,2024,Alsobrooks
 SB17,C00840017,500595325,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-12-03,6216.01,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500505859,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-10-11,5682,List Aquisition,List Aquisition,NA,NA,2024,Alsobrooks
+SB17,C00840017,500505859,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-10-11,5682,List Aquisition,List Acquisition,NA,NA,2024,Alsobrooks
 SB17,C00840017,500505866,ORG,Nielsen Consulting LLC,NA,NA,NA,NA,NA,621 11Th St NE,NA,Washington,DC,200025317,NA,2023-10-11,5000,Research Consulting,Research Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500484458,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-10-03,5000,Online Advertising,Online Advertising,NA,NA,2024,Alsobrooks
 SB17,C00840017,500595333,ORG,Nielsen Consulting LLC,NA,NA,NA,NA,NA,621 11Th St NE,NA,Washington,DC,200025317,NA,2023-11-27,5000,Research Consulting,Research Consulting,NA,NA,2024,Alsobrooks
@@ -1232,8 +1232,8 @@ SB17,C00840017,500591329,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summe
 SB17,C00840017,500511826,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-10-22,2791.45,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500505867,ORG,The Pivot Group Inc,NA,NA,NA,NA,NA,712 H St NE,Unit 606,Washington,DC,200023627,NA,2023-10-11,2640,Printing,Printing,NA,NA,2024,Alsobrooks
 SB17,C00840017,500557209,ORG,"NGP VAN, Inc.",NA,NA,NA,NA,NA,1445 New York Ave NW,# 20,Washington,DC,200052134,NA,2023-10-10,2550,Software Rental,Software Rental,X,*,2024,Alsobrooks
-SB21,C00840017,500506170,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2023-10-16,2500,Contribution. 10/16/2023 American Express credit card item,Contribution. 10/16/2023 American Express credit card item,X,*,2024,Alsobrooks
-SB17,C00840017,500557155,ORG,All Stage & Sound,NA,NA,NA,NA,NA,21500 Laytonsville Rd,NA,Gaithersburg,MD,208821624,NA,2023-10-23,2370.4,Event Production,Event Production,X,*,2024,Alsobrooks
+SB21,C00840017,500506170,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2023-10-16,2500,Contribution. 10/16/2023 American Express credit card item,Contribution Refund,X,*,2024,Alsobrooks
+SB17,C00840017,500557155,ORG,All Stage & Sound,NA,NA,NA,NA,NA,21500 Laytonsville Rd,NA,Gaithersburg,MD,208821624,NA,2023-10-23,2370.4,Event Production,EVENT PREP,X,*,2024,Alsobrooks
 SB17,C00840017,500557236,IND,NA,Riley,Reginald,NA,NA,NA,234 Persimmon Cir,NA,Reisterstown,MD,211366464,NA,2023-10-31,2310,Travel Coordinator,Travel Coordinator,NA,NA,2024,Alsobrooks
 SB17,C00840017,500532761,ORG,Monument City Brewing Company,NA,NA,NA,NA,NA,1 N Haven St,NA,Baltimore,MD,212241614,NA,2023-10-24,2250,Catering,Catering,NA,NA,2024,Alsobrooks
 SB17,C00840017,500610248,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-12-28,2202.93,Salary,Salary,X,*,2024,Alsobrooks
@@ -1243,14 +1243,14 @@ SB17,C00840017,500532762,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste
 SB17,C00840017,500505910,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-10-12,2202.93,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500610247,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-12-14,2202.93,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500596912,IND,NA,Riley,Reginald,NA,NA,NA,234 Persimmon Cir,NA,Reisterstown,MD,211366464,NA,2023-12-06,2120,Travel Coordinator,Travel Coordinator,NA,NA,2024,Alsobrooks
-SB17,C00840017,500557244,ORG,Katz Watson Group Inc,NA,NA,NA,NA,NA,8006 Ellingson Dr,NA,Chevy Chase,MD,208153030,NA,2023-11-07,2041.83,Fundraising Reimbursement,Fundraising Reimbursement,NA,NA,2024,Alsobrooks
+SB17,C00840017,500557244,ORG,Katz Watson Group Inc,NA,NA,NA,NA,NA,8006 Ellingson Dr,NA,Chevy Chase,MD,208153030,NA,2023-11-07,2041.83,Fundraising Reimbursement,Fundraising Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,4760439I,IND,NA,Rifkin,Leslie,NA,NA,NA,11541 Manorstone Ln,NA,Columbia,MD,210445413,NA,2023-10-15,2024.43,Catering,Catering,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,4760448I,ORG,Rifkin Weiner Livingston LLC,NA,NA,NA,NA,NA,225 Duke Of Gloucester St,NA,Annapolis,MD,214012506,NA,2023-10-15,1999.78,Catering,Catering,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,500610126,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-12-24,1917.06,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500552815,ORG,Numero Inc,NA,NA,NA,NA,NA,695 Town Center Dr,Ste 580,Costa Mesa,CA,926261924,NA,2023-11-02,1880,Software Rental,Software Rental,NA,NA,2024,Alsobrooks
 SB17,C00840017,500484463,ORG,Numero Inc,NA,NA,NA,NA,NA,695 Town Center Dr,Ste 580,Costa Mesa,CA,926261924,NA,2023-10-02,1880,Software Rental,Software Rental,NA,NA,2024,Alsobrooks
 SB17,C00840017,500595334,ORG,Numero Inc,NA,NA,NA,NA,NA,695 Town Center Dr,Ste 580,Costa Mesa,CA,926261924,NA,2023-12-04,1880,Software Rental,Software Rental,NA,NA,2024,Alsobrooks
-SB17,C00840017,500505863,ORG,Campaign Finance Consultants Inc,NA,NA,NA,NA,NA,750 1St St NE,Ste 1070,Washington,DC,200028008,NA,2023-10-11,1723.27,Fundraising Reimbursement,Fundraising Reimbursement,NA,NA,2024,Alsobrooks
+SB17,C00840017,500505863,ORG,Campaign Finance Consultants Inc,NA,NA,NA,NA,NA,750 1St St NE,Ste 1070,Washington,DC,200028008,NA,2023-10-11,1723.27,Fundraising Reimbursement,Fundraising Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500532764,IND,NA,Bridgewater,Kemia,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-10-30,1602.54,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500505912,IND,NA,Bridgewater,Kemia,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-10-12,1602.54,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500595308,IND,NA,Bridgewater,Kemia,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-11-29,1602.54,Salary,Salary,X,*,2024,Alsobrooks
@@ -1262,7 +1262,7 @@ SB17,C00840017,500557240,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St N
 SB17,C00840017,500614255,ORG,Oaks Bed & Breakfast,NA,NA,NA,NA,NA,9201 Laurel Oak Dr,NA,Bethesda,MD,208171937,NA,2023-11-07,1500,Site Rental,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500557245,ORG,Magnus Pearson Media,NA,NA,NA,NA,NA,311 Wolfe St,NA,Alexandria,VA,223143725,NA,2023-11-07,1481.72,Media Production,Media Production,NA,NA,2024,Alsobrooks
 SB17,C00840017,500610251,IND,NA,Washington,Omar,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-12-28,1423.48,Salary,Salary,X,*,2024,Alsobrooks
-SB17,C00840017,5320428I,IND,NA,Smith,Will,NA,NA,NA,10701 Harper Ave,NA,Silver Spring,MD,209011416,NA,2023-11-29,1395.75,Event Catering,Event Catering,NA,* In-Kind Received,2024,Alsobrooks
+SB17,C00840017,5320428I,IND,NA,Smith,Will,NA,NA,NA,10701 Harper Ave,NA,Silver Spring,MD,209011416,NA,2023-11-29,1395.75,Event Catering,Event Catering/Equipment,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,500506164,ORG,United States Postal Service,NA,NA,NA,NA,NA,9801 Apollo Dr,NA,Upper Marlboro,MD,207749997,NA,2023-10-16,1386,Postage,Postage,X,*,2024,Alsobrooks
 SB17,C00840017,500557205,ORG,Monte Carlo Boardwalk,NA,NA,NA,NA,NA,1101 Atlantic Ave,NA,Ocean City,MD,218426692,NA,2023-10-17,1359.9,Lodging,Lodging,X,*,2024,Alsobrooks
 SB17,C00840017,500590768,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2023-11-15,1168.4,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
@@ -1275,12 +1275,12 @@ SB17,C00840017,500590822,IND,NA,Sloan,David,Augustine,NA,Jr.,1101 Mercantile Ln,
 SB20A,C00840017,500610122,IND,NA,Green,Kim,Mumby,NA,NA,4 Stone Gate Ct,NA,Pikesville,MD,212081000,NA,2023-12-19,1000,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB20A,C00840017,500552801,IND,NA,Tyson,Lincoln,NA,NA,NA,13007 Vicar Woods Ln,NA,Bowie,MD,207204786,NA,2023-10-27,1000,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB20A,C00840017,500590762,IND,NA,Kulovic,George,NA,NA,NA,3412 Mela Ct,NA,Holiday,FL,346913632,NA,2023-11-19,1000,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
-SB17,C00840017,5458905I,COM,Will Smith For Maryland,NA,NA,NA,NA,NA,PO Box 8801,NA,Silver Spring,MD,209078801,NA,2023-11-29,999,Catering. Permissible Under the Act,Catering. Permissible Under the Act,NA,* In-Kind Received,2024,Alsobrooks
+SB17,C00840017,5458905I,COM,Will Smith For Maryland,NA,NA,NA,NA,NA,PO Box 8801,NA,Silver Spring,MD,209078801,NA,2023-11-29,999,Catering. Permissible Under the Act,Catering / Event Performance,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,500605893,ORG,Big City Foods,NA,NA,NA,NA,NA,9009 Central Ave,NA,Capitol Heights,MD,207433805,NA,2023-12-15,945,Catering,Catering,X,*,2024,Alsobrooks
 SB17,C00840017,500610125,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-12-17,941.81,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500506169,ORG,Zoom,NA,NA,NA,NA,NA,55 Almaden Blvd,Ste 600,San Jose,CA,951131612,NA,2023-10-16,915.49,Software Rental,Software Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500557206,ORG,Monte Carlo Boardwalk,NA,NA,NA,NA,NA,1101 Atlantic Ave,NA,Ocean City,MD,218426692,NA,2023-10-16,815.94,Lodging,Lodging,X,*,2024,Alsobrooks
-SB17,C00840017,500605884,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-12-15,805.48,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500605884,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-12-15,805.48,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500605905,ORG,Enterprise Rent-A-Car,NA,NA,NA,NA,NA,5202 River Rd,NA,Bethesda,MD,208161416,NA,2023-12-15,779.9,Auto Travel,Auto Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500506143,ORG,Hilton San Francisco,NA,NA,NA,NA,NA,55 Cyril Magnin St,NA,San Francisco,CA,941022812,NA,2023-10-16,770.7,Lodging,Lodging,X,*,2024,Alsobrooks
 SB17,C00840017,500557170,ORG,Color Pro,NA,NA,NA,NA,NA,1441 Mccormick Dr,Ste 1000,Upper Marlboro,MD,207745473,NA,2023-10-19,750,Printing,Printing,X,*,2024,Alsobrooks
@@ -1290,13 +1290,13 @@ SB17,C00840017,500557242,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St N
 SB17,C00840017,500505861,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-10-11,740.94,Text Messaging Services,Text Messaging Services,NA,NA,2024,Alsobrooks
 SB17,C00840017,4712254I,IND,NA,Ginsberg,David,NA,NA,NA,6508 Wiscasset Rd,NA,Bethesda,MD,208162113,NA,2023-11-06,735,Catering,Catering,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,500484464,ORG,Paragon Payment Solutions,NA,NA,NA,NA,NA,2141 E Broadway Rd,Ste 202,Tempe,AZ,852821895,NA,2023-10-02,724.42,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500592857,ORG,Isolina Productions LLC,NA,NA,NA,NA,NA,2126 SILVER Spg,NA,Silver Spring,MD,20910,NA,2023-11-07,721,Event Performance,Event Performance,X,*,2024,Alsobrooks
+SB17,C00840017,500592857,ORG,Isolina Productions LLC,NA,NA,NA,NA,NA,2126 SILVER Spg,NA,Silver Spring,MD,20910,NA,2023-11-07,721,Event Performance,EVENT PREP,X,*,2024,Alsobrooks
 SB17,C00840017,500505871,ORG,The Pivot Group Inc,NA,NA,NA,NA,NA,712 H St NE,Unit 606,Washington,DC,200023627,NA,2023-10-12,720,Printing,Printing,NA,NA,2024,Alsobrooks
 SB17,C00840017,500605892,ORG,Best Buy,NA,NA,NA,NA,NA,2300 Petrie Ln,NA,Glenarden,MD,207061623,NA,2023-12-15,716.51,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500552807,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-11-02,688.54,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500610132,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2023-12-27,680,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500557167,ORG,Brothers Bistro,NA,NA,NA,NA,NA,1109 Atlantic Ave,NA,Ocean City,MD,218427347,NA,2023-10-20,665.94,Catering,Catering,X,*,2024,Alsobrooks
-SB17,C00840017,500553056,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-11-06,658.01,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500553056,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-11-06,658.01,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500552816,ORG,Paragon Payment Solutions,NA,NA,NA,NA,NA,2141 E Broadway Rd,Ste 202,Tempe,AZ,852821895,NA,2023-11-02,656.18,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500505858,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-10-11,652,Digital Consulting,Digital Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500557239,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-11-07,652,Digital Consulting,Digital Consulting,NA,NA,2024,Alsobrooks
@@ -1326,7 +1326,7 @@ SB17,C00840017,500484453,IND,NA,Butler,Sloane,NA,NA,NA,1101 Mercantile Ln,Ste 10
 SB17,C00840017,500590820,IND,NA,Golwas,Payton,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-11-16,501.34,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500610254,IND,NA,Golwas,Payton,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-12-28,501.34,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500511823,IND,NA,Butler,Sloane,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-10-19,501.15,Salary,Salary,X,*,2024,Alsobrooks
-SB17,C00840017,500557154,ORG,All Stage & Sound,NA,NA,NA,NA,NA,21500 Laytonsville Rd,NA,Gaithersburg,MD,208821624,NA,2023-10-23,500,Event Production,Event Production,X,*,2024,Alsobrooks
+SB17,C00840017,500557154,ORG,All Stage & Sound,NA,NA,NA,NA,NA,21500 Laytonsville Rd,NA,Gaithersburg,MD,208821624,NA,2023-10-23,500,Event Production,EVENT PREP,X,*,2024,Alsobrooks
 SB20A,C00840017,500590760,IND,NA,D'Agostino,Lea,NA,NA,NA,2084 Ridge Dr,NA,Los Angeles,CA,900491152,NA,2023-11-15,500,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB17,C00840017,500631141,ORG,Montgomery County,NA,NA,NA,NA,NA,101 Monroe St,Fl 2,Rockville,MD,208502503,NA,2023-12-15,500,Site Rental,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500592853,ORG,Federal Media Solutions,NA,NA,NA,NA,NA,157 Fleet St,NA,Oxon Hill,MD,207451586,NA,2023-11-07,500,Audio Equipment Rental,Audio Equipment Rental,X,*,2024,Alsobrooks
@@ -1337,15 +1337,15 @@ SB17,C00840017,4221631I,IND,NA,Powell,Angela,R,NA,NA,12801 Penny Ln,NA,Silver Sp
 SB17,C00840017,4371597I,IND,NA,Parker,Pearl,NA,NA,NA,17817 Hazelcrest Dr,NA,Gaithersburg,MD,208773759,NA,2023-10-08,500,Catering,Catering,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,4223445I,IND,NA,Massey-Ball,Marilyn,NA,NA,NA,6021 Riggs Rd,NA,Gaithersburg,MD,208821831,NA,2023-10-13,500,Catering,Catering,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,4530575I,IND,NA,Cyrus,Allora,Goode,NA,NA,1816 Chapel Hill Rd,NA,Silver Spring,MD,209061113,NA,2023-10-26,500,Catering,Catering,NA,* In-Kind Received,2024,Alsobrooks
-SB17,C00840017,500595326,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-11-29,497.43,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500595326,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-11-29,497.43,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500552805,IND,NA,Butler,Sloane,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-11-02,492.27,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500595315,IND,NA,Golwas,Payton,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-11-30,490.29,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500552806,IND,NA,Golwas,Payton,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-11-02,490.29,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500484455,IND,NA,Golwas,Payton,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-10-05,482.59,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500511824,IND,NA,Golwas,Payton,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-10-19,482.59,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500557173,ORG,Docusign,NA,NA,NA,NA,NA,999 3Rd Ave,Ste 1700,Seattle,WA,981041168,NA,2023-10-23,480,Software Rental,Software Rental,X,*,2024,Alsobrooks
-SB21,C00840017,500557198,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2023-09-30,480,Contribution. 11/6/2023 American Express credit card item,Contribution. 11/6/2023 American Express credit card item,X,* Contribution. 11/6/2023 American Express credit card item,2024,Alsobrooks
-SB17,C00840017,500532758,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-10-27,479.56,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB21,C00840017,500557198,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2023-09-30,480,Contribution. 11/6/2023 American Express credit card item,Contribution Refund,X,* Contribution. 11/6/2023 American Express credit card item,2024,Alsobrooks
+SB17,C00840017,500532758,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-10-27,479.56,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500557171,ORG,Comcast,NA,NA,NA,NA,NA,8031 Corporate Dr,NA,Nottingham,MD,212364986,NA,2023-10-08,473.57,Utilities,Utilities,X,*,2024,Alsobrooks
 SB17,C00840017,500610255,IND,NA,Golwas,Payton,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-12-14,473.21,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500605902,ORG,Delta Airlines,NA,NA,NA,NA,NA,1030 Delta Blvd,NA,Atlanta,GA,303541989,NA,2023-12-15,467.8,Air Travel,Air Travel,X,*,2024,Alsobrooks
@@ -1373,10 +1373,10 @@ SB17,C00840017,500506139,ORG,Delta Airlines,NA,NA,NA,NA,NA,1030 Delta Blvd,NA,At
 SB17,C00840017,500595314,IND,NA,Butler,Sloane,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-11-30,391.59,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500557218,ORG,Phil Sardi's Catering,NA,NA,NA,NA,NA,5005 Garrett Ave,NA,Beltsville,MD,207051926,NA,2023-09-26,390.4,Catering,Catering,X,*,2024,Alsobrooks
 SB17,C00840017,500605903,ORG,Delta Airlines,NA,NA,NA,NA,NA,1030 Delta Blvd,NA,Atlanta,GA,303541989,NA,2023-12-15,388.9,Air Travel,Air Travel,X,*,2024,Alsobrooks
-SB17,C00840017,500595302,ORG,Congressional Country Club,NA,NA,NA,NA,NA,8500 River Rd,NA,Bethesda,MD,208172635,NA,2023-12-04,386.06,Site Rental / Catering,Site Rental / Catering,X,*,2024,Alsobrooks
-SB17,C00840017,500595301,ORG,Congressional Country Club,NA,NA,NA,NA,NA,8500 River Rd,NA,Bethesda,MD,208172635,NA,2023-12-04,386.06,Site Rental / Catering,Site Rental / Catering,X,*,2024,Alsobrooks
+SB17,C00840017,500595302,ORG,Congressional Country Club,NA,NA,NA,NA,NA,8500 River Rd,NA,Bethesda,MD,208172635,NA,2023-12-04,386.06,Site Rental / Catering,Site Rental,X,*,2024,Alsobrooks
+SB17,C00840017,500595301,ORG,Congressional Country Club,NA,NA,NA,NA,NA,8500 River Rd,NA,Bethesda,MD,208172635,NA,2023-12-04,386.06,Site Rental / Catering,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500557201,ORG,Monte Carlo Boardwalk,NA,NA,NA,NA,NA,1101 Atlantic Ave,NA,Ocean City,MD,218426692,NA,2023-10-19,382.98,Lodging,Lodging,X,*,2024,Alsobrooks
-SB17,C00840017,500505817,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-10-16,382.77,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500505817,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-10-16,382.77,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500557157,ORG,Amazon,NA,NA,NA,NA,NA,410 Terry Ave N,NA,Seattle,WA,981095210,NA,2023-10-17,381.3,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500610244,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-12-14,378.07,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500506138,ORG,Comcast,NA,NA,NA,NA,NA,8031 Corporate Dr,NA,Nottingham,MD,212364986,NA,2023-10-16,375.58,Utilities,Utilities,X,*,2024,Alsobrooks
@@ -1392,7 +1392,7 @@ SB17,C00840017,500590764,ORG,Costco,NA,NA,NA,NA,NA,2400 Five Lees Ln,NA,Glenarde
 SB17,C00840017,500557169,ORG,Clipbook,NA,NA,NA,NA,NA,800 P St NW,Unit 703,Washington,DC,200013382,NA,2023-10-14,295,Software Rental,Software Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500605898,ORG,Clipbook,NA,NA,NA,NA,NA,800 P St NW,Unit 703,Washington,DC,200013382,NA,2023-12-15,295,Software Rental,Software Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500506133,ORG,Clipbook,NA,NA,NA,NA,NA,800 P St NW,Unit 703,Washington,DC,200013382,NA,2023-10-16,295,Software Rental,Software Rental,X,*,2024,Alsobrooks
-SB17,C00840017,500610261,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-12-29,292.64,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500610261,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-12-29,292.64,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500610245,IND,NA,Sanders,Hannah,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-12-15,290,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500506144,ORG,Lowes,NA,NA,NA,NA,NA,10440 Campus Way S,NA,Upper Marlboro,MD,207741390,NA,2023-10-16,285.03,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500610131,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2023-12-20,285,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
@@ -1404,7 +1404,7 @@ SB20A,C00840017,500610119,IND,NA,Parker,Necole,NA,NA,NA,2108 Waterleaf Way,NA,Bo
 SB20A,C00840017,500532723,IND,NA,Muotoh,Charles,NA,NA,NA,11007 Oakton View Dr,NA,Oakton,VA,221242440,NA,2023-10-29,250,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB17,C00840017,500557203,ORG,Monte Carlo Boardwalk,NA,NA,NA,NA,NA,1101 Atlantic Ave,NA,Ocean City,MD,218426692,NA,2023-10-18,249.78,Lodging,Lodging,X,*,2024,Alsobrooks
 SB17,C00840017,500605900,ORG,Delta Airlines,NA,NA,NA,NA,NA,1030 Delta Blvd,NA,Atlanta,GA,303541989,NA,2023-12-15,243.9,Air Travel,Air Travel,X,*,2024,Alsobrooks
-SB21,C00840017,500557197,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2023-09-30,240,Contribution. 11/6/2023 American Express credit card item,Contribution. 11/6/2023 American Express credit card item,X,*,2024,Alsobrooks
+SB21,C00840017,500557197,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2023-09-30,240,Contribution. 11/6/2023 American Express credit card item,Contribution Refund,X,*,2024,Alsobrooks
 SB17,C00840017,500557212,ORG,Olivia G Designs LLC,NA,NA,NA,NA,NA,14625 Baltimore Ave,NA,Laurel,MD,207074902,NA,2023-09-29,225,Graphic Design,Graphic Design,X,*,2024,Alsobrooks
 SB17,C00840017,500596919,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2023-12-05,224.72,Payroll Fee,Payroll Fee,NA,NA,2024,Alsobrooks
 SB17,C00840017,500557158,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2023-10-18,223.9,Air Travel,Air Travel,X,*,2024,Alsobrooks
@@ -1585,7 +1585,7 @@ SB17,C00840017,500321390,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,C
 SB17,C00840017,500353098,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2023-08-31,12189.19,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500372935,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2023-09-02,12189.19,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500400343,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2023-09-28,12189.17,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
-SB17,C00840017,500226292,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-07-11,12075,List Aquisition,List Aquisition,NA,NA,2024,Alsobrooks
+SB17,C00840017,500226292,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-07-11,12075,List Aquisition,List Acquisition,NA,NA,2024,Alsobrooks
 SB17,C00840017,500400339,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-09-30,11938.45,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500220826,ORG,Venable LLP,NA,NA,NA,NA,NA,750 E Pratt St,Ste 900,Baltimore,MD,212023157,NA,2023-07-11,11248.04,Legal Consulting,Legal Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500353096,ORG,Nielsen Consulting LLC,NA,NA,NA,NA,NA,621 11Th St NE,NA,Washington,DC,200025317,NA,2023-09-05,10104.65,Research Consulting,Research Consulting,NA,NA,2024,Alsobrooks
@@ -1685,13 +1685,13 @@ SB17,C00840017,500226325,ORG,United States Postal Service,NA,NA,NA,NA,NA,9801 Ap
 SB17,C00840017,500278689,ORG,Le Meridien,NA,NA,NA,NA,NA,123 S Illinois St,NA,Indianapolis,IN,462251005,NA,2023-08-03,1074.06,Catering,Catering,X,*,2024,Alsobrooks
 SB17,C00840017,500278303,ORG,The Pivot Group Inc,NA,NA,NA,NA,NA,712 H St NE,Unit 606,Washington,DC,200023627,NA,2023-08-02,1050,Printing,Printing,NA,NA,2024,Alsobrooks
 SB17,C00840017,500372936,ORG,Katz Watson Group Inc,NA,NA,NA,NA,NA,8006 Ellingson Dr,NA,Chevy Chase,MD,208153030,NA,2023-09-13,1033.4,Fundraising Consulting,Fundraising Consulting,NA,NA,2024,Alsobrooks
-SB17,C00840017,500393243,ORG,Clarity Media,NA,NA,NA,NA,NA,3540 Crain Hwy,# 389,Bowie,MD,207161303,NA,2023-09-22,1000,Event Performance,Event Performance,NA,NA,2024,Alsobrooks
+SB17,C00840017,500393243,ORG,Clarity Media,NA,NA,NA,NA,NA,3540 Crain Hwy,# 389,Bowie,MD,207161303,NA,2023-09-22,1000,Event Performance,EVENT PREP,NA,NA,2024,Alsobrooks
 SB20A,C00840017,500226275,IND,NA,Boyd,Stanley,NA,NA,NA,11441 Columbia Pike,Unit A6,Silver Spring,MD,209042542,NA,2023-07-09,1000,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
-SB21,C00840017,500278721,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2023-08-03,1000,Contribution. 8/3/2023 American Express credit card item,Contribution. 8/3/2023 American Express credit card item,X,*,2024,Alsobrooks
+SB21,C00840017,500278721,PTY,DEMOCRATIC STATE CENTRAL COMMITTEE OF MARYLAND,NA,NA,NA,NA,NA,275 West St,Ste 70,Annapolis,MD,214013464,NA,2023-08-03,1000,Contribution. 8/3/2023 American Express credit card item,Contribution Refund,X,*,2024,Alsobrooks
 SB17,C00840017,3984693I,IND,NA,Gill,Gregory,M,NA,NA,11100 Brookes Reserve Rd,NA,Upper Marlboro,MD,207726648,NA,2023-09-24,966.85,Catering,Catering,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,3984699I,IND,NA,Rogers,Thomasina,NA,NA,NA,11100 Brookes Reserve Rd,NA,Upper Marlboro,MD,207726648,NA,2023-09-24,966.85,Catering,Catering,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,500278659,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2023-08-03,898.21,Air Travel,Air Travel,X,*,2024,Alsobrooks
-SB17,C00840017,500278289,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-08-03,874.75,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500278289,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-08-03,874.75,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500393233,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-09-17,863,Fundraising Consulting,Fundraising Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500226293,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-07-12,740.94,Text Messaging Services,Text Messaging Services,NA,NA,2024,Alsobrooks
 SB17,C00840017,500338867,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-08-21,740.94,Telephone Expense,Telephone Expense,NA,NA,2024,Alsobrooks
@@ -1701,7 +1701,7 @@ SB17,C00840017,500278679,ORG,Delta Sigma Theta,NA,NA,NA,NA,NA,1707 New Hampshire
 SB17,C00840017,500365479,ORG,Expedia,NA,NA,NA,NA,NA,1111 Expedia Group Way W,NA,Seattle,WA,981191111,NA,2023-09-06,689.2,Lodging,Lodging,X,*,2024,Alsobrooks
 SB17,C00840017,500278680,ORG,Delta Sigma Theta,NA,NA,NA,NA,NA,1707 New Hampshire Ave NW,NA,Washington,DC,200092501,NA,2023-08-03,685,Site Rental,Site Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500278296,ORG,Frameshot,NA,NA,NA,NA,NA,4005 Wisconsin Ave NW,Unit 9816,Washington,DC,200167748,NA,2023-08-03,680,Printing,Printing,NA,NA,2024,Alsobrooks
-SB17,C00840017,500365468,ORG,ActiveMontgomery,NA,NA,NA,NA,NA,101 Monroe St,NA,Rockville,MD,208502503,NA,2023-09-06,675,Event Equipment,Event Equipment,X,*,2024,Alsobrooks
+SB17,C00840017,500365468,ORG,ActiveMontgomery,NA,NA,NA,NA,NA,101 Monroe St,NA,Rockville,MD,208502503,NA,2023-09-06,675,Event Equipment,Event Equipment Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500393246,ORG,E. House Executive Security Professionals,NA,NA,NA,NA,NA,4710 Auth Pl,Ste 420,Suitland,MD,207464238,NA,2023-09-22,675,Security Services,SECURITY SERVICES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500228329,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-07-21,652,Digital Consulting,Digital Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500338865,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-08-21,652,Digital Consulting,Digital Consulting,NA,NA,2024,Alsobrooks
@@ -1710,11 +1710,11 @@ SB17,C00840017,500365502,ORG,Southwest Airlines,NA,NA,NA,NA,NA,2702 Love Field D
 SB17,C00840017,500226290,ORG,H&W Printing,NA,NA,NA,NA,NA,3616 Oak Ln,NA,Mount Rainier,MD,207122128,NA,2023-07-11,616.41,Printing,Printing,NA,NA,2024,Alsobrooks
 SB17,C00840017,500338869,ORG,Campaign Finance Consultants Inc,NA,NA,NA,NA,NA,750 1St St NE,Ste 1070,Washington,DC,200028008,NA,2023-08-21,603.72,Fundraising Consulting,Fundraising Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500367471,IND,NA,Bayrd,Philip,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-09-08,570.05,Mileage Reimbursement,Mileage Reimbursement,NA,NA,2024,Alsobrooks
-SB17,C00840017,500400340,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-09-27,568.11,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
-SB17,C00840017,500365469,ORG,ActiveMontgomery,NA,NA,NA,NA,NA,101 Monroe St,NA,Rockville,MD,208502503,NA,2023-09-06,562.5,Event Equipment,Event Equipment,X,*,2024,Alsobrooks
+SB17,C00840017,500400340,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-09-27,568.11,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
+SB17,C00840017,500365469,ORG,ActiveMontgomery,NA,NA,NA,NA,NA,101 Monroe St,NA,Rockville,MD,208502503,NA,2023-09-06,562.5,Event Equipment,Event Equipment Rental,X,*,2024,Alsobrooks
 SB17,C00840017,500365482,ORG,Google,NA,NA,NA,NA,NA,1600 Amphitheatre Pkwy,NA,Mountain View,CA,940431351,NA,2023-09-06,553.17,Web Hosting,Web Hosting,X,*,2024,Alsobrooks
 SB20A,C00840017,500321401,IND,NA,Jenoure,Maurice,NA,NA,NA,10110 Cleary Ln,NA,Bowie,MD,207212862,NA,2023-08-13,550,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
-SB17,C00840017,500400337,IND,NA,Joyner,Lewis,NA,NA,NA,13176 Larchdale Rd,Apt 8,Laurel,MD,207081775,NA,2023-09-28,550,Event Performance,Event Performance,NA,NA,2024,Alsobrooks
+SB17,C00840017,500400337,IND,NA,Joyner,Lewis,NA,NA,NA,13176 Larchdale Rd,Apt 8,Laurel,MD,207081775,NA,2023-09-28,550,Event Performance,EVENT PREP,NA,NA,2024,Alsobrooks
 SB17,C00840017,500278686,ORG,Google,NA,NA,NA,NA,NA,1600 Amphitheatre Pkwy,NA,Mountain View,CA,940431351,NA,2023-08-03,526.61,Web Hosting,Web Hosting,X,*,2024,Alsobrooks
 SB17,C00840017,500353093,ORG,Paragon Payment Solutions,NA,NA,NA,NA,NA,2141 E Broadway Rd,Ste 202,Tempe,AZ,852821895,NA,2023-09-05,509.28,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500367463,IND,NA,Butler,Sloane,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-09-07,507.77,Salary,Salary,X,*,2024,Alsobrooks
@@ -1737,7 +1737,7 @@ SB17,C00840017,500226280,IND,NA,Aalim-Johnson,Naadira,NA,NA,NA,1101 Mercantile L
 SB17,C00840017,500226323,ORG,Overlook Patio,NA,NA,NA,NA,NA,800 N Wolfe St,NA,Baltimore,MD,212052104,NA,2023-07-12,425.74,Catering,Catering,X,*,2024,Alsobrooks
 SB17,C00840017,500353091,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2023-08-30,405.74,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500365497,ORG,Sea Bay Hotel,NA,NA,NA,NA,NA,102 60Th St,NA,Ocean City,MD,218425332,NA,2023-09-06,394.95,Lodging,Lodging,X,*,2024,Alsobrooks
-SB17,C00840017,500365444,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-09-06,381.83,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500365444,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-09-06,381.83,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500365475,ORG,Comcast,NA,NA,NA,NA,NA,8031 Corporate Dr,NA,Nottingham,MD,212364986,NA,2023-09-06,375.58,Utilities,Utilities,X,*,2024,Alsobrooks
 SB17,C00840017,500278677,ORG,Comcast,NA,NA,NA,NA,NA,8031 Corporate Dr,NA,Nottingham,MD,212364986,NA,2023-08-03,375.18,Utilities,Utilities,X,*,2024,Alsobrooks
 SB17,C00840017,500365494,ORG,Olivia G Designs LLC,NA,NA,NA,NA,NA,14625 Baltimore Ave,NA,Laurel,MD,207074902,NA,2023-09-06,375,Graphic Design,Graphic Design,X,*,2024,Alsobrooks
@@ -1750,7 +1750,7 @@ SB17,C00840017,500321387,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt
 SB17,C00840017,500321389,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2023-08-10,333.22,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500278706,ORG,United States Postal Service,NA,NA,NA,NA,NA,9801 Apollo Dr,NA,Upper Marlboro,MD,207749997,NA,2023-08-03,330,Postage,Postage,X,*,2024,Alsobrooks
 SB17,C00840017,500365501,ORG,Southwest Airlines,NA,NA,NA,NA,NA,2702 Love Field Dr,NA,Dallas,TX,752351908,NA,2023-09-06,327.96,Air Travel,Air Travel,X,*,2024,Alsobrooks
-SB17,C00840017,500400336,IND,NA,Lewis,Domenic,NA,NA,NA,12905 Windbrook Dr,NA,Clinton,MD,207351229,NA,2023-09-28,325,Event Performance,Event Performance,NA,NA,2024,Alsobrooks
+SB17,C00840017,500400336,IND,NA,Lewis,Domenic,NA,NA,NA,12905 Windbrook Dr,NA,Clinton,MD,207351229,NA,2023-09-28,325,Event Performance,EVENT PREP,NA,NA,2024,Alsobrooks
 SB17,C00840017,500402264,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2023-09-30,324.9,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500367472,IND,NA,Bridgewater,Kemia,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-09-08,313.76,Mileage Reimbursement,Mileage Reimbursement,NA,NA,2024,Alsobrooks
 SB17,C00840017,500278675,ORG,Bittersweet Catering,NA,NA,NA,NA,NA,103 1 2 North Alfred St,NA,Alexandria,VA,22314,NA,2023-08-03,307.81,Catering,Catering,X,*,2024,Alsobrooks
@@ -1765,7 +1765,7 @@ SB17,C00840017,500338855,IND,NA,Aalim-Johnson,Naadira,NA,NA,NA,1101 Mercantile L
 SB17,C00840017,500393238,IND,NA,Golwas,Payton,NA,NA,NA,1100 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745380,NA,2023-09-21,257.26,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500338858,IND,NA,Hector,Kya,NA,NA,NA,1101 Mercantile Ln,Ste 100,Fort Washington,MD,20744,NA,2023-08-24,256.41,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500259835,IND,NA,Hector,Kya,NA,NA,NA,1101 Mercantile Ln,Ste 100,Fort Washington,MD,20744,NA,2023-07-27,256.2,Salary,Salary,X,*,2024,Alsobrooks
-SB17,C00840017,500338862,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-08-25,253.77,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500338862,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-08-25,253.77,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB20A,C00840017,500368060,IND,NA,Lauter,Charles,NA,NA,NA,3092 Gibraltar Rd,NA,Fish Creek,WI,542129482,NA,2023-09-05,250,Contribution Refund,Contribution Refund,NA,NA,2024,Alsobrooks
 SB17,C00840017,500278666,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2023-08-03,249.9,Air Travel,Air Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500278668,ORG,American Airlines,NA,NA,NA,NA,NA,1 Skyview Dr,NA,Fort Worth,TX,761551801,NA,2023-08-03,249.9,Air Travel,Air Travel,X,*,2024,Alsobrooks
@@ -1823,7 +1823,7 @@ SB17,C00840017,500400356,IND,NA,Henderson,Oscar,NA,NA,NA,1101 Mercantile Ln,Ste 
 SB17,C00840017,500367479,IND,NA,Henderson,Oscar,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-09-12,125,Travel Stipend,Travel Stipend,NA,NA,2024,Alsobrooks
 SB17,C00840017,500226288,ORG,Gusto,NA,NA,NA,NA,NA,525 20Th St,NA,San Francisco,CA,941074345,NA,2023-07-13,124.19,Payroll Taxes,Payroll Taxes,NA,NA,2024,Alsobrooks
 SB17,C00840017,500400342,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2023-09-27,120.9,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500259831,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-07-26,105.25,Bank Fee,Bank Fee,NA,NA,2024,Alsobrooks
+SB17,C00840017,500259831,ORG,Amalgamated Bank,NA,NA,NA,NA,NA,1825 K St NW,NA,Washington,DC,200061202,NA,2023-07-26,105.25,Bank Fee,BANK FEES,NA,NA,2024,Alsobrooks
 SB17,C00840017,500367452,ORG,Democracy Engine,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2023-09-11,100,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500367449,ORG,Chase Strategy LLC,NA,NA,NA,NA,NA,429 Quincy St NW,Unit B,Washington,DC,200115929,NA,2023-09-06,100,Telephone Expense,Telephone Expense,NA,NA,2024,Alsobrooks
 SB17,C00840017,500338870,ORG,Chase Strategy LLC,NA,NA,NA,NA,NA,429 Quincy St NW,Unit B,Washington,DC,200115929,NA,2023-08-21,100,Telephone Expense,Telephone Expense,NA,NA,2024,Alsobrooks
@@ -1898,7 +1898,7 @@ SB17,C00840017,500208714,ORG,Katz Watson Group Inc,NA,NA,NA,NA,NA,8006 Ellingson
 SB17,C00840017,500208712,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-06-25,8833.46,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500178995,ORG,"Blue Wave Political Partners, LLC",NA,NA,NA,NA,NA,122 C St NW,Ste 360,Washington,DC,200012149,NA,2023-06-05,7500,Compliance Consulting,Compliance Consulting,NA,NA,2024,Alsobrooks
 SB17,C00840017,500191413,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-06-18,7358.34,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
-SB17,C00840017,500178992,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-06-05,7332.54,List Aquisition,List Aquisition,NA,NA,2024,Alsobrooks
+SB17,C00840017,500178992,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-06-05,7332.54,List Aquisition,List Acquisition,NA,NA,2024,Alsobrooks
 SB17,C00840017,500096757,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-05-08,7292.1,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500096758,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-05-14,6287.45,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500191430,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-06-20,5000,Text Messaging Services,Text Messaging Services,NA,NA,2024,Alsobrooks
@@ -1917,7 +1917,7 @@ SB17,C00840017,500208727,IND,NA,Cooper,Daniel,NA,NA,NA,1101 Mercantile Ln,Ste 10
 SB17,C00840017,500158356,IND,NA,Cooper,Daniel,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-05-30,4196.95,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500191425,IND,NA,Cooper,Daniel,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-06-14,4196.94,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500096769,IND,NA,Cooper,Daniel,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-05-12,4196.94,Salary,Salary,X,*,2024,Alsobrooks
-SB17,C00840017,500096761,ORG,Chase Strategy LLC,NA,NA,NA,NA,NA,429 Quincy St NW,Unit B,Washington,DC,200115929,NA,2023-05-10,3978.13,Strategy Consulting Reimbursement,Strategy Consulting Reimbursement,NA,NA,2024,Alsobrooks
+SB17,C00840017,500096761,ORG,Chase Strategy LLC,NA,NA,NA,NA,NA,429 Quincy St NW,Unit B,Washington,DC,200115929,NA,2023-05-10,3978.13,Strategy Consulting Reimbursement,STRATEGY CONSULTING,NA,NA,2024,Alsobrooks
 SB17,C00840017,500191415,ORG,CareFirst Health Insurance,NA,NA,NA,NA,NA,840 1St St NE,NA,Washington,DC,200650003,NA,2023-06-20,3963.57,Health Insurance,Health Insurance,NA,NA,2024,Alsobrooks
 SB17,C00840017,500158347,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-06-04,3729.15,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500096791,ORG,H&W Printing,NA,NA,NA,NA,NA,3616 Oak Ln,NA,Mount Rainier,MD,207122128,NA,2023-05-11,3720.6,Printing,Printing,NA,NA,2024,Alsobrooks
@@ -1937,7 +1937,7 @@ SB17,C00840017,500208729,IND,NA,Henderson,Oscar,NA,NA,NA,1101 Mercantile Ln,Ste 
 SB17,C00840017,500191427,IND,NA,Henderson,Oscar,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-06-14,2878.48,Salary,Salary,X,*,2024,Alsobrooks
 SB17,C00840017,500178998,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-06-11,2584.76,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500206585,ORG,"NGP VAN, Inc.",NA,NA,NA,NA,NA,1445 New York Ave NW,# 20,Washington,DC,200052134,NA,2023-06-30,2550,Software Rental,Software Rental,X,*,2024,Alsobrooks
-SB17,C00840017,500191414,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-06-16,2500,List Aquisition,List Aquisition,NA,NA,2024,Alsobrooks
+SB17,C00840017,500191414,ORG,Break Something Inc,NA,NA,NA,NA,NA,1380 Monroe St NW,# 409,Washington,DC,200103452,NA,2023-06-16,2500,List Aquisition,List Acquisition,NA,NA,2024,Alsobrooks
 SB17,C00840017,2351486I,IND,NA,Evans,Vanee,NA,NA,NA,PO Box 6421,NA,Capitol Heights,MD,207916421,NA,2023-06-30,2500,Event Catering/Equipment,Event Catering/Equipment,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,500098228,ORG,ActBlue Technical Services,NA,NA,NA,NA,NA,366 Summer St,NA,Somerville,MA,021443132,NA,2023-05-21,2272.82,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500158353,IND,NA,Appelstein,Julie,NA,NA,NA,1101 Mercantile Ln,Ste 100,Upper Marlboro,MD,207745360,NA,2023-05-30,2202.93,Salary,Salary,X,*,2024,Alsobrooks
@@ -1958,7 +1958,7 @@ SB17,C00840017,500208725,IND,NA,Bridgewater,Kemia,NA,NA,NA,1101 Mercantile Ln,St
 SB17,C00840017,500194955,ORG,Democracy Engine LLC,NA,NA,NA,NA,NA,2125 14Th St NW,Apt 101W,Washington,DC,200094497,NA,2023-06-21,1591,Credit Card Fees,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500206577,ORG,Blacklane,NA,NA,NA,NA,NA,Feurigstrasse 59,NA,Berlin DE 10827 Germany,ZZ,00000,NA,2023-06-30,1438.28,Auto Travel,Auto Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500098219,ORG,The Pivot Group Inc,NA,NA,NA,NA,NA,712 H St NE,Unit 606,Washington,DC,200023627,NA,2023-05-24,1389,Direct Mail Production,Direct Mail Production,NA,NA,2024,Alsobrooks
-SB17,C00840017,500206576,ORG,Avalon Travel,NA,NA,NA,NA,NA,312 Martin Ave,NA,Santa Clara,CA,950503102,NA,2023-06-30,1352,Travel Services,Travel Services,X,*,2024,Alsobrooks
+SB17,C00840017,500206576,ORG,Avalon Travel,NA,NA,NA,NA,NA,312 Martin Ave,NA,Santa Clara,CA,950503102,NA,2023-06-30,1352,Travel Services,TRAVEL CAR EXPENSE,X,*,2024,Alsobrooks
 SB17,C00840017,2367984I,IND,NA,Bennett,Mariko,NA,NA,NA,825 Mount Airy Rd,NA,Davidsonville,MD,210352225,NA,2023-06-28,1271.76,Event Catering/Equipment,Event Catering/Equipment,NA,* In-Kind Received,2024,Alsobrooks
 SB17,C00840017,500206531,ORG,Blacklane,NA,NA,NA,NA,NA,Feurigstrasse 59,NA,Berlin DE 10827 Germany,ZZ,00000,NA,2023-06-19,1257.24,Auto Travel,Auto Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500096792,ORG,H&W Printing,NA,NA,NA,NA,NA,3616 Oak Ln,NA,Mount Rainier,MD,207122128,NA,2023-05-11,1044.1,Printing,Printing,NA,NA,2024,Alsobrooks
@@ -1974,7 +1974,7 @@ SB17,C00840017,500191419,ORG,The Hartford,NA,NA,NA,NA,NA,PO Box 660916,NA,Dallas
 SB17,C00840017,500206580,ORG,Google,NA,NA,NA,NA,NA,1600 Amphitheatre Pkwy,NA,Mountain View,CA,940431351,NA,2023-06-30,447.04,Email Services,Email Services,X,*,2024,Alsobrooks
 SB17,C00840017,500206535,ORG,Delta Air Lines,NA,NA,NA,NA,NA,1030 Delta Blvd,NA,Atlanta,GA,303541989,NA,2023-06-19,443.2,Air Travel,Air Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500178996,ORG,Freedom Life Insurance Company Of America,NA,NA,NA,NA,NA,300 Burnett St,NA,Fort Worth,TX,761022710,NA,2023-06-05,432.81,Health Insurance,Health Insurance,NA,NA,2024,Alsobrooks
-SB17,C00840017,500205200,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-06-30,415.93,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500205200,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-06-30,415.93,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500206572,ORG,Amtrak,NA,NA,NA,NA,NA,1 Massachusetts Ave NW,Fl 4WEST,Washington,DC,200011401,NA,2023-06-30,412,Train Travel,Train Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500096759,ORG,Platinum T-Shirts,NA,NA,NA,NA,NA,2147 Priest Bridge Dr,Ste 3,Crofton,MD,211142483,NA,2023-05-11,405,Printing,Printing,NA,NA,2024,Alsobrooks
 SB17,C00840017,500206578,ORG,Comcast,NA,NA,NA,NA,NA,8031 Corporate Dr,NA,Nottingham,MD,212364986,NA,2023-06-30,375.18,Utilities,Utilities,X,*,2024,Alsobrooks
@@ -1992,7 +1992,7 @@ SB17,C00840017,500206544,ORG,Residence Inn By Marriott Lost Angeles,NA,NA,NA,NA,
 SB17,C00840017,500206589,ORG,Staples,NA,NA,NA,NA,NA,10530 Campus Way S,NA,Largo,MD,207741309,NA,2023-06-30,295.98,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
 SB17,C00840017,500206538,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-06-19,295,Credit Card Fees,Credit Card Fees,X,*,2024,Alsobrooks
 SB17,C00840017,500206529,ORG,Alamo Flag Company,NA,NA,NA,NA,NA,6134 Arlington Blvd,# R,Falls Church,VA,220442901,NA,2023-06-19,290,Office Supplies,Office Supplies,X,*,2024,Alsobrooks
-SB17,C00840017,500191391,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-06-19,277.25,Credit Card Payment - See Below if Itemized,Credit Card Payment - See Below if Itemized,NA,NA,2024,Alsobrooks
+SB17,C00840017,500191391,ORG,American Express,NA,NA,NA,NA,NA,200 Vesey St,NA,New York,NY,102851000,NA,2023-06-19,277.25,Credit Card Payment - See Below if Itemized,Credit Card Fees,NA,NA,2024,Alsobrooks
 SB17,C00840017,500206573,ORG,Amtrak,NA,NA,NA,NA,NA,1 Massachusetts Ave NW,Fl 4WEST,Washington,DC,200011401,NA,2023-06-30,267,Train Travel,Train Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500206574,ORG,Amtrak,NA,NA,NA,NA,NA,1 Massachusetts Ave NW,Fl 4WEST,Washington,DC,200011401,NA,2023-06-30,267,Train Travel,Train Travel,X,*,2024,Alsobrooks
 SB17,C00840017,500194954,ORG,Federal Media Solutions,NA,NA,NA,NA,NA,157 Fleet St,NA,Oxon Hill,MD,207451586,NA,2023-06-20,250,Audio Equipment Rental,Audio Equipment Rental,NA,NA,2024,Alsobrooks
@@ -2040,7 +2040,7 @@ SB17,C00869016,71902,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,A
 SB17,C00869016,71901,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-06-26,60270.03,STAFFING - SEE MEMO,STAFFING - SEE MEMO,NA,NA,2024,Hogan
 SB17,C00869016,71900,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-05-28,59126.97,STAFFING - SEE MEMO,STAFFING - SEE MEMO,NA,NA,2024,Hogan
 SB17,C00869016,71899,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-05-03,56135,AD BUY,AD BUY,NA,NA,2024,Hogan
-SB17,C00869016,HFM0701,ORG,WINRED,NA,NA,NA,NA,NA,1776 Wilson Blvd.,NA,Arlington,VA,22209,NA,2024-06-30,55133.22,CREDIT CARD PROCESSING,CREDIT CARD PROCESSING,NA,NA,2024,Hogan
+SB17,C00869016,HFM0701,ORG,WINRED,NA,NA,NA,NA,NA,1776 Wilson Blvd.,NA,Arlington,VA,22209,NA,2024-06-30,55133.22,CREDIT CARD PROCESSING,Credit Card Fees,NA,NA,2024,Hogan
 SB17,C00869016,71898,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-05-13,51975,STAFFING - SEE MEMO,STAFFING - SEE MEMO,NA,NA,2024,Hogan
 SB17,C00869016,71897,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-05-07,51695,AD BUY,AD BUY,NA,NA,2024,Hogan
 SB17,C00869016,71896,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-05-01,50875,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
@@ -2048,25 +2048,25 @@ SB17,C00869016,71895,ORG,M2 PLACEMENT,NA,NA,NA,NA,NA,10065 E HARVARD AVE,NA,DENV
 SB17,C00869016,71894,ORG,M2 PLACEMENT,NA,NA,NA,NA,NA,10065 E HARVARD AVE,NA,DENVER,CO,80231,NA,2024-05-03,50058,AD BUY,AD BUY,NA,NA,2024,Hogan
 SB17,C00869016,71893,ORG,M2 PLACEMENT,NA,NA,NA,NA,NA,10065 E HARVARD AVE,NA,DENVER,CO,80231,NA,2024-04-29,47500,AD BUY,AD BUY,NA,NA,2024,Hogan
 SB17,C00869016,71892,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-05-15,45660,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
-SB17,C00869016,71891,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-06-25,45390.05,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,71891,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-06-25,45390.05,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71890,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-05-15,43750,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71889,ORG,M2 PLACEMENT,NA,NA,NA,NA,NA,10065 E HARVARD AVE,NA,DENVER,CO,80231,NA,2024-05-07,41166.45,AD BUY,AD BUY,NA,NA,2024,Hogan
 SB17,C00869016,71888,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-05-29,40000,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
-SB17,C00869016,71887,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-05-13,37479.63,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,71886,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-06-21,36886.39,FUNDRAISING MAILERS,FUNDRAISING MAILERS,NA,NA,2024,Hogan
+SB17,C00869016,71887,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-05-13,37479.63,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
+SB17,C00869016,71886,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-06-21,36886.39,FUNDRAISING MAILERS,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71885,ORG,Ragnar Research Partners,NA,NA,NA,NA,NA,103 E ST SE,NA,WASHINGTON,DC,20003,NA,2024-06-11,32300,POLLING STRAGEGY AND RESEARCH,POLLING STRAGEGY AND RESEARCH,NA,NA,2024,Hogan
-SB17,C00869016,71884,ORG,TLC POLITICAL,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22030,NA,2024-05-16,31589.61,FUNDRAISING MAILERS,FUNDRAISING MAILERS,NA,NA,2024,Hogan
+SB17,C00869016,71884,ORG,TLC POLITICAL,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22030,NA,2024-05-16,31589.61,FUNDRAISING MAILERS,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71883,ORG,CLEARCHANNEL,NA,NA,NA,NA,NA,4830 N LOOP 1604 W,NA,SAN ANTONIO,TX,78249,NA,2024-06-27,24940.94,AD BUY,AD BUY,NA,NA,2024,Hogan
 SB17,C00869016,71882,ORG,Ragnar Research Partners,NA,NA,NA,NA,NA,103 E ST SE,NA,WASHINGTON,DC,20003,NA,2024-04-26,23350,POLLING STRAGEGY AND RESEARCH,POLLING STRAGEGY AND RESEARCH,NA,NA,2024,Hogan
 SB17,C00869016,71881,ORG,DC HOTELS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-17,22319.36,EVENT ROOM RENTAL,EVENT ROOM RENTAL,NA,NA,2024,Hogan
 SB17,C00869016,71880,ORG,TEAM3,NA,NA,NA,NA,NA,5331 WYE CREEK DRIVE,NA,FREDERICK,MD,21703,NA,2024-05-29,20010.68,SECURITY SERVICES,SECURITY SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,71879,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-06-04,19466.2,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,71879,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-06-04,19466.2,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71878,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-06-26,16956,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
 SB17,C00869016,71877,ORG,WERPOLITICS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-06,16500,DIGITAL SERVICES,DIGITAL SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,71876,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-06-27,16016.68,STAFFING - SEE MEMO,STAFFING - SEE MEMO,NA,NA,2024,Hogan
-SB17,C00869016,71875,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-05-08,14991.8,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,71875,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-05-08,14991.8,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71874,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-05-10,14921.15,STAFFING - SEE MEMO,STAFFING - SEE MEMO,NA,NA,2024,Hogan
-SB17,C00869016,71873,ORG,OSSOLA CONSULTING,NA,NA,NA,NA,NA,222 PRINCE GEORGE ST,NA,ANNAPOLIS,MD,21401,NA,2024-05-07,14621.3,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,71873,ORG,OSSOLA CONSULTING,NA,NA,NA,NA,NA,222 PRINCE GEORGE ST,NA,ANNAPOLIS,MD,21401,NA,2024-05-07,14621.3,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71872,ORG,TEAM3,NA,NA,NA,NA,NA,5331 WYE CREEK DRIVE,NA,FREDERICK,MD,21703,NA,2024-05-02,14196.68,SECURITY SERVICES,SECURITY SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,71871,ORG,STRATEGIC PARTNERS AND MEDIA,NA,NA,NA,NA,NA,1851 A MCGLUCKIAN ST,NA,ANNAPOLIS,MD,21401,NA,2024-05-01,13500,POLLING STRAGEGY AND RESEARCH,POLLING STRAGEGY AND RESEARCH,NA,NA,2024,Hogan
 SB17,C00869016,71870,ORG,NEIGHBORHOOD SIGNS AND STICKERS,NA,NA,NA,NA,NA,6655 AMBERTON DR,NA,ELKRIDGE,MD,21075,NA,2024-06-13,11519.23,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
@@ -2077,7 +2077,7 @@ SB17,C00869016,71865,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD
 SB17,C00869016,71863,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-04-26,10000,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
 SB17,C00869016,71864,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-05-31,10000,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
 SB17,C00869016,71866,ORG,TIBERIUS STRATEGIES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-28,10000,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
-SB17,C00869016,71862,ORG,SHANNA WOODBURY CONSULTING,NA,NA,NA,NA,NA,PO BOX 120697,NA,ST PAUL,MN,55112,NA,2024-06-06,9759.26,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,71862,ORG,SHANNA WOODBURY CONSULTING,NA,NA,NA,NA,NA,PO BOX 120697,NA,ST PAUL,MN,55112,NA,2024-06-06,9759.26,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71861,ORG,RED OCTOBER PRODUCTIONS,NA,NA,NA,NA,NA,1825 K STREET NW,NA,WASHINGTON,DC,20006,NA,2024-05-20,9441.6,MEDIA PRODUCTION,Media Production,NA,NA,2024,Hogan
 SB17,C00869016,71860,IND,NA,KWAK,KYU,NA,NA,NA,9025 MALER RD,NA,LAUREL,MD,20723,NA,2024-05-14,8850,CONTRACTOR FIELD STAFF,CONTRACTOR FIELD STAFF,NA,NA,2024,Hogan
 SB17,C00869016,71859,ORG,Ragnar Research Partners,NA,NA,NA,NA,NA,103 E ST SE,NA,WASHINGTON,DC,20003,NA,2024-05-06,8650,POLLING STRAGEGY AND RESEARCH,POLLING STRAGEGY AND RESEARCH,NA,NA,2024,Hogan
@@ -2086,7 +2086,7 @@ SB17,C00869016,71857,ORG,HIGHSTARR COPY & PRINT,NA,NA,NA,NA,NA,2661 MRIVA RD,NA,
 SB17,C00869016,71856,ORG,Capital Gifts LLC,NA,NA,NA,NA,NA,2134 ESPEY CT,NA,CROFTON,MD,21114,NA,2024-05-29,7632.58,EVENT GIFTS,EVENT GIFTS,NA,NA,2024,Hogan
 SB17,C00869016,71855,ORG,"Ashby Law, PLLC",NA,NA,NA,NA,NA,625 N WASHINGTON ST,NA,ALEXANDRIA,VA,22314,NA,2024-06-03,7500,LEGAL SERVICES,LEGAL SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,71854,ORG,"Ashby Law, PLLC",NA,NA,NA,NA,NA,625 N WASHINGTON ST,NA,ALEXANDRIA,VA,22314,NA,2024-05-01,7500,LEGAL SERVICES,LEGAL SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,71853,ORG,KENS CREATIVE KITCHEN,NA,NA,NA,NA,NA,980 AWALD RD,NA,ANNAPOLIS,MD,21403,NA,2024-05-01,7110,EVENT FOOD AND BEV,EVENT FOOD AND BEV,NA,NA,2024,Hogan
+SB17,C00869016,71853,ORG,KENS CREATIVE KITCHEN,NA,NA,NA,NA,NA,980 AWALD RD,NA,ANNAPOLIS,MD,21403,NA,2024-05-01,7110,EVENT FOOD AND BEV,Event Food & Beverages,NA,NA,2024,Hogan
 SB17,C00869016,71852,IND,NA,MAHER,BRIAN,NA,NA,NA,95 HEMLOCK RD,NA,SHORT HILLS,NJ,07078,NA,2024-04-26,6600,CONTRIBUTION REFUND,Contribution Refund,NA,NA,2024,Hogan
 SB17,C00869016,71851,ORG,ANEDOT,NA,NA,NA,NA,NA,1201 W PEACHTREE ST NW,NA,ATLANTA,GA,30308,NA,2024-05-24,6480.6,CHARGEBACK SERVICE CHARGE,CHARGEBACK SERVICE CHARGE,NA,NA,2024,Hogan
 SB17,C00869016,71850,IND,NA,KWAK,KYU,NA,NA,NA,9025 MALER RD,NA,LAUREL,MD,20723,NA,2024-06-10,6300,CONTRACTOR FIELD STAFF,CONTRACTOR FIELD STAFF,NA,NA,2024,Hogan
@@ -2099,7 +2099,7 @@ SB17,C00869016,71844,ORG,C. Shank Consulting,NA,NA,NA,NA,NA,918 COACH WAY,NA,ANN
 SB17,C00869016,71843,ORG,C. Shank Consulting,NA,NA,NA,NA,NA,918 COACH WAY,NA,ANNAPOLIS,MD,21401,NA,2024-05-13,5000,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
 SB17,C00869016,71845,IND,NA,KIMBER,DAMON,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-15,5000,CONTRIBUTION REFUND,Contribution Refund,NA,NA,2024,Hogan
 SB17,C00869016,71842,ORG,AXCAPITAL,NA,NA,NA,NA,NA,555 METRO PLACE N,NA,DUBLIN,OH,43017,NA,2024-04-25,5000,ACCOUNTING & COMPLIANCE,ACCOUNTING & COMPLIANCE,NA,NA,2024,Hogan
-SB17,C00869016,71840,ORG,SOCKO STRATEGIES,NA,NA,NA,NA,NA,1101 30TH ST,NA,WASHINGTON,DC,20007,NA,2024-06-26,4160,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,71840,ORG,SOCKO STRATEGIES,NA,NA,NA,NA,NA,1101 30TH ST,NA,WASHINGTON,DC,20007,NA,2024-06-26,4160,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71839,ORG,GRAND RENTAL EVENTS,NA,NA,NA,NA,NA,8251 TELEGRAPH RD,NA,ODENTON,MD,21113,NA,2024-05-01,4020.09,EVENT SUPPLIES,EVENT SUPPLIES,NA,NA,2024,Hogan
 SB17,C00869016,71838,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,VIENNA,VA,22182,NA,2024-06-11,4011.2,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,71837,ORG,MARYLAND STATE FAIR,NA,NA,NA,NA,NA,2200 York Road,NA,LUTHERVILLE-TIMONIUM,MD,21093,NA,2024-06-07,4000,BOOTH RENTAL,BOOTH RENTAL,NA,NA,2024,Hogan
@@ -2114,21 +2114,21 @@ SB17,C00869016,71829,IND,NA,MORENO,MARTA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-18,3
 SB17,C00869016,71828,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,VIENNA,VA,22182,NA,2024-05-10,2986.15,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,71827,IND,NA,MELOTT,TROY,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-01,2834.67,"MILEGAE, CAR, HOTEL, CAR","MILEGAE, CAR, HOTEL, CAR",NA,NA,2024,Hogan
 SB17,C00869016,71826,ORG,RED OCTOBER PRODUCTIONS,NA,NA,NA,NA,NA,1825 K STREET NW,NA,WASHINGTON,DC,20006,NA,2024-05-02,2638.39,MEDIA PRODUCTION,Media Production,NA,NA,2024,Hogan
-SB17,C00869016,71825,ORG,MAIANNA SAHL COMPANY,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-15,2630,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,71825,ORG,MAIANNA SAHL COMPANY,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-15,2630,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71824,ORG,MID ATLANTIC MEDIA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-22,2500,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71823,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-06-26,2500,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
 SB17,C00869016,71822,ORG,GRAND RENTAL EVENTS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-04-29,2262,EVENT SUPPLIES,EVENT SUPPLIES,NA,NA,2024,Hogan
 SB17,C00869016,71821,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-04-26,2167.87,STAFFING - SEE MEMO,STAFFING - SEE MEMO,NA,NA,2024,Hogan
 SB17,C00869016,71820,ORG,JMORE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-21,2100,AD BUY,AD BUY,NA,NA,2024,Hogan
-SB17,C00869016,71819,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-05-13,2000,FUNDRAISING MAILERS,FUNDRAISING MAILERS,NA,NA,2024,Hogan
+SB17,C00869016,71819,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-05-13,2000,FUNDRAISING MAILERS,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71818,ORG,HIGHSTARR COPY & PRINT,NA,NA,NA,NA,NA,2661 MRIVA RD,NA,ANNAPOLIS,MD,21401,NA,2024-05-06,1758.54,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71817,ORG,BACKSTAGE LLC,NA,NA,NA,NA,NA,310 W BROAD ST,NA,RICHMOND,VA,23220,NA,2024-06-27,1600,EVENT ENTERTAINMENT,EVENT ENTERTAINMENT,NA,NA,2024,Hogan
 SB17,C00869016,71816,ORG,MEETING STREET EXPERIENCES,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-24,1557.46,NA,NA,NA,NA,2024,Hogan
-SB17,C00869016,71815,IND,NA,MCSWAIN,GRAYSON,NA,NA,NA,522 BUFFLEHEAD DR,NA,KIAWAH ISLAND,SC,29455,NA,2024-05-06,1511.45,EXPENSE REIMBURSEMENT - MILEAGE,EXPENSE REIMBURSEMENT - MILEAGE,NA,NA,2024,Hogan
+SB17,C00869016,71815,IND,NA,MCSWAIN,GRAYSON,NA,NA,NA,522 BUFFLEHEAD DR,NA,KIAWAH ISLAND,SC,29455,NA,2024-05-06,1511.45,EXPENSE REIMBURSEMENT - MILEAGE,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,71814,ORG,LEXINGTON HOTEL,NA,NA,NA,NA,NA,511 LEXINGTON AVE,NA,NEW YORK,NY,10017,NA,2024-05-03,1437.05,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71813,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,VIENNA,VA,22182,NA,2024-06-14,1400,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,71812,ORG,LEXINGTON HOTEL,NA,NA,NA,NA,NA,511 LEXINGTON AVE,NA,NEW YORK,NY,10017,NA,2024-05-03,1322.04,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
-SB17,C00869016,71811,ORG,SOCKO STRATEGIES,NA,NA,NA,NA,NA,1101 30TH ST,NA,WASHINGTON,DC,20007,NA,2024-05-17,1320,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,71811,ORG,SOCKO STRATEGIES,NA,NA,NA,NA,NA,1101 30TH ST,NA,WASHINGTON,DC,20007,NA,2024-05-17,1320,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,71810,ORG,Drape Kings,NA,NA,NA,NA,NA,3200 LIBERTY AVE,NA,NORTH BERGEN,NJ,07047,NA,2024-05-03,1303.8,EVENT SUPPLIES,EVENT SUPPLIES,NA,NA,2024,Hogan
 SB17,C00869016,71809,ORG,RED OCTOBER PRODUCTIONS,NA,NA,NA,NA,NA,1825 K STREET NW,NA,WASHINGTON,DC,20006,NA,2024-05-20,1265,MEDIA PRODUCTION,Media Production,NA,NA,2024,Hogan
 SB17,C00869016,71808,ORG,Abe Lincoln Flags Banner & Signs,NA,NA,NA,NA,NA,8634 LEE HIGHWAY,NA,FAIRFAX,VA,22031,NA,2024-05-03,1250,FLAGS PURCHASE,FLAGS PURCHASE,NA,NA,2024,Hogan
@@ -2141,7 +2141,7 @@ SB17,C00869016,71802,ORG,WARWICKS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-04-29,11
 SB17,C00869016,71801,ORG,JOES CRAB,NA,NA,NA,NA,NA,750 15TH ST NW,NA,WASHINGTON,DC,20005,NA,2024-06-04,1058.08,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71799,ORG,GULF PARTYLINE,NA,NA,NA,NA,NA,230 Peachtree St NW,NA,ATLANTA,GA,30303,NA,2024-04-25,1000,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,71800,ORG,GULF PARTYLINE,NA,NA,NA,NA,NA,230 Peachtree St NW,NA,ATLANTA,GA,30303,NA,2024-06-03,1000,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,71798,ORG,MARYLAND ASSOCIATION,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-26,960,EVENT COSTS,EVENT COSTS,NA,NA,2024,Hogan
+SB17,C00869016,71798,ORG,MARYLAND ASSOCIATION,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-26,960,EVENT COSTS,EVENT TICKETS,NA,NA,2024,Hogan
 SB17,C00869016,71797,ORG,WARWICKS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-04-29,958.5,NA,NA,NA,NA,2024,Hogan
 SB17,C00869016,71796,ORG,HIGHSTARR COPY & PRINT,NA,NA,NA,NA,NA,2661 MRIVA RD,NA,ANNAPOLIS,MD,21401,NA,2024-06-10,933.86,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71795,IND,NA,MOORE,LAMARICE,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-17,900,BUS DRIVER,BUS DRIVER,NA,NA,2024,Hogan
@@ -2159,8 +2159,8 @@ SB17,C00869016,71783,ORG,PUBLIC STORAGE,NA,NA,NA,NA,NA,2439 SWISS AVE,NA,DALLAS,
 SB17,C00869016,71784,ORG,PUBLIC STORAGE,NA,NA,NA,NA,NA,2439 SWISS AVE,NA,DALLAS,TX,75204,NA,2024-06-04,579,STORAGE,STORAGE,NA,NA,2024,Hogan
 SB17,C00869016,71782,ORG,CHINA GARDEN,NA,NA,NA,NA,NA,8653 BELAIR RD,NA,BALTIMORE,MD,21236,NA,2024-06-06,560.74,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71781,ORG,CHINA GARDEN,NA,NA,NA,NA,NA,8653 BELAIR RD,NA,BALTIMORE,MD,21236,NA,2024-06-24,560,MEALS,MEALS,NA,NA,2024,Hogan
-SB17,C00869016,71780,IND,NA,ALTREE,LILLY,NA,NA,NA,2077 SOMERVILLE ROAD,NA,ANNAPOLIS,MD,21401,NA,2024-06-04,547.94,EXPENSE REIMBURSEMENT - FEDEX POSTAGE,EXPENSE REIMBURSEMENT - FEDEX POSTAGE,NA,NA,2024,Hogan
-SB17,C00869016,71779,ORG,ASTRO JUMP,NA,NA,NA,NA,NA,47 PAUL DR,NA,SAN RAFAEL,CA,94903,NA,2024-04-29,528.24,EVENT EXPENSE,EVENT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,71780,IND,NA,ALTREE,LILLY,NA,NA,NA,2077 SOMERVILLE ROAD,NA,ANNAPOLIS,MD,21401,NA,2024-06-04,547.94,EXPENSE REIMBURSEMENT - FEDEX POSTAGE,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
+SB17,C00869016,71779,ORG,ASTRO JUMP,NA,NA,NA,NA,NA,47 PAUL DR,NA,SAN RAFAEL,CA,94903,NA,2024-04-29,528.24,EVENT EXPENSE,EVENT TICKETS,NA,NA,2024,Hogan
 SB17,C00869016,71778,IND,NA,WEISS,DAVID,NA,NA,NA,581 PINEWOOD DR,NA,ANNAPOLIS,MD,21401,NA,2024-06-04,522.05,NA,NA,NA,NA,2024,Hogan
 SB17,C00869016,71775,IND,NA,DICKSON,JENNY,NA,NA,NA,544 OCEAN PKWY,NA,BERLIN,MD,21811,NA,2024-05-06,500,EVENT PREP,EVENT PREP,NA,NA,2024,Hogan
 SB17,C00869016,71776,IND,NA,DICKSON,JENNY,NA,NA,NA,544 OCEAN PKWY,NA,BERLIN,MD,21811,NA,2024-05-21,500,EVENT PREP,EVENT PREP,NA,NA,2024,Hogan
@@ -2189,12 +2189,12 @@ SB17,C00869016,71754,ORG,STRATEGIC PARTNERS AND MEDIA,NA,NA,NA,NA,NA,1851 A MCGL
 SB17,C00869016,71753,IND,NA,MOORE,LAMARICE,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-10,345,BUS DRIVER,BUS DRIVER,NA,NA,2024,Hogan
 SB17,C00869016,71752,ORG,USPS,NA,NA,NA,NA,NA,475 LENFANT PLAZA SW,NA,WASHINGTON,DC,20260,NA,2024-06-20,342.35,POSTAGE,Postage,NA,NA,2024,Hogan
 SB17,C00869016,71751,ORG,USPS,NA,NA,NA,NA,NA,475 LENFANT PLAZA SW,NA,WASHINGTON,DC,20260,NA,2024-05-16,340,POSTAGE,Postage,NA,NA,2024,Hogan
-SB17,C00869016,71750,ORG,MARYLAND ASSOCIATION,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-26,320,EVENT COSTS,EVENT COSTS,NA,NA,2024,Hogan
+SB17,C00869016,71750,ORG,MARYLAND ASSOCIATION,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-26,320,EVENT COSTS,EVENT TICKETS,NA,NA,2024,Hogan
 SB17,C00869016,71749,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-06-07,313.59,STAFFING - SEE MEMO,STAFFING - SEE MEMO,NA,NA,2024,Hogan
 SB17,C00869016,71748,ORG,RED OCTOBER PRODUCTIONS,NA,NA,NA,NA,NA,1825 K STREET NW,NA,WASHINGTON,DC,20006,NA,2024-05-02,311.94,MEDIA PRODUCTION,Media Production,NA,NA,2024,Hogan
 SB17,C00869016,71747,ORG,"Ashby Law, PLLC",NA,NA,NA,NA,NA,625 N WASHINGTON ST,NA,ALEXANDRIA,VA,22314,NA,2024-06-03,309,LEGAL SERVICES,LEGAL SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,71746,IND,NA,KEITER,EDWARD,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-15,300,CONTRIBUTION REFUND,Contribution Refund,NA,NA,2024,Hogan
-SB17,C00869016,71745,IND,KYLE MCCOLGAN,MCCOLGAN,KYLE,NA,NA,NA,704 ANGES DORSEY PL,NA,ANNAPOLIS,MD,21401,NA,2024-04-26,290.07,EXPENSE REIMBURSEMENT - NO SUBVENDORS AGGREGATE 200,EXPENSE REIMBURSEMENT - NO SUBVENDORS AGGREGATE 200,NA,NA,2024,Hogan
+SB17,C00869016,71745,IND,KYLE MCCOLGAN,MCCOLGAN,KYLE,NA,NA,NA,704 ANGES DORSEY PL,NA,ANNAPOLIS,MD,21401,NA,2024-04-26,290.07,EXPENSE REIMBURSEMENT - NO SUBVENDORS AGGREGATE 200,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,71744,ORG,AMAZON,NA,NA,NA,NA,NA,410 TERRY STREET,NA,SEATTLE,WA,98109,NA,2024-05-10,288.62,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71743,ORG,THE RATHSKELLER,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-13,286.38,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71740,ORG,SOUTHWEST AIRLINES,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-06-17,278.98,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
@@ -2206,7 +2206,7 @@ SB17,C00869016,71737,ORG,DELTA,NA,NA,NA,NA,NA,1030 DELTA BLVD,NA,ATLANTA,GA,3035
 SB17,C00869016,71736,ORG,DELTA,NA,NA,NA,NA,NA,1030 DELTA BLVD,NA,ATLANTA,GA,30354,NA,2024-06-04,268.5,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71735,ORG,DELTA,NA,NA,NA,NA,NA,1030 DELTA BLVD,NA,ATLANTA,GA,30354,NA,2024-06-04,268.5,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71734,ORG,EZPASS NJ,NA,NA,NA,NA,NA,375 Mccarter Hwy,NA,NEWARK,NJ,07114,NA,2024-05-17,254.95,TOLLS,TOLLS,NA,NA,2024,Hogan
-SB17,C00869016,71733,IND,NA,ALTREE,LILLY,NA,NA,NA,2077 SOMERVILLE ROAD,NA,ANNAPOLIS,MD,21401,NA,2024-05-14,253.09,EXPENSE REIMBURSEMENT - NO SUBVENDORS AGGREGATE 200,EXPENSE REIMBURSEMENT - NO SUBVENDORS AGGREGATE 200,NA,NA,2024,Hogan
+SB17,C00869016,71733,IND,NA,ALTREE,LILLY,NA,NA,NA,2077 SOMERVILLE ROAD,NA,ANNAPOLIS,MD,21401,NA,2024-05-14,253.09,EXPENSE REIMBURSEMENT - NO SUBVENDORS AGGREGATE 200,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,71731,IND,NA,DICKSON,JENNY,NA,NA,NA,544 OCEAN PKWY,NA,BERLIN,MD,21811,NA,2024-06-06,250,EVENT PREP,EVENT PREP,NA,NA,2024,Hogan
 SB17,C00869016,71732,IND,NA,DICKSON,JENNY,NA,NA,NA,544 OCEAN PKWY,NA,BERLIN,MD,21811,NA,2024-06-28,250,EVENT PREP,EVENT PREP,NA,NA,2024,Hogan
 SB17,C00869016,71730,ORG,TRACTOR SUPPLY,NA,NA,NA,NA,NA,5401 VIRGINIA WAY,NA,BRENTWOOD,TN,37027,NA,2024-05-03,247.73,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
@@ -2221,7 +2221,7 @@ SB17,C00869016,71722,ORG,HIGHSTARR COPY & PRINT,NA,NA,NA,NA,NA,2661 MRIVA RD,NA,
 SB17,C00869016,71721,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-05-01,218.95,MILEAGE AND MEAL,MILEAGE AND MEAL,NA,NA,2024,Hogan
 SB17,C00869016,71720,ORG,Numinar Inc,NA,NA,NA,NA,NA,1201 WILSON BLVD,NA,ARLINGTON,VA,22209,NA,2024-05-10,210.25,PHONES,PHONES,NA,NA,2024,Hogan
 SB17,C00869016,71719,ORG,TEAM3,NA,NA,NA,NA,NA,5331 WYE CREEK DRIVE,NA,FREDERICK,MD,21703,NA,2024-05-02,210,SECURITY SERVICES,SECURITY SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,71718,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-06-24,208.37,EXPENSE REIMBURSEMENT - MILEAGE,EXPENSE REIMBURSEMENT - MILEAGE,NA,NA,2024,Hogan
+SB17,C00869016,71718,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-06-24,208.37,EXPENSE REIMBURSEMENT - MILEAGE,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,71717,ORG,HIGHSTARR COPY & PRINT,NA,NA,NA,NA,NA,2661 MRIVA RD,NA,ANNAPOLIS,MD,21401,NA,2024-04-25,206.17,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71715,ORG,CORNERSTONE,NA,NA,NA,NA,NA,5609 SANDY LEWIS DR.,NA,FAIRFAX,VA,22032,NA,2024-06-20,200,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71716,ORG,DUNDLEKIND,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-24,200,MEALS,MEALS,NA,NA,2024,Hogan
@@ -2243,7 +2243,7 @@ SB17,C00869016,71700,ORG,POTBELLY,NA,NA,NA,NA,NA,111 NORTH CANAL ST,NA,CHICAGO,I
 SB17,C00869016,71699,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-06-24,144.05,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,71698,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-06-24,138.02,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,71697,ORG,MATTITOS,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-04-25,131.23,MEALS,MEALS,NA,NA,2024,Hogan
-SB17,C00869016,71696,ORG,SUNOCO,NA,NA,NA,NA,NA,8111 WESTCHESTER DR,NA,DALLAS,TX,75225,NA,2024-05-20,128.78,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71696,ORG,SUNOCO,NA,NA,NA,NA,NA,8111 WESTCHESTER DR,NA,DALLAS,TX,75225,NA,2024-05-20,128.78,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71695,ORG,CHICK-FIL-A,NA,NA,NA,NA,NA,5200 BUFFINGTON ROAD,NA,ATLANTA,GA,30349,NA,2024-05-20,127.11,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71694,ORG,JIMMY JOHNS,NA,NA,NA,NA,NA,2212 FOX DR,NA,CHAMPAIGN,IL,61820,NA,2024-05-22,126.81,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71693,ORG,FEDEX,NA,NA,NA,NA,NA,942 SOUTH SHADY GROVE RD,NA,MEMPHIS,TN,38120,NA,2024-05-23,125.8,POSTAGE,Postage,NA,NA,2024,Hogan
@@ -2258,10 +2258,10 @@ SB17,C00869016,71685,ORG,PUBLIC STORAGE,NA,NA,NA,NA,NA,2439 SWISS AVE,NA,DALLAS,
 SB17,C00869016,71684,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-05-21,101.84,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,71683,ORG,LEDO PIZZA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-07,101.33,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71682,ORG,UBER,NA,NA,NA,NA,NA,1725 THIRD STREET,NA,SAN FRANCISCO,CA,94158,NA,2024-05-01,98.81,TRAVEL CAR EXPENSE,TRAVEL CAR EXPENSE,NA,NA,2024,Hogan
-SB17,C00869016,71681,ORG,PAROLE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-03,97.58,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71681,ORG,PAROLE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-03,97.58,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71680,IND,NA,MCSWAIN,GRAYSON,NA,NA,NA,522 BUFFLEHEAD DR,NA,KIAWAH ISLAND,SC,29455,NA,2024-05-14,95.83,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,71679,ORG,HIGHS 51,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-29,95.47,MEALS,MEALS,NA,NA,2024,Hogan
-SB17,C00869016,71678,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-06-07,95.24,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71678,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-06-07,95.24,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71677,ORG,WOOLFORD GENERAL STORE,NA,NA,NA,NA,NA,1614 TAYLORS ISLAND RD,NA,WOOLFORD,MD,21677,NA,2024-05-29,94.82,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71676,ORG,BWI,NA,NA,NA,NA,NA,7050 FRIENDSHIP RD,NA,BALTIMORE,MD,21240,NA,2024-04-29,90,PARKING,PARKING,NA,NA,2024,Hogan
 SB17,C00869016,71675,ORG,UBER,NA,NA,NA,NA,NA,1725 THIRD STREET,NA,SAN FRANCISCO,CA,94158,NA,2024-05-01,86.35,TRAVEL CAR EXPENSE,TRAVEL CAR EXPENSE,NA,NA,2024,Hogan
@@ -2270,27 +2270,27 @@ SB17,C00869016,71673,ORG,PUBLIC STORAGE,NA,NA,NA,NA,NA,2439 SWISS AVE,NA,DALLAS,
 SB17,C00869016,71671,ORG,POTBELLY,NA,NA,NA,NA,NA,111 NORTH CANAL ST,NA,CHICAGO,IL,60606,NA,2024-05-06,84.31,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71672,ORG,POTBELLY,NA,NA,NA,NA,NA,111 NORTH CANAL ST,NA,CHICAGO,IL,60606,NA,2024-06-03,84.31,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71670,ORG,UBER,NA,NA,NA,NA,NA,1725 THIRD STREET,NA,SAN FRANCISCO,CA,94158,NA,2024-06-17,82.53,TRAVEL CAR EXPENSE,TRAVEL CAR EXPENSE,NA,NA,2024,Hogan
-SB17,C00869016,71668,ORG,WAWA,NA,NA,NA,NA,NA,260 WEST BALTIMORE PIKE,NA,WAWA,PA,19063,NA,2024-05-07,79.89,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,71667,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-02,77.77,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,71666,ORG,EXXON,NA,NA,NA,NA,NA,22777 SPRINGWOODS VILLAGE,NA,PARKWAY SPRING,TX,77389,NA,2024-06-20,76.23,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71668,ORG,WAWA,NA,NA,NA,NA,NA,260 WEST BALTIMORE PIKE,NA,WAWA,PA,19063,NA,2024-05-07,79.89,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,71667,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-02,77.77,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,71666,ORG,EXXON,NA,NA,NA,NA,NA,22777 SPRINGWOODS VILLAGE,NA,PARKWAY SPRING,TX,77389,NA,2024-06-20,76.23,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71665,ORG,HIGHSTARR COPY & PRINT,NA,NA,NA,NA,NA,2661 MRIVA RD,NA,ANNAPOLIS,MD,21401,NA,2024-06-10,73.14,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71664,ORG,ROYAL FARMS,NA,NA,NA,NA,NA,700 ANNAPOLIS RD,NA,GAMBRILLS,MD,21054,NA,2024-04-30,72.25,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71663,ORG,HOME DEPOT,NA,NA,NA,NA,NA,2455 PACES FERRY RD,NA,ATLANTA,GA,30339,NA,2024-06-24,67.58,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71662,ORG,CHAMPION PARKING,NA,NA,NA,NA,NA,230 W 55TH ST,NA,NEW YORK,NY,10019,NA,2024-06-20,66.95,PARKING,PARKING,NA,NA,2024,Hogan
 SB17,C00869016,71661,ORG,HOME DEPOT,NA,NA,NA,NA,NA,2455 PACES FERRY RD,NA,ATLANTA,GA,30339,NA,2024-05-28,65.7,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
-SB17,C00869016,71660,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-03,64.87,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,71659,ORG,BP,NA,NA,NA,NA,NA,501 WESTLAKE PARK BLVD,NA,HOUSTON,TX,77079,NA,2024-06-12,63.51,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,71658,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-02,60.27,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,71657,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-10,60.26,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71660,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-03,64.87,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,71659,ORG,BP,NA,NA,NA,NA,NA,501 WESTLAKE PARK BLVD,NA,HOUSTON,TX,77079,NA,2024-06-12,63.51,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,71658,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-02,60.27,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,71657,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-10,60.26,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71656,ORG,SHAKE SHACK,NA,NA,NA,NA,NA,225 VARICK ST,NA,NEW YORK,NY,10014,NA,2024-05-13,59.82,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71655,ORG,DAVIDSON,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-09,59.72,NA,NA,NA,NA,2024,Hogan
-SB17,C00869016,71654,ORG,SAFEWAY,NA,NA,NA,NA,NA,250 E PARKCENTER BLVD,NA,BOISE,ID,83706,NA,2024-06-28,58.78,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71654,ORG,SAFEWAY,NA,NA,NA,NA,NA,250 E PARKCENTER BLVD,NA,BOISE,ID,83706,NA,2024-06-28,58.78,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71653,ORG,CUBESMART,NA,NA,NA,NA,NA,5 OLD LANCASTER RD,NA,MALVERN,PA,19355,NA,2024-06-20,58.5,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71652,ORG,CUBESMART,NA,NA,NA,NA,NA,5 OLD LANCASTER RD,NA,MALVERN,PA,19355,NA,2024-05-20,58.5,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71651,ORG,HOME DEPOT,NA,NA,NA,NA,NA,2455 PACES FERRY RD,NA,ATLANTA,GA,30339,NA,2024-06-04,57.97,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71650,ORG,EZPASS NY,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-28,57.64,TOLLS,TOLLS,NA,NA,2024,Hogan
 SB17,C00869016,71649,ORG,HIGHS 51,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-30,56.42,MEALS,MEALS,NA,NA,2024,Hogan
-SB17,C00869016,71648,ORG,BP,NA,NA,NA,NA,NA,501 WESTLAKE PARK BLVD,NA,HOUSTON,TX,77079,NA,2024-05-01,56.23,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71648,ORG,BP,NA,NA,NA,NA,NA,501 WESTLAKE PARK BLVD,NA,HOUSTON,TX,77079,NA,2024-05-01,56.23,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71647,ORG,STARBUCKS,NA,NA,NA,NA,NA,PO BOX 34067,NA,SEATTLE,WA,98124,NA,2024-06-28,55.54,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71646,ORG,PUTNAM RESTAURANT,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-13,55.21,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71645,ORG,CHICK-FIL-A,NA,NA,NA,NA,NA,5200 BUFFINGTON ROAD,NA,ATLANTA,GA,30349,NA,2024-05-31,55.17,MEALS,MEALS,NA,NA,2024,Hogan
@@ -2298,7 +2298,7 @@ SB17,C00869016,71644,ORG,LYFT,NA,NA,NA,NA,NA,185 BERRY ST,NA,SAN FRANCISCO,CA,94
 SB17,C00869016,71643,ORG,FEDEX,NA,NA,NA,NA,NA,942 SOUTH SHADY GROVE RD,NA,MEMPHIS,TN,38120,NA,2024-06-28,54.75,POSTAGE,Postage,NA,NA,2024,Hogan
 SB17,C00869016,71642,ORG,UBER,NA,NA,NA,NA,NA,1725 THIRD STREET,NA,SAN FRANCISCO,CA,94158,NA,2024-04-26,54.68,TRAVEL CAR EXPENSE,TRAVEL CAR EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71641,ORG,ETOLL,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-28,51.84,TOLLS,TOLLS,NA,NA,2024,Hogan
-SB17,C00869016,71640,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PKWY,NA,HOUSTON,TX,77077,NA,2024-05-31,50,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71640,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PKWY,NA,HOUSTON,TX,77077,NA,2024-05-31,50,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71639,ORG,AMAZON,NA,NA,NA,NA,NA,410 TERRY STREET,NA,SEATTLE,WA,98109,NA,2024-05-21,48.8,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71638,ORG,ROYAL FARMS,NA,NA,NA,NA,NA,700 ANNAPOLIS RD,NA,GAMBRILLS,MD,21054,NA,2024-06-07,48.67,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71637,ORG,HIGHSTARR COPY & PRINT,NA,NA,NA,NA,NA,2661 MRIVA RD,NA,ANNAPOLIS,MD,21401,NA,2024-06-10,47.7,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
@@ -2307,10 +2307,10 @@ SB17,C00869016,71634,ORG,WESTIN,NA,NA,NA,NA,NA,1900 5TH AVE,NA,SEATTLE,WA,98101,
 SB17,C00869016,71635,ORG,WESTIN,NA,NA,NA,NA,NA,1900 5TH AVE,NA,SEATTLE,WA,98101,NA,2024-06-27,46.02,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71633,ORG,PRUDENTIAL,NA,NA,NA,NA,NA,751 Broad Street Prudential Plaza,NA,NEWARK,NJ,07102,NA,2024-06-21,46,INSURANCE,Insurance,NA,NA,2024,Hogan
 SB17,C00869016,71632,ORG,COSMO,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-20,45,NA,NA,NA,NA,2024,Hogan
-SB17,C00869016,71631,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-23,44.49,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71631,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-05-23,44.49,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71630,ORG,HUDSON,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-01,43.39,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71629,ORG,FEDEX,NA,NA,NA,NA,NA,942 SOUTH SHADY GROVE RD,NA,MEMPHIS,TN,38120,NA,2024-05-16,43.26,POSTAGE,Postage,NA,NA,2024,Hogan
-SB17,C00869016,71628,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-06-17,42.47,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71628,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-06-17,42.47,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71627,ORG,FEDEX,NA,NA,NA,NA,NA,942 SOUTH SHADY GROVE RD,NA,MEMPHIS,TN,38120,NA,2024-06-14,41.82,POSTAGE,Postage,NA,NA,2024,Hogan
 SB17,C00869016,71626,ORG,RITAS,NA,NA,NA,NA,NA,1396 Cape St. Claire Road,NA,Annapolis,MD,21409,NA,2024-06-26,41.13,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71625,ORG,POPEYES,NA,NA,NA,NA,NA,400 PERIMETER CENTER TER NE,NA,ATLANTA,GA,30346,NA,2024-05-15,40.47,MEALS,MEALS,NA,NA,2024,Hogan
@@ -2320,7 +2320,7 @@ SB17,C00869016,71621,ORG,CHICK-FIL-A,NA,NA,NA,NA,NA,5200 BUFFINGTON ROAD,NA,ATLA
 SB17,C00869016,71620,ORG,E BULAWKA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-20,35,CONTRIBUTION REFUND,Contribution Refund,NA,NA,2024,Hogan
 SB17,C00869016,71619,ORG,CHICK-FIL-A,NA,NA,NA,NA,NA,5200 BUFFINGTON ROAD,NA,ATLANTA,GA,30349,NA,2024-04-26,33.86,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71618,ORG,CHICK-FIL-A,NA,NA,NA,NA,NA,5200 BUFFINGTON ROAD,NA,ATLANTA,GA,30349,NA,2024-06-14,33.36,MEALS,MEALS,NA,NA,2024,Hogan
-SB17,C00869016,71617,ORG,EXXON,NA,NA,NA,NA,NA,22777 SPRINGWOODS VILLAGE,NA,PARKWAY SPRING,TX,77389,NA,2024-06-20,33.27,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71617,ORG,EXXON,NA,NA,NA,NA,NA,22777 SPRINGWOODS VILLAGE,NA,PARKWAY SPRING,TX,77389,NA,2024-06-20,33.27,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71616,ORG,Numinar Inc,NA,NA,NA,NA,NA,1201 WILSON BLVD,NA,ARLINGTON,VA,22209,NA,2024-05-28,33.1,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71615,ORG,FEDEX,NA,NA,NA,NA,NA,942 SOUTH SHADY GROVE RD,NA,MEMPHIS,TN,38120,NA,2024-05-02,32.14,POSTAGE,Postage,NA,NA,2024,Hogan
 SB17,C00869016,71614,ORG,UBER,NA,NA,NA,NA,NA,1725 THIRD STREET,NA,SAN FRANCISCO,CA,94158,NA,2024-06-24,30.11,TRAVEL CAR EXPENSE,TRAVEL CAR EXPENSE,NA,NA,2024,Hogan
@@ -2333,8 +2333,8 @@ SB17,C00869016,71608,ORG,HUDSON,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-04-29,25.3
 SB17,C00869016,71607,ORG,UBER,NA,NA,NA,NA,NA,1725 THIRD STREET,NA,SAN FRANCISCO,CA,94158,NA,2024-06-20,25.07,TRAVEL CAR EXPENSE,TRAVEL CAR EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71579,ORG,CHAIN BRIDGE BANK,NA,NA,NA,NA,NA,1455A LAUGHLIN AVE,NA,MCLEAN,VA,22101,NA,2024-05-13,25,BANK FEES,BANK FEES,NA,NA,2024,Hogan
 SB17,C00869016,71605,ORG,DRIVEEZ MD,NA,NA,NA,NA,NA,PO BOX 8,NA,NEWBURG,MD,20602,NA,2024-06-13,25,"DBT CRD 0152 06/11/24 DB1TXFGR DBT CRD 0152 06/11/24 DB1TXFGR, DRIVEEZMD REBILL, 5555555555 MD C#023","DBT CRD 0152 06/11/24 DB1TXFGR DBT CRD 0152 06/11/24 DB1TXFGR, DRIVEEZMD REBILL, 5555555555 MD C#023",NA,NA,2024,Hogan
-SB17,C00869016,71604,ORG,DRIVEEZ MD,NA,NA,NA,NA,NA,PO BOX 8,NA,NEWBURG,MD,20602,NA,2024-05-15,25,"DBT CRD 1501 05/13/24 DBB9IOO0 DBT CRD 1501 05/13/24 DBB9IOO0, DRIVEEZMD REBILL, 5555555555 MD C#023","DBT CRD 1501 05/13/24 DBB9IOO0 DBT CRD 1501 05/13/24 DBB9IOO0, DRIVEEZMD REBILL, 5555555555 MD C#023",NA,NA,2024,Hogan
-SB17,C00869016,71603,ORG,DRIVEEZ MD,NA,NA,NA,NA,NA,PO BOX 8,NA,NEWBURG,MD,20602,NA,2024-05-13,25,"DBT CRD 1526 05/10/24 DBL65V9L DBT CRD 1526 05/10/24 DBL65V9L, DRIVEEZMD REBILL, 5555555555 MD C#023","DBT CRD 1526 05/10/24 DBL65V9L DBT CRD 1526 05/10/24 DBL65V9L, DRIVEEZMD REBILL, 5555555555 MD C#023",NA,NA,2024,Hogan
+SB17,C00869016,71604,ORG,DRIVEEZ MD,NA,NA,NA,NA,NA,PO BOX 8,NA,NEWBURG,MD,20602,NA,2024-05-15,25,"DBT CRD 1501 05/13/24 DBB9IOO0 DBT CRD 1501 05/13/24 DBB9IOO0, DRIVEEZMD REBILL, 5555555555 MD C#023","DBT CRD 0152 06/11/24 DB1TXFGR DBT CRD 0152 06/11/24 DB1TXFGR, DRIVEEZMD REBILL, 5555555555 MD C#023",NA,NA,2024,Hogan
+SB17,C00869016,71603,ORG,DRIVEEZ MD,NA,NA,NA,NA,NA,PO BOX 8,NA,NEWBURG,MD,20602,NA,2024-05-13,25,"DBT CRD 1526 05/10/24 DBL65V9L DBT CRD 1526 05/10/24 DBL65V9L, DRIVEEZMD REBILL, 5555555555 MD C#023","DBT CRD 0152 06/11/24 DB1TXFGR DBT CRD 0152 06/11/24 DB1TXFGR, DRIVEEZMD REBILL, 5555555555 MD C#023",NA,NA,2024,Hogan
 SB17,C00869016,71602,ORG,DELTA,NA,NA,NA,NA,NA,1030 DELTA BLVD,NA,ATLANTA,GA,30354,NA,2024-06-10,25,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71601,ORG,CHAIN BRIDGE BANK,NA,NA,NA,NA,NA,1455A LAUGHLIN AVE,NA,MCLEAN,VA,22101,NA,2024-06-27,25,BANK FEES,BANK FEES,NA,NA,2024,Hogan
 SB17,C00869016,71600,ORG,CHAIN BRIDGE BANK,NA,NA,NA,NA,NA,1455A LAUGHLIN AVE,NA,MCLEAN,VA,22101,NA,2024-06-27,25,BANK FEES,BANK FEES,NA,NA,2024,Hogan
@@ -2379,7 +2379,7 @@ SB17,C00869016,71561,ORG,FEDEX,NA,NA,NA,NA,NA,942 SOUTH SHADY GROVE RD,NA,MEMPHI
 SB17,C00869016,71560,ORG,BWI,NA,NA,NA,NA,NA,7050 FRIENDSHIP RD,NA,BALTIMORE,MD,21240,NA,2024-06-27,22,PARKING,PARKING,NA,NA,2024,Hogan
 SB17,C00869016,71559,ORG,BWI,NA,NA,NA,NA,NA,7050 FRIENDSHIP RD,NA,BALTIMORE,MD,21240,NA,2024-06-27,22,PARKING,PARKING,NA,NA,2024,Hogan
 SB17,C00869016,71558,ORG,FEDEX,NA,NA,NA,NA,NA,942 SOUTH SHADY GROVE RD,NA,MEMPHIS,TN,38120,NA,2024-06-24,21.9,POSTAGE,Postage,NA,NA,2024,Hogan
-SB17,C00869016,71557,ORG,DBZZY,NA,NA,NA,NA,NA,2500 S BICENTENNIAL BLVD,NA,MCALLEN,TX,78503,NA,2024-04-26,21.41,"DBT CRD 1640 04/25/24 DBZZYO0E DBT CRD 1640 04/25/24 DBZZYO0E, OAKWELLS #154, MCALLEN TX C#0078","DBT CRD 1640 04/25/24 DBZZYO0E DBT CRD 1640 04/25/24 DBZZYO0E, OAKWELLS #154, MCALLEN TX C#0078",NA,NA,2024,Hogan
+SB17,C00869016,71557,ORG,DBZZY,NA,NA,NA,NA,NA,2500 S BICENTENNIAL BLVD,NA,MCALLEN,TX,78503,NA,2024-04-26,21.41,"DBT CRD 1640 04/25/24 DBZZYO0E DBT CRD 1640 04/25/24 DBZZYO0E, OAKWELLS #154, MCALLEN TX C#0078","DBT CRD 0152 06/11/24 DB1TXFGR DBT CRD 0152 06/11/24 DB1TXFGR, DRIVEEZMD REBILL, 5555555555 MD C#023",NA,NA,2024,Hogan
 SB17,C00869016,71556,ORG,WESTIN,NA,NA,NA,NA,NA,1900 5TH AVE,NA,SEATTLE,WA,98101,NA,2024-06-28,20.9,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71555,ORG,Numinar Inc,NA,NA,NA,NA,NA,1201 WILSON BLVD,NA,ARLINGTON,VA,22209,NA,2024-06-27,20,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71554,ORG,CONSTANTINE,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-03,19.2,NA,NA,NA,NA,2024,Hogan
@@ -2390,7 +2390,7 @@ SB17,C00869016,71550,ORG,WOOLFORD GENERAL STORE,NA,NA,NA,NA,NA,1614 TAYLORS ISLA
 SB17,C00869016,71549,ORG,HOME DEPOT,NA,NA,NA,NA,NA,2455 PACES FERRY RD,NA,ATLANTA,GA,30339,NA,2024-05-09,16.84,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71548,ORG,HBOOKSELLER,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-26,16.8,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,71547,ORG,TARGET,NA,NA,NA,NA,NA,1000 NICOLLET MALL,NA,MINNEAPOLIS,MN,55403,NA,2024-06-27,16.41,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
-SB17,C00869016,71546,ORG,EXXON,NA,NA,NA,NA,NA,22777 SPRINGWOODS VILLAGE,NA,PARKWAY SPRING,TX,77389,NA,2024-06-20,16.27,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,71546,ORG,EXXON,NA,NA,NA,NA,NA,22777 SPRINGWOODS VILLAGE,NA,PARKWAY SPRING,TX,77389,NA,2024-06-20,16.27,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,71545,ORG,GIANT FOOD,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-06-06,15.67,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71544,ORG,CHICK-FIL-A,NA,NA,NA,NA,NA,5200 BUFFINGTON ROAD,NA,ATLANTA,GA,30349,NA,2024-06-20,15.1,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,71543,ORG,PARKING.COM,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-05-28,14.99,PARKING,PARKING,NA,NA,2024,Hogan
@@ -2438,12 +2438,12 @@ SB17,C00869016,VPP169,ORG,M2 PLACEMENT,NA,NA,NA,NA,NA,10065 E HARVARD AVE,NA,DEN
 SB17,C00869016,VPP168,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-04-10,104415.24,STAFFING SERVICES,STAFFING SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,VPP167,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-04-17,52971,PRINT ADS,PRINT ADS,NA,NA,2024,Hogan
 SB17,C00869016,VPP166,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-04-01,48475,PRINT ADS,PRINT ADS,NA,NA,2024,Hogan
-SB17,C00869016,VPP165,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-04-15,38814.44,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,VPP164,ORG,OSSOLA CONSULTING,NA,NA,NA,NA,NA,222 PRINCE GEORGE ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-15,38813.44,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,VPP163,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-04-17,38300.76,TEXT MESSAGE SERVICES,TEXT MESSAGE SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,VPP165,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-04-15,38814.44,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
+SB17,C00869016,VPP164,ORG,OSSOLA CONSULTING,NA,NA,NA,NA,NA,222 PRINCE GEORGE ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-15,38813.44,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
+SB17,C00869016,VPP163,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-04-17,38300.76,TEXT MESSAGE SERVICES,Text Messaging Services,NA,NA,2024,Hogan
 SB17,C00869016,VPP162,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-04-22,34195,PRINT ADS,PRINT ADS,NA,NA,2024,Hogan
 SB17,C00869016,VPP161,ORG,BELLWETHER RESEARCH,NA,NA,NA,NA,NA,950 N WASHINGTON ST,NA,ALEXANDRIA,VA,22314,NA,2024-04-18,31000,RESEARCH SERVICES,RESEARCH SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,VPP171,ORG,WINRED,NA,NA,NA,NA,NA,1776 WILSON BLVD,NA,ARLINGTON,VA,22209,NA,2024-04-24,26987.07,CREDIT CARD PROCESSING,CREDIT CARD PROCESSING,NA,NA,2024,Hogan
+SB17,C00869016,VPP171,ORG,WINRED,NA,NA,NA,NA,NA,1776 WILSON BLVD,NA,ARLINGTON,VA,22209,NA,2024-04-24,26987.07,CREDIT CARD PROCESSING,Credit Card Fees,NA,NA,2024,Hogan
 SB17,C00869016,VPP160,ORG,NEIGHBORHOOD SIGNS AND STICKERS,NA,NA,NA,NA,NA,6655 AMBERTON DR,NA,ELKRIDGE,MD,21075,NA,2024-04-23,24179.29,PRINT EXPENSE,PRINT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP159,ORG,TEAM3,NA,NA,NA,NA,NA,5331 WYE CREEK DRIVE,NA,FREDERICK,MD,21703,NA,2024-04-01,19660,SECURITY SERVICES,SECURITY SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,VPP157,ORG,STRATEGIC PARTNERS AND MEDIA,NA,NA,NA,NA,NA,1851 A MCGLUCKIAN ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-05,9000,DIGITAL SERVICES,DIGITAL SERVICES,NA,NA,2024,Hogan
@@ -2454,15 +2454,15 @@ SB17,C00869016,VPP153,ORG,HOGAN COMPANIES,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,A
 SB17,C00869016,VPP152,IND,NA,KWAK,KYU,NA,NA,NA,9025 MALER RD,NA,LAUREL,MD,20723,NA,2024-04-10,5100,CONTRACTOR FIELD STAFF,CONTRACTOR FIELD STAFF,NA,NA,2024,Hogan
 SB17,C00869016,VPP151,ORG,AXCAPITAL,NA,NA,NA,NA,NA,555 METRO PLACE N,NA,DUBLIN,OH,43017,NA,2024-04-18,5000,ACCOUNTING & COMPLIANCE,ACCOUNTING & COMPLIANCE,NA,NA,2024,Hogan
 SB17,C00869016,VPP150,ORG,STRATEGIC PARTNERS AND MEDIA,NA,NA,NA,NA,NA,1851 A MCGLUCKIAN ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-10,4500,DIGITAL SERVICES,DIGITAL SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,VPP149,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-04-02,4121.94,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,VPP149,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-04-02,4121.94,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,VPP147,ORG,KENS CREATIVE KITCHEN,NA,NA,NA,NA,NA,980 AWALD RD,NA,ANNAPOLIS,MD,21403,NA,2024-04-05,4009,FOOD & BEV,FOOD & BEV,NA,NA,2024,Hogan
-SB17,C00869016,VPP146,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-04-17,4000,TEXT MESSAGE SERVICES,TEXT MESSAGE SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,VPP146,ORG,THE LUKENS COMPANY,NA,NA,NA,NA,NA,2800 SHIRLINGTON RD,NA,ARLINGTON,VA,22206,NA,2024-04-17,4000,TEXT MESSAGE SERVICES,Text Messaging Services,NA,NA,2024,Hogan
 SB17,C00869016,VPSPP9,ORG,CANOPY,NA,NA,NA,NA,NA,7930 JONES BRANCH DRIVE,NA,MCLEAN,VA,22102,NA,2024-03-28,3422.94,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,VPP145,ORG,BAYSIDE CATERING,NA,NA,NA,NA,NA,108 W CENTRAL AVE,NA,EDGEWATER,MD,21037,NA,2024-04-02,2769.96,FOOD & BEV,FOOD & BEV,NA,NA,2024,Hogan
-SB17,C00869016,VPP170,ORG,ANEDOT,NA,NA,NA,NA,NA,1201 W PEACHTREE ST NW,NA,ATLANTA,GA,30308,NA,2024-04-24,2763.14,CREDIT CARD PROCESSING,CREDIT CARD PROCESSING,NA,NA,2024,Hogan
+SB17,C00869016,VPP170,ORG,ANEDOT,NA,NA,NA,NA,NA,1201 W PEACHTREE ST NW,NA,ATLANTA,GA,30308,NA,2024-04-24,2763.14,CREDIT CARD PROCESSING,Credit Card Fees,NA,NA,2024,Hogan
 SB17,C00869016,VPP144,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,VIENNA,VA,22182,NA,2024-04-09,2548.15,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,VPP143,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-04-02,2500,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,VPP142,ORG,OSSOLA CONSULTING,NA,NA,NA,NA,NA,222 PRINCE GEORGE ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-04,2500,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,VPP143,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 3RD ST NW,NA,WASHINGTON,DC,20001,NA,2024-04-02,2500,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
+SB17,C00869016,VPP142,ORG,OSSOLA CONSULTING,NA,NA,NA,NA,NA,222 PRINCE GEORGE ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-04,2500,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,VPP141,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,VIENNA,VA,22182,NA,2024-04-11,2262,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,VPP140,ORG,NATIONAL TRUST MEDIA,NA,NA,NA,NA,NA,857 NATHAN HALE DR,NA,BERWYN,PA,19312,NA,2024-04-01,2150,PRINT ADS,PRINT ADS,NA,NA,2024,Hogan
 SB17,C00869016,VPP139,IND,NA,MONROE,LOREN,NA,NA,NA,1513 HIGHWOOD DR,NA,MCLEAN,VA,22101,NA,2024-04-18,2000,CONTRIBUTION REFUND,Contribution Refund,NA,NA,2024,Hogan
@@ -2477,7 +2477,7 @@ SB17,C00869016,VPSPP4,ORG,LAKE POINTE INN,NA,NA,NA,NA,NA,174 LAKE POINTE DR,NA,M
 SB17,C00869016,VPP134,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,VIENNA,VA,22182,NA,2024-04-16,1200,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,VPP133,ORG,SUPERIOR AUTOMOTIVE,NA,NA,NA,NA,NA,31 QUEEN ANNE BRIDGE RD,NA,UPPER MARLBORO,MD,20774,NA,2024-04-17,1106.75,CAR REPAIR,CAR REPAIR,NA,NA,2024,Hogan
 SB17,C00869016,VPSPP2,ORG,SOUTHWEST,NA,NA,NA,NA,NA,2702 LOVE FIELD,NA,DALLAS,TX,75235,NA,2024-04-03,1027.96,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
-SB17,C00869016,VPP131,ORG,MARYLAND GOP,NA,NA,NA,NA,NA,PO BOX 631,NA,ANNAPOLIS,MD,21404,NA,2024-04-01,1000,CONTRIBUTION,CONTRIBUTION,NA,NA,2024,Hogan
+SB17,C00869016,VPP131,ORG,MARYLAND GOP,NA,NA,NA,NA,NA,PO BOX 631,NA,ANNAPOLIS,MD,21404,NA,2024-04-01,1000,CONTRIBUTION,Contribution Refund,NA,NA,2024,Hogan
 SB17,C00869016,VPSPP6,ORG,HILTON,NA,NA,NA,NA,NA,7930 JONES BRANCH DRIVE,NA,MCLEAN,VA,22102,NA,2024-04-01,805.07,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,VDR1PP3,ORG,HANNAH AUTO,NA,NA,NA,NA,NA,11007 OLD BALTIMORE PIKE,NA,BELTSVILLE,MD,20705,NA,2024-03-11,800,CAR INSPECTION,CAR INSPECTION,X,NA,2024,Hogan
 SB17,C00869016,VPSPP11,ORG,DELTA,NA,NA,NA,NA,NA,1030 DELTA BLVD,NA,ATLANTA,GA,30354,NA,2024-03-27,776.2,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
@@ -2510,7 +2510,7 @@ SB17,C00869016,VPP106,ORG,LAKE POINTE INN,NA,NA,NA,NA,NA,174 LAKE POINTE DR,NA,M
 SB17,C00869016,VPP104,ORG,LAKE POINTE INN,NA,NA,NA,NA,NA,174 LAKE POINTE DR,NA,MCHENRY,MD,21541,NA,2024-04-03,302.86,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP103,ORG,HOTEL ADAGIO,NA,NA,NA,NA,NA,550 GEARY ST,NA,SAN FRANCISCO,CA,94102,NA,2024-04-18,302.84,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP102,ORG,HOTEL ADAGIO,NA,NA,NA,NA,NA,550 GEARY ST,NA,SAN FRANCISCO,CA,94102,NA,2024-04-18,292.9,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
-SB17,C00869016,VPP132,IND,NA,WEISS,DAVID,NA,NA,NA,581 PINEWOOD DR,NA,ANNAPOLIS,MD,21401,NA,2024-04-09,280.32,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT,NA,NA,2024,Hogan
+SB17,C00869016,VPP132,IND,NA,WEISS,DAVID,NA,NA,NA,581 PINEWOOD DR,NA,ANNAPOLIS,MD,21401,NA,2024-04-09,280.32,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,VPP99,ORG,TRACTOR SUPPLY,NA,NA,NA,NA,NA,5401 VIRGINIA WAY,NA,BRENTWOOD,TN,37027,NA,2024-04-09,272.36,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,VPP101,ORG,TRACTOR SUPPLY,NA,NA,NA,NA,NA,5401 VIRGINIA WAY,NA,BRENTWOOD,TN,37027,NA,2024-04-16,272.36,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,VPP100,ORG,TRACTOR SUPPLY,NA,NA,NA,NA,NA,5401 VIRGINIA WAY,NA,BRENTWOOD,TN,37027,NA,2024-04-12,272.36,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
@@ -2529,17 +2529,17 @@ SB17,C00869016,VPP89,ORG,RESIDENCE INN,NA,NA,NA,NA,NA,7750 WISCONSIN AVENUE,NA,B
 SB17,C00869016,VPP88,ORG,RESIDENCE INN,NA,NA,NA,NA,NA,7750 WISCONSIN AVENUE,NA,BETHESDA,MD,20814,NA,2024-04-19,240.76,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP86,ORG,AMERICAN AIRLINES,NA,NA,NA,NA,NA,PO BOX 619616,NA,DFW AIRPORT,TX,75261,NA,2024-04-02,238.6,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP85,ORG,STRATEGIC PARTNERS AND MEDIA,NA,NA,NA,NA,NA,1851 A MCGLUCKIAN ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-17,231.99,URL PURCHASE,URL PURCHASE,NA,NA,2024,Hogan
-SB17,C00869016,VDW2PP5,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PKWY,NA,HOUSTON,TX,77077,NA,2024-04-05,220.75,TRAVEL FUEL EXPENSE,TRAVEL FUEL EXPENSE,X,NA,2024,Hogan
+SB17,C00869016,VDW2PP5,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PKWY,NA,HOUSTON,TX,77077,NA,2024-04-05,220.75,TRAVEL FUEL EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,VDW2PP3,ORG,HOME DEPOT,NA,NA,NA,NA,NA,2455 PACES FERRY RD,NA,ATLANTA,GA,30339,NA,2024-04-08,214.86,SUPPLIES,SUPPLIES,X,NA,2024,Hogan
-SB17,C00869016,VPP148,IND,NA,ROSS,DONALD,NA,NA,NA,1240 WASHINGTON DR,NA,ANNAPOLIS,MD,21403,NA,2024-04-22,214,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT,NA,NA,2024,Hogan
+SB17,C00869016,VPP148,IND,NA,ROSS,DONALD,NA,NA,NA,1240 WASHINGTON DR,NA,ANNAPOLIS,MD,21403,NA,2024-04-22,214,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,VPP84,ORG,FAIDLEY SEAFOOD,NA,NA,NA,NA,NA,19 N PACA ST,NA,BALTIMORE,MD,21201,NA,2024-04-04,190.82,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,VPP83,ORG,FROM YOU FLOWERS,NA,NA,NA,NA,NA,483 West 37TH STREET,NA,NEW YORK,NY,10018,NA,2024-04-22,181.22,EVENT SUPPLIES,EVENT SUPPLIES,NA,NA,2024,Hogan
 SB17,C00869016,VPP81,ORG,SOUTHWEST AIRLINES,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-04-09,175.98,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP80,ORG,SOUTHWEST AIRLINES,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-04-09,175.98,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP82,ORG,SOUTHWEST AIRLINES,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-04-09,175.98,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
-SB17,C00869016,VPP79,ORG,CHRIS CAVEY,NA,NA,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-04-01,175,REIMBURSEMENT AD COST,REIMBURSEMENT AD COST,NA,NA,2024,Hogan
-SB17,C00869016,VDW2PP2,ORG,SUNOCO,NA,NA,NA,NA,NA,8111 WESTCHESTER DR,NA,DALLAS,TX,75225,NA,2024-04-03,175,TRAVEL FUEL EXPENSE,TRAVEL FUEL EXPENSE,X,NA,2024,Hogan
-SB17,C00869016,VDW1PP3,ORG,WAWA,NA,NA,NA,NA,NA,260 WEST BALTIMORE PIKE,NA,WAWA,PA,19063,NA,2024-04-08,175,TRAVEL FUEL EXPENSE,TRAVEL FUEL EXPENSE,X,NA,2024,Hogan
+SB17,C00869016,VPP79,ORG,CHRIS CAVEY,NA,NA,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-04-01,175,REIMBURSEMENT AD COST,Reimbursement - See Below if Itemized,NA,NA,2024,Hogan
+SB17,C00869016,VDW2PP2,ORG,SUNOCO,NA,NA,NA,NA,NA,8111 WESTCHESTER DR,NA,DALLAS,TX,75225,NA,2024-04-03,175,TRAVEL FUEL EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
+SB17,C00869016,VDW1PP3,ORG,WAWA,NA,NA,NA,NA,NA,260 WEST BALTIMORE PIKE,NA,WAWA,PA,19063,NA,2024-04-08,175,TRAVEL FUEL EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,VPP78,ORG,CHRIS CAVEY,NA,NA,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-04-01,173,MILEAGE,MILEAGE,NA,NA,2024,Hogan
 SB17,C00869016,VPP77,ORG,UNITED AIRLINES,NA,NA,NA,NA,NA,233 SOUTH WACKER DR,NA,CHICAGO,IL,60606,NA,2024-04-01,171,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP76,ORG,UNITED AIRLINES,NA,NA,NA,NA,NA,233 SOUTH WACKER DR,NA,CHICAGO,IL,60606,NA,2024-04-01,171,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
@@ -2558,37 +2558,37 @@ SB17,C00869016,VPP64,ORG,AMERICAN AIRLINES,NA,NA,NA,NA,NA,PO BOX 619616,NA,DFW A
 SB17,C00869016,VPP63,ORG,PUBLIC STORAGE,NA,NA,NA,NA,NA,2439 SWISS AVE,NA,DALLAS,TX,75204,NA,2024-04-08,137.19,STORAGE EXPENSE,STORAGE EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP62,ORG,GARRETT CO REPUBLICAN CENTRAL COMMITTEE,NA,NA,NA,NA,NA,211 E GREEN ST,NA,OAKLAND,MD,21550,NA,2024-04-11,135,EVENT TICKETS,EVENT TICKETS,NA,NA,2024,Hogan
 SB17,C00869016,VPP61,ORG,ANNAPOLIS BOAT SHOWS,NA,NA,NA,NA,NA,110 COMPROMISE ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-12,126,EVENT TICKETS,EVENT TICKETS,NA,NA,2024,Hogan
-SB17,C00869016,VPP59,ORG,SUNOCO,NA,NA,NA,NA,NA,8111 WESTCHESTER DR,NA,DALLAS,TX,75225,NA,2024-04-12,114,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,VPP60,ORG,SUNOCO,NA,NA,NA,NA,NA,8111 WESTCHESTER DR,NA,DALLAS,TX,75225,NA,2024-04-12,114,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,VPP59,ORG,SUNOCO,NA,NA,NA,NA,NA,8111 WESTCHESTER DR,NA,DALLAS,TX,75225,NA,2024-04-12,114,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,VPP60,ORG,SUNOCO,NA,NA,NA,NA,NA,8111 WESTCHESTER DR,NA,DALLAS,TX,75225,NA,2024-04-12,114,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP58,ORG,SOUTHWEST AIRLINES,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-04-22,111,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP57,ORG,SOUTHWEST AIRLINES,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-04-22,111,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP56,ORG,FEDEX,NA,NA,NA,NA,NA,942 SOUTH SHADY GROVE RD,NA,MEMPHIS,TN,38120,NA,2024-04-08,109.67,POSTAGE,Postage,NA,NA,2024,Hogan
 SB17,C00869016,VPP55,ORG,CUBESMART,NA,NA,NA,NA,NA,5 OLD LANCASTER RD,NA,MALVERN,PA,19355,NA,2024-04-19,107.42,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,VDW2PP1,ORG,DOLLAR TREE,NA,NA,NA,NA,NA,500 VOLVO PKWY,NA,CHESAPEAKE,VA,23320,NA,2024-04-04,105.5,SUPPLIES,SUPPLIES,X,NA,2024,Hogan
 SB17,C00869016,VPP54,ORG,CHAIN BRIDGE BANK,NA,NA,NA,NA,NA,1455A LAUGHLIN AVE,NA,MCLEAN,VA,22101,NA,2024-04-05,100,BANK FEES,BANK FEES,NA,NA,2024,Hogan
-SB17,C00869016,VPP123,IND,NA,WEISS,DAVID,NA,NA,NA,581 PINEWOOD DR,NA,ANNAPOLIS,MD,21401,NA,2024-04-09,97.72,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT,NA,NA,2024,Hogan
+SB17,C00869016,VPP123,IND,NA,WEISS,DAVID,NA,NA,NA,581 PINEWOOD DR,NA,ANNAPOLIS,MD,21401,NA,2024-04-09,97.72,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,VPSPP5,ORG,BWI,NA,NA,NA,NA,NA,7050 FRIENDSHIP RD,NA,BALTIMORE,MD,21240,NA,2024-04-01,96,TRAVEL PARKING EXPENSE,TRAVEL PARKING EXPENSE,X,NA,2024,Hogan
-SB17,C00869016,VPP52,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-04-15,84.56,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,VPP53,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-04-15,84.56,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,VPP51,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-04-10,84.56,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,VPP52,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-04-15,84.56,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,VPP53,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-04-15,84.56,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,VPP51,ORG,SHELL,NA,NA,NA,NA,NA,150 N DAIRY ASHFORD,NA,HOUSTON,TX,77002,NA,2024-04-10,84.56,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP50,ORG,ROYAL DELI,NA,NA,NA,NA,NA,112 N EUTAW ST,NA,BALTIMORE,MD,21201,NA,2024-04-04,79.25,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,VPP49,ORG,SOCIAL,NA,NA,NA,NA,NA,41655 FENWICK ST,NA,LEONARDTOWN,MD,20650,NA,2024-04-15,77.86,MEALS,MEALS,NA,NA,2024,Hogan
-SB17,C00869016,VPP158,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-04-08,76.98,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT,NA,NA,2024,Hogan
+SB17,C00869016,VPP158,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-04-08,76.98,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,VPP48,ORG,HOME DEPOT,NA,NA,NA,NA,NA,2455 PACES FERRY RD,NA,ATLANTA,GA,30339,NA,2024-04-19,76.28,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
-SB17,C00869016,VDW1PP5,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PKWY,NA,HOUSTON,TX,77077,NA,2024-04-12,74.61,TRAVEL FUEL EXPENSE,TRAVEL FUEL EXPENSE,X,NA,2024,Hogan
+SB17,C00869016,VDW1PP5,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PKWY,NA,HOUSTON,TX,77077,NA,2024-04-12,74.61,TRAVEL FUEL EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,VPP47,ORG,UBER,NA,NA,NA,NA,NA,1725 THIRD STREET,NA,SAN FRANCISCO,CA,94158,NA,2024-04-18,69.8,TRAVEL CAR EXPENSE,TRAVEL CAR EXPENSE,NA,NA,2024,Hogan
-SB17,C00869016,VPP46,ORG,BP,NA,NA,NA,NA,NA,501 WESTLAKE PARK BLVD,NA,HOUSTON,TX,77079,NA,2024-04-08,69.14,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,VPP46,ORG,BP,NA,NA,NA,NA,NA,501 WESTLAKE PARK BLVD,NA,HOUSTON,TX,77079,NA,2024-04-08,69.14,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPSPP8,ORG,UBER,NA,NA,NA,NA,NA,1515 3RD ST,NA,SAN FRANCISCO,CA,94158,NA,2024-03-29,68.71,TRAVEL CAR EXPENSE,TRAVEL CAR EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,VDW1PP1,ORG,AUTOZONE,NA,NA,NA,NA,NA,123 S FRONT ST,NA,MEMPHIS,TN,38103,NA,2024-04-15,67.78,SUPPLIES,SUPPLIES,X,NA,2024,Hogan
 SB17,C00869016,VPP45,ORG,BWI,NA,NA,NA,NA,NA,7050 FRIENDSHIP RD,NA,BALTIMORE,MD,21240,NA,2024-04-19,66,PARKING,PARKING,NA,NA,2024,Hogan
-SB17,C00869016,VPP44,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PARKWAY,NA,HOUSTON,TX,77077,NA,2024-04-08,62.7,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,VPP44,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PARKWAY,NA,HOUSTON,TX,77077,NA,2024-04-08,62.7,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP43,ORG,ANNAPOLIS BOAT SHOWS,NA,NA,NA,NA,NA,110 COMPROMISE ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-15,62.35,EVENT TICKETS,EVENT TICKETS,NA,NA,2024,Hogan
-SB17,C00869016,VDW1PP2,ORG,BP,NA,NA,NA,NA,NA,501 WESTLAKE PARK BLVD,NA,HOUSTON,TX,77079,NA,2024-04-09,57.4,TRAVEL FUEL EXPENSE,TRAVEL FUEL EXPENSE,X,NA,2024,Hogan
+SB17,C00869016,VDW1PP2,ORG,BP,NA,NA,NA,NA,NA,501 WESTLAKE PARK BLVD,NA,HOUSTON,TX,77079,NA,2024-04-09,57.4,TRAVEL FUEL EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,VPP42,ORG,SAFRON BAKERY,NA,NA,NA,NA,NA,287 EASTERN BLVD,NA,HAGERSTOWN,MD,21740,NA,2024-04-08,55.62,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,VPP41,ORG,ANNAPOLIS BOAT SHOWS,NA,NA,NA,NA,NA,110 COMPROMISE ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-16,54.84,EVENT TICKETS,EVENT TICKETS,NA,NA,2024,Hogan
 SB17,C00869016,VPP40,ORG,AMERICAN AIRLINES,NA,NA,NA,NA,NA,PO BOX 619616,NA,DFW AIRPORT,TX,75261,NA,2024-04-02,54.06,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP39,ORG,ANNAPOLIS BOAT SHOWS,NA,NA,NA,NA,NA,110 COMPROMISE ST,NA,ANNAPOLIS,MD,21401,NA,2024-04-15,54,EVENT TICKETS,EVENT TICKETS,NA,NA,2024,Hogan
-SB17,C00869016,VPP38,ORG,WAWA,NA,NA,NA,NA,NA,260 WEST BALTIMORE PIKE,NA,WAWA,PA,19063,NA,2024-04-15,51.57,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,VPP38,ORG,WAWA,NA,NA,NA,NA,NA,260 WEST BALTIMORE PIKE,NA,WAWA,PA,19063,NA,2024-04-15,51.57,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP37,ORG,UNITED AIRLINES,NA,NA,NA,NA,NA,233 SOUTH WACKER DR,NA,CHICAGO,IL,60606,NA,2024-04-01,51,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPSPP7,ORG,GUAVA AND JAVA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-03-29,47.04,MEALS,MEALS,X,NA,2024,Hogan
 SB17,C00869016,VPP36,ORG,UNITED AIRLINES,NA,NA,NA,NA,NA,233 SOUTH WACKER DR,NA,CHICAGO,IL,60606,NA,2024-04-01,45,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
@@ -2613,7 +2613,7 @@ SB17,C00869016,VPP20,ORG,UNITED AIRLINES,NA,NA,NA,NA,NA,233 SOUTH WACKER DR,NA,C
 SB17,C00869016,VPP19,ORG,UNITED AIRLINES,NA,NA,NA,NA,NA,233 SOUTH WACKER DR,NA,CHICAGO,IL,60606,NA,2024-04-01,24,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,VPP18,ORG,AMAZON,NA,NA,NA,NA,NA,410 TERRY STREET,NA,SEATTLE,WA,98109,NA,2024-04-08,23.31,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,VPP17,ORG,AMAZON,NA,NA,NA,NA,NA,410 TERRY STREET,NA,SEATTLE,WA,98109,NA,2024-04-08,23.31,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
-SB17,C00869016,VDW1PP4,ORG,WAWA,NA,NA,NA,NA,NA,260 WEST BALTIMORE PIKE,NA,WAWA,PA,19063,NA,2024-04-08,22.64,TRAVEL FUEL EXPENSE,TRAVEL FUEL EXPENSE,X,NA,2024,Hogan
+SB17,C00869016,VDW1PP4,ORG,WAWA,NA,NA,NA,NA,NA,260 WEST BALTIMORE PIKE,NA,WAWA,PA,19063,NA,2024-04-08,22.64,TRAVEL FUEL EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,VPP16,ORG,AMAZON,NA,NA,NA,NA,NA,410 TERRY STREET,NA,SEATTLE,WA,98109,NA,2024-04-01,22.3,OFFICE SUPPLIES,Office Supplies,NA,NA,2024,Hogan
 SB17,C00869016,VPP15,ORG,GOLDBERGS,NA,NA,NA,NA,NA,1500 REISTERSTOWN RD,NA,PIKESVILLE,MD,21208,NA,2024-04-08,18.29,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,VPP14,ORG,BRENDAS PIZZA,NA,NA,NA,NA,NA,21311 GARRETT HWY,NA,OAKLAND,MD,21550,NA,2024-04-08,17.07,MEALS,MEALS,NA,NA,2024,Hogan
@@ -2636,25 +2636,25 @@ SB17,C00869016,34,ORG,CLARKE & SAMPSON,NA,NA,NA,NA,NA,228 S WASHINGTON ST,NA,ALE
 SB17,C00869016,24,ORG,STRATEGIC PARTNERS AND MEDIA,NA,NA,NA,NA,NA,1851 A MCGLUCKIAN ST,NA,ANNAPOLIS,MD,21401,NA,2024-03-12,33000,ADS,ADS,NA,NA,2024,Hogan
 SB17,C00869016,29,ORG,"Ashby Law, PLLC",NA,NA,NA,NA,NA,625 N WASHINGTON ST,NA,ALEXANDRIA,VA,22314,NA,2024-03-14,26050.05,LEGAL FEES,LEGAL FEES,NA,NA,2024,Hogan
 SB17,C00869016,37,ORG,Ragnar Research Partners,NA,NA,NA,NA,NA,1015 WATERWOOD PKWY,NA,EDMOND,OK,73034,NA,2024-03-14,23100,RESEARCH SERVICES,RESEARCH SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,CCHFM1,ORG,ANEDOT,NA,NA,NA,NA,NA,1340 Poydras Street,NA,New Orleans,LA,70112,NA,2024-03-31,13071.58,CREDIT CARD PROCESSING,CREDIT CARD PROCESSING,NA,NA,2024,Hogan
+SB17,C00869016,CCHFM1,ORG,ANEDOT,NA,NA,NA,NA,NA,1340 Poydras Street,NA,New Orleans,LA,70112,NA,2024-03-31,13071.58,CREDIT CARD PROCESSING,Credit Card Fees,NA,NA,2024,Hogan
 SB17,C00869016,46,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-02-28,10447.98,STAFFING SERVICES,STAFFING SERVICES,NA,"Political strategy, campaign management, communications, operations and logistical support services",2024,Hogan
 SB17,C00869016,28,IND,NA,CAVEY,CHRIS,NA,NA,NA,4705 BLACK ROCK RD,NA,HAMPSTEAD,MD,21074,NA,2024-03-28,10000,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
 SB17,C00869016,45,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-02-23,9501.03,STAFFING SERVICES,STAFFING SERVICES,NA,"Political strategy, campaign management, communications, operations and logistical support services",2024,Hogan
 SB17,C00869016,23,ORG,STRATEGIC PARTNERS AND MEDIA,NA,NA,NA,NA,NA,1851 A MCGLUCKIAN ST,NA,ANNAPOLIS,MD,21401,NA,2024-03-08,9000,DIGITAL SERVICES,DIGITAL SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,22,ORG,STRATEGIC PARTNERS AND MEDIA,NA,NA,NA,NA,NA,1851 A MCGLUCKIAN ST,NA,ANNAPOLIS,MD,21401,NA,2024-03-08,9000,DIGITAL SERVICES,DIGITAL SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,53,ORG,GAMD LESSEE,NA,NA,NA,NA,NA,126 WEST STREET,NA,ANNAPOLIS,MD,21401,NA,2024-03-15,7875,EVENT FOOD & BEV,EVENT FOOD & BEV,NA,NA,2024,Hogan
+SB17,C00869016,53,ORG,GAMD LESSEE,NA,NA,NA,NA,NA,126 WEST STREET,NA,ANNAPOLIS,MD,21401,NA,2024-03-15,7875,EVENT FOOD & BEV,Event Food & Beverages,NA,NA,2024,Hogan
 SB17,C00869016,50,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-03-28,6421.44,STAFFING SERVICES,STAFFING SERVICES,NA,Campaign management services,2024,Hogan
 SB17,C00869016,43,ORG,HOGAN COMPANIES,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-02-29,6000,RENT EXPENSE,RENT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,19,ORG,AXCAPITAL,NA,NA,NA,NA,NA,555 METRO PLACE N,NA,DUBLIN,OH,43017,NA,2024-03-19,5000,ACCOUNTING & COMPLIANCE,ACCOUNTING & COMPLIANCE,NA,NA,2024,Hogan
 SB17,C00869016,27,ORG,C. Shank Consulting,NA,NA,NA,NA,NA,109 DELORES DRIVE,NA,OWINGS,MD,20736,NA,2024-03-26,5000,STRATEGY CONSULTING,STRATEGY CONSULTING,NA,NA,2024,Hogan
 SB17,C00869016,39,ORG,KYU KWAK,NA,NA,NA,NA,NA,9025 MALER RD,NA,LAUREL,MD,20723,NA,2024-03-19,4906.64,VEHICLE DECALS,VEHICLE DECALS,NA,NA,2024,Hogan
-SB17,C00869016,26,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 34D ST NW,NA,WASHINGTON,DC,20001,NA,2024-03-12,4224,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,25,ORG,OSSOLA CONSULTING,NA,NA,NA,NA,NA,222 PRINCE GEORGE STREET,NA,ANNAPOLIS,MD,21401,NA,2024-03-12,4224,FUNDRAISING SERVICES,FUNDRAISING SERVICES,NA,NA,2024,Hogan
+SB17,C00869016,26,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 34D ST NW,NA,WASHINGTON,DC,20001,NA,2024-03-12,4224,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
+SB17,C00869016,25,ORG,OSSOLA CONSULTING,NA,NA,NA,NA,NA,222 PRINCE GEORGE STREET,NA,ANNAPOLIS,MD,21401,NA,2024-03-12,4224,FUNDRAISING SERVICES,Fundraising Consulting,NA,NA,2024,Hogan
 SB17,C00869016,48,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-03-26,4057.55,STAFFING SERVICES,STAFFING SERVICES,NA,"Political strategy, campaign mgmt, comms, digital strategy, policy, operations & logistical services",2024,Hogan
 SB17,C00869016,17,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,TYSONS CORNER,VA,22182,NA,2024-03-08,2534.05,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,55,ORG,MARYLAND RESTROOM RENTALS,NA,NA,NA,NA,NA,804 MURPHY RD,NA,CENTERVILLE,MD,21617,NA,2024-03-18,2121.7,EVENT RESTROOMS,EVENT RESTROOMS,NA,NA,2024,Hogan
 SB17,C00869016,38,ORG,PXI,NA,NA,NA,NA,NA,21 WAREHOUSE ROAD,NA,HARRISONBURG,VA,22801,NA,2024-03-15,1858.43,SHIRTS,SHIRTS,NA,NA,2024,Hogan
-SB17,C00869016,CCHFM2,ORG,WINRED,NA,NA,NA,NA,NA,1776 Wilson Blvd.,NA,Arlington,VA,22209,NA,2024-03-31,1853.14,CREDIT CARD PROCESSING,CREDIT CARD PROCESSING,NA,NA,2024,Hogan
+SB17,C00869016,CCHFM2,ORG,WINRED,NA,NA,NA,NA,NA,1776 Wilson Blvd.,NA,Arlington,VA,22209,NA,2024-03-31,1853.14,CREDIT CARD PROCESSING,Credit Card Fees,NA,NA,2024,Hogan
 SB17,C00869016,40,ORG,PXI,NA,NA,NA,NA,NA,21 WAREHOUSE ROAD,NA,HARRISONBURG,VA,22801,NA,2024-03-26,1701.21,SHIRTS,SHIRTS,NA,NA,2024,Hogan
 SB17,C00869016,30,ORG,WHEELERHOUSE LLC,NA,NA,NA,NA,NA,1851 34D ST NW,NA,WASHINGTON,DC,20001,NA,2024-03-12,1553.86,EVENT SUPPLIES,EVENT SUPPLIES,NA,NA,2024,Hogan
 SB17,C00869016,42,ORG,MID ATLANTIC MEDIA,NA,NA,NA,NA,NA,9200 RUMSEY RD,NA,COLUMBIA,MD,21045,NA,2024-03-27,1325,AD BUY,AD BUY,NA,NA,2024,Hogan
@@ -2663,18 +2663,18 @@ SB17,C00869016,MEMOPS1,ORG,GULF PARTYLINE,NA,NA,NA,NA,NA,1440 G ST NW,NA,WASHING
 SB17,C00869016,59,ORG,LAKE POINTE INN,NA,NA,NA,NA,NA,174 LAKE POINTE DR,NA,MCHENRY,MD,21541,NA,2024-03-28,908.58,TRAVEL ROOM EXPENSE,TRAVEL ROOM EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,16,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,TYSONS CORNER,VA,22182,NA,2024-02-26,900,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
 SB17,C00869016,18,ORG,CMDI,NA,NA,NA,NA,NA,1593 SPRING HILL RD,NA,TYSONS CORNER,VA,22182,NA,2024-03-14,900,DATABASE SERVICES,DATABASE SERVICES,NA,NA,2024,Hogan
-SB17,C00869016,56,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-03-19,872.67,TRAVEL FLIGHT EXPENSE - SOUTHWEST AIRLINES,TRAVEL FLIGHT EXPENSE - SOUTHWEST AIRLINES,NA,NA,2024,Hogan
+SB17,C00869016,56,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-03-19,872.67,TRAVEL FLIGHT EXPENSE - SOUTHWEST AIRLINES,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,MEMOPS5,ORG,SEATGEEK,NA,NA,NA,NA,NA,902 BROADWAY,NA,NEW YORK,NY,10010,NA,2024-03-13,754.65,EVENT TICKETS,EVENT TICKETS,X,NA,2024,Hogan
 SB17,C00869016,20,IND,NA,DICKSON,JENNY,NA,NA,NA,544 OCEAN PKWY,NA,BERLIN,MD,21811,NA,2024-02-29,750,EVENT PREP,EVENT PREP,NA,NA,2024,Hogan
 SB17,C00869016,44,ORG,PUBLIC STORAGE,NA,NA,NA,NA,NA,701 WESTERN AVE,NA,GLENDALE,CA,91201,NA,2024-03-21,646.2,RENT EXPENSE,RENT EXPENSE,NA,NA,2024,Hogan
-SB17,C00869016,49,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-03-27,623.18,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT,NA,NA,2024,Hogan
+SB17,C00869016,49,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-03-27,623.18,EXPENSE REIMBURSEMENT,EXPENSE REIMBURSEMENT - NO SUBVENDOR AGGREGATE 200,NA,NA,2024,Hogan
 SB17,C00869016,57,ORG,CAFE FLORA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2024-03-25,584.41,MEALS,MEALS,NA,NA,2024,Hogan
-SB17,C00869016,54,ORG,ANNE ARUNDEL REPUBLICANS,NA,NA,NA,NA,NA,PO BOX 6291,NA,ANNAPOLIS,MD,21401,NA,2024-03-18,500,CONTRIBUTION,CONTRIBUTION,NA,NA,2024,Hogan
+SB17,C00869016,54,ORG,ANNE ARUNDEL REPUBLICANS,NA,NA,NA,NA,NA,PO BOX 6291,NA,ANNAPOLIS,MD,21401,NA,2024-03-18,500,CONTRIBUTION,Contribution Refund,NA,NA,2024,Hogan
 SB17,C00869016,MEMOPS6,ORG,SOUTHWEST,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-03-08,443.27,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,MEMOPS4,ORG,SEATGEEK,NA,NA,NA,NA,NA,902 BROADWAY,NA,NEW YORK,NY,10010,NA,2024-03-13,406.68,EVENT TICKETS,EVENT TICKETS,X,NA,2024,Hogan
 SB17,C00869016,MEMOPS3,ORG,POST HASTE,NA,NA,NA,NA,NA,90 RUSSELL ST,NA,ANNAPOLIS,MD,21401,NA,2024-03-19,398,PRINT,PRINT,X,NA,2024,Hogan
 SB17,C00869016,MEMOPS2,ORG,POST HASTE,NA,NA,NA,NA,NA,90 RUSSELL ST,NA,ANNAPOLIS,MD,21401,NA,2024-03-19,344.39,PRINT,PRINT,X,NA,2024,Hogan
-SB17,C00869016,52,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-03-15,344.39,REIMBURSEMENT PRINTING EXPENSE,REIMBURSEMENT PRINTING EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,52,ORG,PURPLE SURFBOARD,NA,NA,NA,NA,NA,2077 SOMERVILLE RD,NA,ANNAPOLIS,MD,21401,NA,2024-03-15,344.39,REIMBURSEMENT PRINTING EXPENSE,Reimbursement - See Below if Itemized,NA,NA,2024,Hogan
 SB17,C00869016,MEMOPS15,ORG,STERICYCLE,NA,NA,NA,NA,NA,2355 WAUKEGAN RD,NA,BANNOCKBURN,IL,60015,NA,2024-03-19,342.31,WASTE REMOVAL,WASTE REMOVAL,X,NA,2024,Hogan
 SB17,C00869016,6,ORG,CHAIN BRIDGE BANK,NA,NA,NA,NA,NA,1445A LAUGHLIN AVE,NA,McLean,VA,22101,NA,2024-03-12,335,BANK FEES,BANK FEES,NA,NA,2024,Hogan
 SB17,C00869016,MEMOPS12,ORG,SOUTHWEST,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-03-18,254.98,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
@@ -2687,8 +2687,8 @@ SB17,C00869016,MEMOPS8,ORG,SOUTHWEST,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS
 SB17,C00869016,MEMOPS7,ORG,SOUTHWEST,NA,NA,NA,NA,NA,2702 LOVE FIELD DR,NA,DALLAS,TX,75235,NA,2024-03-11,156,TRAVEL FLIGHT EXPENSE,TRAVEL FLIGHT EXPENSE,X,NA,2024,Hogan
 SB17,C00869016,31,ORG,CARROLS CREEK,NA,NA,NA,NA,NA,410 SEVERN AVE,NA,ANNAPOLIS,MD,21403,NA,2024-03-22,141.8,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,58,ORG,CANOPY,NA,NA,NA,NA,NA,7930 JONES BRANCH DRIVE,NA,MCLEAN,VA,22102,NA,2024-03-26,81.28,MEALS,MEALS,NA,NA,2024,Hogan
-SB17,C00869016,35,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PKWY,NA,HOUSTON,TX,77077,NA,2024-03-25,77.18,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
-SB17,C00869016,36,ORG,7 ELEVEN,NA,NA,NA,NA,NA,8375 N BELTLINE RD,NA,IRVING,TX,75063,NA,2024-03-26,48.57,TRAVEL FUEL,TRAVEL FUEL,NA,NA,2024,Hogan
+SB17,C00869016,35,ORG,CITGO,NA,NA,NA,NA,NA,1293 ELDRIDGE PKWY,NA,HOUSTON,TX,77077,NA,2024-03-25,77.18,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
+SB17,C00869016,36,ORG,7 ELEVEN,NA,NA,NA,NA,NA,8375 N BELTLINE RD,NA,IRVING,TX,75063,NA,2024-03-26,48.57,TRAVEL FUEL,TRAVEL FLIGHT EXPENSE,NA,NA,2024,Hogan
 SB17,C00869016,32,ORG,EINSTEIN BROS,NA,NA,NA,NA,NA,555 ZANG ST,NA,LAKEWOOD,CO,80228,NA,2024-03-22,48.01,MEALS,MEALS,NA,NA,2024,Hogan
 SB17,C00869016,11,ORG,CHAIN BRIDGE BANK,NA,NA,NA,NA,NA,1445A LAUGHLIN AVE,NA,McLean,VA,22101,NA,2024-03-19,25,BANK FEES,BANK FEES,NA,NA,2024,Hogan
 SB17,C00869016,10,ORG,CHAIN BRIDGE BANK,NA,NA,NA,NA,NA,1445A LAUGHLIN AVE,NA,McLean,VA,22101,NA,2024-03-18,25,BANK FEES,BANK FEES,NA,NA,2024,Hogan
