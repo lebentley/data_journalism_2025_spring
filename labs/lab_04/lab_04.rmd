@@ -61,36 +61,54 @@ Then, when you are done standardizing `purpose_clean`, export it as a new CSV fi
 
 Then, using that `purpose_clean` column, write code to find the largest amounts of spending on categories by both campaigns.
 
-**A1.**
+**A1.** The largest amount of spending for Alsobrooks was salary, with credit card fees and travel stipend close behind. All three categories are higher than Hogan's largest spending category, which is travel flight expense. 
 
 ```{r}
-senate_expenses |>
-  group_by (amount) |>
-  summarise ()
+md_senate_expenses_cleaned <- read_csv("data/md-senate-expenses-cleaned.csv")
 
+```
+```{r}
+largest_spending <- md_senate_expenses_cleaned |>
+  group_by(purpose_clean, candidate) |>
+  summarize(
+    largest_spending = n()
+  ) |>
+arrange(desc(largest_spending))
 ```
 
 **Q2.** Let's do some research on the top purposes from A1. Feel free to search the Web to understand those terms better if need be, and then write a description comparing and contrasting the two campaigns' largest categories of spending.
 
-**A2.**
+**A2.** Alsobrooks' five highest campaign expenses are salary, credit card fees, travel stipend, contribution refund, and office supplies. Hogan's five largest areas of spending are travel flight expense, meals, bank fees, travel room expense, and office supplies. Some things are similar and common expenses, such as office supplies and specific travel expenses. However, I do find it interesting that salary is not even in some of the top expenses for Hogan. 
 
 **Q3.** Pick one of the top categories for each campaign and write code that shows how that spending has changed over time, if at all. You'll need to use lubridate for this. Write a couple of sentences describing that pattern.
 
-**A3.**
+**A3.** The largest spending was by Alsobrooks for Media Advertising. 
 
 ```{r}
+md_senate_expenses_cleaned |>
+  mutate(date=ymd(date))
 
+top_categories <- md_senate_expenses_cleaned |>
+  group_by(purpose_clean, candidate, amount, date) |>
+  summarise(total_spent = sum(amount, na.rm = TRUE)) |>
+ 
+arrange(candidate, desc(total_spent))
 
 ```
 
-**Q4.** Which committee has the larger payroll or salary spending so far? How many unique recipients of payroll/staff spending are there for each candidate?
+**Q4.** Which committee has the larger payroll or salary spending so far? How many unique recipients of payroll/staff spending are there for each candidate? 
 
-**A4.**
-
+**A4.** I used ChatGPT to help me get this answer. Alsobrooks has larger spending on salary. 
 ```{r}
+payroll_salary_spending <- md_senate_expenses_cleaned |>
+  group_by(purpose_clean) |>
+  summarise(total_spending = sum(amount, na.rm = TRUE),
+            unique_recipients = n_distinct(candidate)) %>%
+  arrange(desc(total_spending))
 
 ```
+
 
 **Q5** What's the most interesting story idea you've found in this data?
 
-**A5**
+**A5** The most interesting story I've found is that Alsobrooks' campaign spent a significant amount more amount of money on Media advertising than Hogan. Furthermore, she also had a significant more about of money on salaries than Hogan. 
