@@ -15,60 +15,254 @@ library(tidyverse)
 voting_data <- read_csv("~/Downloads/reverse engineering/nonvoters_data.csv")
 ```
 ```{r}
+#We've created a code block that summarizes the answers of each question, based on the different sections of the questions. For example, this summarizes responses for question 2, part 1. The responses are based on a scale which will be indicated below:
+ #Question 2 : In your view, how important are each of the following to being a good American? 1. Voting in elections
+
+#1=very important
+#2=somewhat important 
+#3=not so impoartant
+#4-not at all important 
 voting_data |>
   group_by(Q2_1) |>
   summarize(
     election_voting=n()) 
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 2. Serving on a jury
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
 voting_data |>
   group_by(Q2_2) |>
   summarise(serving_on_jury=n())
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 3. Following what happens in government and politics 
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
 voting_data |>
   group_by(Q2_3) |>
   summarise(following_politics=n())
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 4. Displaying the American flag 
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
 voting_data |>
   group_by(Q2_4) |>
   summarise(displaying_flag=n())
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 5. Participating in the U.S. Census every ten years
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
 voting_data |>
   group_by(Q2_5) |>
   summarise(census_participation=n())
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 6. Knowing the Pledge of Allegiance 
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
+voting_data |>
 voting_data |>
   group_by(Q2_6) |>
   summarise(knowing_pledge=n())
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 7. Supporting the military
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
 voting_data |>
   group_by(Q2_7) |>
   summarise(military_support=n())
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 8. Respecting the opinions of those who disagree with you
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
 voting_data |>
   group_by(Q2_8) |>
   summarise(respecting_opinions=n())
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 9. Believing in God 
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
 voting_data |>
   group_by(Q2_9) |>
   summarise(belief_in_god=n())
 ```
 ```{r}
+ #Question 2 : In your view, how important are each of the following to being a good American? 10. Protesting if you believe government actions are wrong 
+
+#1=very important
+#2=somewhat important 
+#3=not so important
+#4-not at all important 
 voting_data |>
   group_by(Q2_10) |>
   summarise(protesting_government=n())
 ```
+```{r}
+#Question 3 requires respondents to list how much they agree/disagree with the certain statements.
+#1. Systematic racism is a problem in the United States 
 
+#1-strongly agree
+#2-somewhat agree
+#3-somewhat disagree
+#4-strongly disagree
+voting_data |>
+  group_by(Q3_1) |>
+  summarise(problem=n())
+```
+```{r}
+#2. systemic racism in policing is a bigger problem than violence and vandalism
 
+#1-strongly agree
+#2-somewhat agree
+#3-somewhat disagree
+#4-strongly disagree
+voting_data |>
+  group_by(Q3_2) |>
+  summarise(racism_in_policing=n())
+```
+```{r}
+#3.Society as a whole has become more soft and feminine 
 
+#1-strongly agree
+#2-somewhat agree
+#3-somewhat disagree
+#4-strongly disagree
+voting_data |>
+  group_by(Q3_3) |>
+  summarise(society_question=n())
+```
+```{r}
+#4. The media is more interested in making money than telling the truth
+
+#1-strongly agree
+#2-somewhat agree
+#3-somewhat disagree
+#4-strongly disagree
+voting_data |>
+  group_by(Q3_4) |>
+  summarise(media_question=n())
+```
+```{r}
+#5. Traditional parties and politicians don't care about people like me 
+
+#1-strongly agree
+#2-somewhat agree
+#3-somewhat disagree
+#4-strongly disagree
+voting_data |>
+  group_by(Q3_5) |>
+  summarise(traditional_parties_question=n())
+```
+```{r}
+#6. The way people talk needs to change with the the times to be more sensitive to people with different backgrounds 
+
+#1-strongly agree
+#2-somewhat agree
+#3-somewhat disagree
+#4-strongly disagree
+voting_data |>
+  group_by(Q3_6) |>
+  summarise(backgrounds_question=n())
+```
+```{r}
+#Question 4 asked respondents to rank how much of an impact certain categories have on their life. 
+
+#1. Elected officials in Washington, D.C.
+
+#1=a significant impact
+#2=somewhat of an impact
+#3=Just a slight impact
+#4=No impact at all 
+voting_data |>
+  group_by(Q4_1) |>
+  summarise(washington_officials=n())
+```
+```{r}
+#2. Elected officials in my state 
+
+#1=a significant impact
+#2=somewhat of an impact
+#3=Just a slight impact
+#4=No impact at all 
+voting_data |>
+  group_by(Q4_2) |>
+  summarise(state_officials=n())
+```
+```{r}
+#3. Elected officials in my city or community
+
+#1=a significant impact
+#2=somewhat of an impact
+#3=Just a slight impact
+#4=No impact at all 
+voting_data |>
+  group_by(Q4_3) |>
+  summarise(city_officials=n())
+```
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+```{r}
+#4. The news media 
+
+#1=a significant impact
+#2=somewhat of an impact
+#3=Just a slight impact
+#4=No impact at all 
+voting_data |>
+  group_by(Q4_4) |>
+  summarise(news_media=n())
+```
+```{r}
+#5. Large financial institutions on Wall Street
+
+#1=a significant impact
+#2=somewhat of an impact
+#3=Just a slight impact
+#4=No impact at all 
+voting_data |>
+  group_by(Q4_5) |>
+  summarise(financial_institutions=n())
+```
+```{r}
+#6. Law enforcement in the legal system
+
+#1=a significant impact
+#2=somewhat of an impact
+#3=Just a slight impact
+#4=No impact at all 
+voting_data |>
+  group_by(Q4_6) |>
+  summarise(law_legal=n())
+```
 
 When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
 
