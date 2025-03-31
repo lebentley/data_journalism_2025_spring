@@ -83,10 +83,7 @@ changes |>
 current_registrations <- read.csv("~/Documents/GitHub/data_journalism_2025_spring/labs/lab_06/registrations-by-county.csv")
 
 ```
-```{r}
-current_registrations |>
-  
-```
+
 
 ## Rinse, Repeat: September 2022 data
 
@@ -96,7 +93,7 @@ To answer the following questions, you'll need to calculate percentages and do o
 
 ```{r}
 # Party registrations
-sep2022_reg_by_pary <- read.csv("~/Documents/GitHub/data_journalism_2025_spring/sep2022-reg-by-party.csv")
+sep2022_reg_by_party <- read.csv("~/Documents/GitHub/data_journalism_2025_spring/sep2022-reg-by-party.csv")
 ```
 
 ```{r}
@@ -108,6 +105,10 @@ sep2022_removals <- read.csv("~/Documents/GitHub/data_journalism_2025_spring/sep
 # Changes
 sep2022_changes <- read.csv("~/Documents/GitHub/data_journalism_2025_spring/sep2022-changes.csv")
 ```
+```{r}
+sep2022_changes |>
+  rename(County=X)
+```
 
 ```{r}
 # Current registrations
@@ -118,17 +119,63 @@ sep2022_active <- read.csv("~/Documents/GitHub/data_journalism_2025_spring/sep20
 
 Q1. Calculate the percentage of registered Democrats, Republicans and unaffiliated voters for the entire state in September 2024 and September 2022, and then calculate the percentage change for those three party categories (the formula for percentage change is easy to remember: (New-Old)/Old). How would you describe the changes in these partisan categories in a story? What's the most interesting thing about these changes that would be the lede of that story?
 
-A1.
+A1. *I used ChatGPT to help get some of this code* It looks like there was a -2.9% decrease in Democrats between 2022 and 2024. There was a 21.8% increase in Republicans, and a -5.8 percent decrease in unaffiliated. I think the most interesting thing about this is that there is a huge percent change in the number of Republicans, whereas the other categories are much smaller. 
 
 ```{r}
+registration_by_party <- tibble(
+  party = c("DEM", "REP", "UNAF"),
+  total_registered_voters_2024 = c(19077, 6977, 10975)
+  )
+sep2022_reg_by_party <- tibble (
+  party = c("DEM", "REP", "UNAF"),
+  total_registered_voters_2022 = c(19428, 5661, 11513)
+  )
+  both_years <- full_join(registration_by_party, sep2022_reg_by_party, by = "party")
+  
+  total_2022 <- sum(both_years$total_registered_voters_2022, na.rm=TRUE)
+  total_2024 <-sum(both_years$total_registered_voters_2024, na.rm = TRUE)
+  
+  both_years <- both_years |>
+    mutate(
+      percent_2022 = (total_registered_voters_2022/total_2022) * 100,
+      percent_2024 = (total_registered_voters_2024/total_2024) * 100,
+      percentage_change = ((percent_2024 - percent_2022)/percent_2022) * 100
+    )
+  
+  print(both_years)
+  
 
 ```
 
 Q2. Among the Maryland jurisdictions with the most registered voters, which one had the biggest percentage increase in unaffiliated voters between 2022 and 2024? How did that county vote for governor in 2022 and for president in 2020? Contrast the partisan percentages of that county with the county that had the eighth-largest percentage increase in unaffiliated voters. You should display information from the data that shows the counties with the largest percentage increase first.
 
-A2.
+A2. In most cases, the percentage of unaffiliated voters slightly increased between 2022 and 2024. 
 
 ```{r}
+current_registrations <- tibble (
+  county = c("Allegany", "Anne Arundel", "Baltimore City", "Baltimore CO.", "Calvert", "Caroline", "Carroll", "Cecil"),
+  unaffiliated_2024 = c(8862, 105506, 63933, 119734, 16572, 4927, 30503, 17316),
+  total_registered_2024 = c(43658, 415737, 399811, 578375, 69820, 22233, 130325, 73126)
+)
+
+sep2022_active <- tibble (
+  county = c("Allegany", "Anne Arundel", "Baltimore City", "Baltimore CO.", "Calvert", "Caroline", "Carroll", "Cecil"),
+  unaffiliated_2022 = c(8453, 98350, 56663, 108672, 15489, 4537, 28865, 16672),
+  total_registered_2022 =c(43999, 410668, 395300, 568644, 68702, 21788, 129269, 71101)
+)
+
+unaffiliated_data <- left_join(current_registrations, sep2022_active, by = "county")
+
+  
+  unaffiliated_data <- unaffiliated_data |>
+  mutate(
+    percent_unaff_2022 = (unaffiliated_2022/total_registered_2022) * 100, 
+    percent_unaff_2024 = (unaffiliated_2024/total_registered_2024) * 100,
+    percent_change = ((percent_unaff_2024-percent_unaff_2022)/percent_unaff_2022) * 100
+  ) |>
+  arrange(desc(percent_change))
+
+  print(unaffiliated_data)
 
 ```
 
@@ -136,20 +183,76 @@ Q3. Do the party percentages of new registrants (% Dem, % Rep, % Unaffiliated) f
 
 In other words, did new registrants mirror the overall partisan composition of the electorate, or were they different? Do any of the methods of registration vary significantly from the overall partisan pattern? Which method is worthy of further exploration?
 
-A3.
+A3. *I used ChatGPT to help me get these answers* Democrats and Republicans seemed to have been fairly even in 2022, with a somewhat large percentage of unaffiliated voters. However, in 2024, it seems like there were a significantly larger number of Democrats than Republicans, while unaffiliated voters decreased. 
 
 ```{r}
+both_total <- sep2022_changes |>
+  mutate(
+    TOTAL = as.numeric(gsub(",", "", TOTAL)), 
+    DEM = as.numeric(gsub(",", "", DEM)),
+    REP = as.numeric(gsub(",", "", REP)),
+    UNAF = as.numeric(gsub(",", "", UNAF))
+  ) |>
+  summarise(
+    TOTAL=sum(TOTAL, na.rm = TRUE), 
+    DEM = sum(DEM, na.rm = TRUE), 
+    REP = sum(REP, na.rm = TRUE), 
+    UNAF = sum(REP, na.rm = TRUE), 
+  ) |>
+  mutate (
+    DEM_2022 = (DEM/TOTAL) * 100, 
+    REP_2022 = (DEM/TOTAL) * 100, 
+    UNAF_2022 = (UNAF/TOTAL) * 100
+  )
+
+
+both_total_2024 <- changes |>
+    mutate(
+    TOTAL = as.numeric(gsub(",", "", TOTAL)), 
+    DEM = as.numeric(gsub(",", "", DEM)),
+    REP = as.numeric(gsub(",", "", REP)),
+    UNAF = as.numeric(gsub(",", "", UNAF))
+  ) |>
+  summarise(
+    TOTAL = sum(TOTAL, na.rm = TRUE),
+    DEM = sum(DEM, na.rm = TRUE),
+    REP = sum(REP, na.rm = TRUE),
+    UNAF = sum(REP, na.rm = TRUE),
+  ) |>
+  mutate(
+    DEM_2024 = (DEM/TOTAL) * 100,
+    REP_2024 = (REP/TOTAL) *100,
+    UNAF_2024 = (UNAF/TOTAL) *100
+  )
 
 ```
 
 Q4. Choose your own adventure! Using both the 2024 and 2022 data for one of the dataframes (changes, removals or new registrations), ask and answer a question that makes at least one comparison and requires code to answer. That could involve calculating a percentage, percentage change or the raw difference between two columns.
 
-A4.
+A4. *I used ChatGPT to help get the function tibble* My question will ask to compare the amount of changes in Democrats and Republicans in Prince George's County between the years 2022 and 2024. As you can see, there were fewer numbers of changes within Republicans both years. Furthermore, both increased over the two-year period, but Democrats had a much higher increase in changes. 
 
 ```{r}
+changes <- tibble (
+  county = c("PR.GEORGE'S"),
+  DEM = c(1208),
+  REP = c(214) 
+)
+
+sep2022_changes <- tibble (
+  county = c("PR.GEORGE'S"),
+  DEM = c(407),
+  REP = c(94)
+)
+
+comparison <- changes |>
+  left_join(sep2022_changes, by = "county", suffix = c("_2024", "_2022"))
+
+  
+  print(comparison)
+ 
 
 ```
 
 Q5. What's the best story idea or question you've seen as a result of the work you've done in this lab?
 
-A5.
+A5. For number 2, when we calculated the percent change, you can clearly see that the number of unaffiliated voters increases at least slightly in every county we used. Although some of these are only very slight changes, it is interesting to me that among an extremly polarized political climate, were not seeing a decrease in unaffiliated voter. In other words, I would've expected people to be more aligned with a specific party, especially in the last few years. So, I was surprised to see that there was not a negative percent change among any of them. My question would be: Why are we seeing higher numbers of unaffiliated voters in an incredibly polarized political climate?
