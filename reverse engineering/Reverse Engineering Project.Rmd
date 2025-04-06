@@ -91,30 +91,29 @@ On average, 28.5% of voters did not vote in any given election. This does not li
 
 
 ```{r}
-#Quote 3: "In the survey, we asked voters who have missed at least one national election — which included some people who almost always vote — why they didn’t cast a ballot. Nearly a quarter cited some of the structural barriers we mentioned above. But another 31 percent said that they decided not to vote because they disliked the candidates or they thought nothing would change as a result of the election (26 percent)."
+#Quote 3: "And if that happens, it could be due in large part to the fact that a lot of people who vote only sometimes cast a ballot this year. According to our survey, 82 percent of these voters are following the 2020 election somewhat or very closely, and 93 percent are planning to vote in 2020."
 
-#How often do you vote in national elections?
-total_respondents <- voting_data |>
-  filter(Q26  %in%  c(2, 3, 4)) |>
-  summarise(number_of_respondents = n()) |>
-  pull(number_of_respondents)
+total_respondents <- nrow(voting_data |>
+  filter(voter_category == "sporadic"))
 
-#Disliked the candidates
+#How closely are you following the election
 voting_data |>
-  group_by(Q29_1) |>
+  filter(voter_category == "sporadic") |>
+  group_by(Q25) |>
   summarise(
     number_of_respondents = n()) |>
   mutate(percentage = (number_of_respondents / total_respondents) * 100)
 
-#Thought nothing would change as a result of the election
+#Plan to vote
 voting_data |>
-  group_by(Q29_3) |>
+  filter(voter_category == "sporadic") |>
+  group_by(Q21) |>
   summarise(
     number_of_respondents = n()) |>
   mutate(percentage = (number_of_respondents / total_respondents) * 100)
 ```
 
-First, we had to filter answers to Q26. Answers 2, 3 and 4 mean sometimes vote, rarely vote and never vote, respectively. We then had to calculate the number of respondents who answered 2, 3 or 4. The next part is to figure out the percentage of that population who do so because they either dislike the candidates or thought nothing would change. The tables code this out. An output of 1 means it was a reason they didn't vote. After calculating percentages, 27% of those who sometimes vote, rarely vote or never vote had disliking a candidate as a reason for nonvoting (article says 26% in the quote). 30% had thinking nothing would change as a reason for nonvoting (article says 31% in the quote). 
+First, we had to filter by respondents who were "sporadic" voters. After doing that, we can see what percentage of them are following the 2020 election closely or somewhat closely (the code gave us 83%. The article gave us 82%) and what percentage of them said they will vote (the code gave us 93.4% while the article gave us 93%). 
 
 
 ```{r}
@@ -160,8 +159,6 @@ voting_data |>
 ```
 
 13% of people who vote irregularly lost a job in the past year. 10% of people who always vote lost a job in the past year. 21%  of people who vote irregularly worried about expenses in the past year. 15.4% of people who always vote worried about expenses in the past year.
-
-
 
 
 

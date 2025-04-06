@@ -103,7 +103,6 @@ joined_data <- joined_data |>
   filter(governor_lt_governor != "undervote", comptroller != "undervote") %>%
   mutate(ticket_split = governor_lt_governor != comptroller)
 
-# Step 4: Count voters and splitters per ZIP
 ticket_stats_by_zip <- cvr_clean %>%
   group_by(zipcode) %>%
   summarise(
