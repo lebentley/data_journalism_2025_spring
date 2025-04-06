@@ -81,7 +81,7 @@ Ticket-splitting (voting for candidates from multiple parties) in today's politi
 Load the two CSV files in the `data` folder: one containing the ballot choices of Frederick voters in five races (governor, comptroller, attorney general and U.S. House) and the other containing information about Frederick's voting locations. You'll need to join them together.
 
 ```{r}
-frederick_cvr <- read_csv("~/Documents/GitHub/data_journalism_2025_spring/labs/lab_07 (1)/data/frederick_cvr.csv")
+cvr <- read_csv("~/Documents/GitHub/data_journalism_2025_spring/labs/lab_07 (1)/data/frederick_cvr.csv")
 frederick_precinct <- read_csv("~/Documents/GitHub/data_journalism_2025_spring/labs/lab_07 (1)/data/frederick_precincts.csv")
 ```
 
@@ -90,37 +90,28 @@ frederick_precinct <- read_csv("~/Documents/GitHub/data_journalism_2025_spring/l
 **A3**
 
 ```{r}
-names (frederick_cvr)
+names (cvr)
 names(frederick_precinct)
-glimpse(frederick_cvr)
+glimpse(cvr)
 ```
 ```{r}
-joined_data <- left_join(frederick_cvr, frederick_precinct, by ="precinct") 
+joined_data <- cvr |>
+  inner_join(cvr, by = "precinct")
 
 joined_data <- joined_data |>
-  mutate(split_gov_compt = governor_lt_governor != comptroller &
-                      governor_lt_governor != "undervote" &
-                      comptroller != "undervote"
-  )
+  filter(!is.na(governor_lt_governor), !is.na(comptroller)) %>%
+  filter(governor_lt_governor != "undervote", comptroller != "undervote") %>%
+  mutate(ticket_split = governor_lt_governor != comptroller)
 
-gov_compt_split_summary <- joined_data %>%
-  count(split_gov_compt) %>%
-  mutate(percent = n / sum(n) * 100)
-
-# Consistency across all 5 races
-cvr_joined <- joined_data %>%
-  mutate(
-    all_five_match = governor_lt_governor == comptroller &
-                     governor_lt_governor == attorney_general &
-                     governor_lt_governor == u_s_senator &
-                     governor_lt_governor == representative_in_congress_6 &
-                     !governor_lt_governor %in% c("undervote", "overvote") )
-
-all_five_match_summary <- joined_data %>%
-  count(all_five_match) %>%
-  mutate(percent = n / sum(n) * 100)
-    
-  )
+# Step 4: Count voters and splitters per ZIP
+ticket_stats_by_zip <- cvr_clean %>%
+  group_by(zipcode) %>%
+  summarise(
+    total_voters = n(),
+    ticket_splitters = sum(ticket_split),
+    split_pct = round(100 * ticket_splitters / total_voters, 2)
+  ) %>%
+  arrange(desc(split_pct))
   
 
 ```
