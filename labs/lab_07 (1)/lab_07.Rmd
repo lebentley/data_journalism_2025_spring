@@ -87,45 +87,113 @@ frederick_precinct <- read_csv("~/Documents/GitHub/data_journalism_2025_spring/l
 
 **Q3** Let's answer some basic questions about ticket-splitting: how many voters voted for different parties in the governor and comptroller's race? How many voted for the same party in both races? What percentage of all voters split their tickets in those races? In how many cases did voters choose the same party in all five contests? What percentage of all voters does that represent?
 
-**A3**
-
+**A3** *I used ChatGPT to help solve this* There were 11, 871 governors that voted for different parties, and it was about 11.1% of all voters who split their tickets. Voters chose the same party 89916	times, which was 83.8%. 
 ```{r}
-names (cvr)
-names(frederick_precinct)
-glimpse(cvr)
+colnames (frederick_precinct)
 ```
+
+
 ```{r}
-joined_data <- cvr |>
-  inner_join(cvr, by = "precinct")
+cvr <- cvr |>
+  mutate(split_gov_comp = governor_lt_governor != comptroller)
 
-joined_data <- joined_data |>
-  filter(!is.na(governor_lt_governor), !is.na(comptroller)) %>%
-  filter(governor_lt_governor != "undervote", comptroller != "undervote") %>%
-  mutate(ticket_split = governor_lt_governor != comptroller)
+split_summary <- cvr |>
+  count(split_gov_comp)
 
-ticket_stats_by_zip <- cvr_clean %>%
-  group_by(zipcode) %>%
-  summarise(
-    total_voters = n(),
-    ticket_splitters = sum(ticket_split),
-    split_pct = round(100 * ticket_splitters / total_voters, 2)
-  ) %>%
-  arrange(desc(split_pct))
-  
+split_summary
+
+same_party_count <- cvr |>
+  filter(governor_lt_governor == comptroller) |>
+  nrow()
+
+percent_split <- split_summary |>
+  mutate(pct = n / sum(n) * 100) |>
+  filter(split_gov_comp == TRUE)
+
+percent_split
+
+five_races <- cvr |>
+  select(governor_lt_governor, comptroller, u_s_senator, attorney_general, representative_in_congress_6)
+
+
+cvr <- cvr |>
+  mutate(same_party_all = apply(five_races, 1, function(x) length(unique(x)) == 1))
+
+
+same_party_all_count <- cvr |>
+  count(same_party_all)
+
+same_party_all_count
+
+percent_same_all <- same_party_all_count %>%
+  mutate(pct = n / sum(n) * 100) %>%
+  filter(same_party_all == TRUE)
+
+percent_same_all
 
 ```
 
 **Q4** Now let's look for the zip codes where voters preferred Republicans in every race *except* the governor's race, where Dan Cox lost to Wes Moore by a wide margin. Write code to generate a dataframe of zip codes with the number of those voters for each of those zip codes, ordering the dataframe so that the zip code with the most ticket-splitters appears first.
 
-**A4**
+**A4** *I used ChatGPT to help solve this question* 
 
 ```{r}
+cvr_joined <- cvr |>
+  left_join(frederick_precinct, by = "precinct") 
+repub_except_gov <- cvr_joined |>
+  filter(
+    comptroller == "Republican",
+    attorney_general == "Republican",
+    u_s_senator == "Republican",
+    representative_in_congress_6 == "Republican",
+    governor_lt_governor != "Republican"
+  )
 
+repub_split_by_zip <- repub_except_gov |>
+  group_by(zipcode) |>
+  summarise(n_splitters = n()) |>
+  arrange(desc(n_splitters))
 ```
 
 **Q5** Let's find out more about those zip codes from A4. Using tidycensus, get a dataframe of Maryland zip codes and their median ages, then join it to the dataframe you produced in A4. NOTE: you'll need to ensure that the two columns you use for the join are the same datatype. Summarize your findings; how would you describe the zip codes with more non-Cox Republicans compared to those with fewer? Where are those leading zip codes located?
 
-**A5**
+**A5** They are located typically in Republican counties. 
 
 ```{r}
+census_api_key("9515735948613ff46c04463438db97a4b0480b4a", overwrite = TRUE)
+readRenviron("~/.Renviron")
+
+md_age <- get_acs(
+  geography = "zcta",
+  variables = "B01002_001",  
+  year = 2022,
+  survey = "acs5",
+  geometry = FALSE
+) |>
+  rename(
+    zipcode = GEOID,
+    median_age = estimate
+  ) |>
+  select(zipcode, median_age)
+
+repub_split_by_zip <- repub_split_by_zip |> mutate(zipcode = str_pad(zipcode, 5, pad = "0"))
+md_age <- md_age |> mutate(zipcode = str_pad(zipcode, 5, pad = "0"))
+
+zip_analysis <- repub_split_by_zip |>
+  left_join(md_age, by = "zipcode") |>
+  arrange(desc(n_splitters))
+
+summary_stats <- zip_analysis |>
+  mutate(split_category = if_else(n_splitters >= median(n_splitters, na.rm = TRUE), "High", "Low")) |>
+  group_by(split_category) |>
+  summarise(
+    avg_median_age = mean(median_age, na.rm = TRUE),
+    n_zips = n()
+  )
+
+
+
 ```
+
+
+
