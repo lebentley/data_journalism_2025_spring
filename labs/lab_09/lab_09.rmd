@@ -33,7 +33,7 @@ HINT: In Datawrapper's "Check and Describe" tab, you can click on a column to ge
 
 What do you think the story here is? Put the answer below along with the URL of your chart.
 
-**A1.** I think there could be a story about how covid impacted voting trends, especially in terms of election day voting. It's predictable that during Covid, mail votes increased. However, between 2018 and 2020, early voting has gone down by 7%. This brings up questions such as why people are discouraged from early voting? Furthermore, mail voting has increased between 2018 and 2022 as well. Here is the link to my chart: https://datawrapper.dwcdn.net/o090T/1/
+**A1.** I think there could be a story about how covid impacted voting trends, especially in terms of election day voting. It's predictable that during Covid, mail votes increased. However, between 2018 and 2020, early voting has gone down by 7%. This brings up questions such as why people are discouraged from early voting? Furthermore, mail voting has increased between 2018 and 2022 as well. Here is the link to my chart: https://datawrapper.dwcdn.net/o090T/2/
 
 ```{r}
 md_votes_by_type <- read_csv("data/md_votes_by_type.csv")
@@ -49,15 +49,6 @@ votes_pct <- md_votes_by_type |>
 write_csv(votes_pct, "vote_type-percentages.csv")
   
 ```
-
-
-```{r}
-colnames(md_votes_by_type)
-```
-```{r}
-getwd()
-```
-
 **Q2.** You've been assigned to track early-voting turnout in Maryland at the county level. To do that, use [data from the state](https://elections.maryland.gov/press_room/2024_stats/PG24/EarlyVoting%20RAW%20data.csv). YOU DO NOT NEED TO LOAD THIS FILE. I've created several CSV files from it; each has a row for each day, with the counties as columns, so you can track early voting turnout in certain categories. The available files in the data folder are:
 
 * ev_totals_18_24.csv - early voting turnout by the 18-24 age group
@@ -79,7 +70,7 @@ Your chart MUST:
 
 Tell me below why you picked the CSV you did. If you made any changes to the data, put that code below.
 
-**A2.** I chose to look at women's early voting turnout for the first five counties on the list. So, my question could be: What did early voter turnout in Maryland look like among women categorized by day? (I would just have to explicitly say that I'm only using a specific number of counties to act as a sample). Link to my chart: https://datawrapper.dwcdn.net/eYEWN/1/
+**A2.** I chose to look at women's early voting turnout for the first five counties on the list. So, my question could be: What did early voter turnout in Maryland look like among women categorized by day? (I would just have to explicitly say that I'm only using a specific number of counties to act as a sample). Link to my chart: https://datawrapper.dwcdn.net/eYEWN/2/
 
 ```{r}
 women_voting_turnout <- read_csv("data/ev_totals_women.csv")
@@ -88,9 +79,6 @@ evw_selected_counties <- women_voting_turnout |>
   select(Day, Allegany, `Anne Arundel`, `Baltimore City`, `Baltimore County`, Calvert)
 
 write_csv(evw_selected_counties,"wvoting_turnout_selected.csv")
-```
-```{r}
-colnames(women_voting_turnout)
 ```
 
 **Q3.** After reading the recent CNN story about fundraising called "[How elderly dementia patients are unwittingly fueling political campaigns](https://www.cnn.com/interactive/2024/10/politics/political-fundraising-elderly-election-invs-dg/)," you decide to dig into the habits of Maryland political donors who give money via ActBlue and WinRed.
@@ -110,9 +98,57 @@ Then export each dataframe using `write_csv` and make two (2) choropleth maps in
 
 Compare the two maps. What do you think are the most interesting story ideas in both, and what would you want to know more about? Put the answer below along with the URLs of your maps.
 
-**A3.** 
+**A3.** For the WinRed contributions, very few donations are among the highest amount, practically only two zio codes. The number is still also low among contributions for ActBlue, but more than WinRed. Also, ActBlue seemed to generally get a larger amount of donations per zipcode. *I used ChatGPT to answer this question, it particularly told me to use union on all_zips because of an error I was getting. It also told me to use the filter %in% on all_zips. I also asked it for help when I was having problems with character strings not matching.*
+WinRed Map: https://datawrapper.dwcdn.net/OZbSn/1/
+ActBlue Map: https://datawrapper.dwcdn.net/Y3oue/1/
+
 
 ```{r}
+
+census_api_key("9515735948613ff46c04463438db97a4b0480b4a", install = FALSE, overwrite = TRUE)
+
 md_winred_zips <- read_csv("data/md_winred_zip_totals.csv")
 md_actblue_zips <- read_csv("data/md_actblue_zip_totals.csv")
+
+md_population <- get_acs(
+  geography = "zcta",
+  variables = "B01003_001",
+  year = 2020, 
+  survey = "acs5", 
+  geometry = FALSE
+)
+
+md_population_clean <- md_population |>
+  select(zip = GEOID, population = estimate) |>
+  mutate(zip = as.character(zip)) 
+
+all_zips <- as.character(union(md_winred_zips$zip, md_actblue_zips$zip))
+
+md_population_clean <- md_population_clean |>
+  filter(zip %in% all_zips)
+
+actblue <- md_actblue_zips |>
+  mutate(
+    zip = as.character(zip)
+  )
+  
+winred <- md_winred_zips |>
+  mutate(
+    zip = as.character(zip)
+  )
+
+actblue_joined <- actblue |>
+  left_join(md_population_clean, by = "zip") |>
+  mutate(
+    donations = (donations/population) * 1000
+  )
+
+winred_joined <- winred |>
+  left_join(md_population_clean, by = "zip") |>
+  mutate(
+    donations = (donations/population) * 1000
+  )
+
+write_csv(actblue_joined, "actblue_joined.csv")
+write_csv(winred_joined, "winred_joined.csv")
 ```
