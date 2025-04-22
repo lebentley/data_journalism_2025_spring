@@ -81,8 +81,8 @@ Ticket-splitting (voting for candidates from multiple parties) in today's politi
 Load the two CSV files in the `data` folder: one containing the ballot choices of Frederick voters in five races (governor, comptroller, attorney general and U.S. House) and the other containing information about Frederick's voting locations. You'll need to join them together.
 
 ```{r}
-cvr <- read_csv("~/Documents/GitHub/data_journalism_2025_spring/labs/lab_07 (1)/data/frederick_cvr.csv")
-frederick_precinct <- read_csv("~/Documents/GitHub/data_journalism_2025_spring/labs/lab_07 (1)/data/frederick_precincts.csv")
+cvr <- read_csv("data/frederick_cvr.csv")
+frederick_precinct <- read_csv("data/frederick_precincts.csv")
 ```
 
 **Q3** Let's answer some basic questions about ticket-splitting: how many voters voted for different parties in the governor and comptroller's race? How many voted for the same party in both races? What percentage of all voters split their tickets in those races? In how many cases did voters choose the same party in all five contests? What percentage of all voters does that represent?
