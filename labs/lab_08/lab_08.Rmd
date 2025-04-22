@@ -34,8 +34,8 @@ library(dplyr)
 You can clean up column names to make them easier to work with if you like, and should ensure that any date columns are actually date formatted.
 
 ```{r}
-absentee_ballots <- read.csv("~/Documents/GitHub/data_journalism_2025_spring/labs/lab_08/data/md_absentee_ballots.csv")
-absentee_ballots_date <- read.csv("~/Documents/GitHub/data_journalism_2025_spring/labs/lab_08/data/md_absentee_ballots_date.csv")
+absentee_ballots <- read.csv("data/md_absentee_ballots.csv")
+absentee_ballots_date <- read.csv("data/md_absentee_ballots_date.csv")
 ```
 
 ## Questions
