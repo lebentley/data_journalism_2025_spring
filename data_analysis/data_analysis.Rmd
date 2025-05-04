@@ -131,8 +131,41 @@ In this notebook, we are answering five questions about the data.
 * **Analysis summary**: 
 
 ```{r}
+#Summarize votes by party (2020)
+votes_2020 <- precincts_combined |>
+  filter(year == 2020) |>
+  group_by(election_district_precinct, county_name, party) |>
+  summarize(total_votes_2020 = sum(total,na.rm = TRUE), .groups= "drop")
 
+#Summarize votes by party (2024)
+votes_2024 <- precincts_combined |>
+  filter(year == 2024) |>
+  group_by(election_district_precinct, county_name, party) |>
+  summarize(total_votes_2024 = sum(total, na.rm=TRUE), .groups="drop")
+
+#Join 2020 and 2024 datasets by party and precinct 
+vote_changes <- left_join(votes_2020, votes_2024, by = c("election_district_precinct", "county_name", "party"))
+
+#Democrat percent change 
+democratic_changes <- vote_changes |>
+  filter(party == "DEM") |>
+  mutate(
+    percent_change = ((total_votes_2024 - total_votes_2020) / total_votes_2020) * 100
+  ) |>
+  select(election_district_precinct, county_name, percent_change) |>
+  arrange(desc(percent_change))
+
+#Republican percent change 
+republican_changes <- vote_changes |>
+  filter(party == "REP") |>
+  mutate(
+    percent_change = ((total_votes_2024 - total_votes_2020) / total_votes_2020) * 100 
+  ) |>
+  select(election_district_precinct, county_name, percent_change) |>
+  arrange(desc(percent_change))
 ```
+
+
 
 
 
@@ -146,6 +179,7 @@ In this notebook, we are answering five questions about the data.
 * **Analysis summary**: 
 
 ```{r}
+
 
 ```
 
@@ -162,6 +196,7 @@ In this notebook, we are answering five questions about the data.
 
 ```{r}
 
+
 ```
 
 
@@ -174,8 +209,143 @@ In this notebook, we are answering five questions about the data.
 
 * **Analysis summary**: 
 ```{r}
+# get census income data by tract
+md_income_data <- get_acs(
+  geography = "tract",
+  variables = "B19013_001",
+  state = "MD",
+  year = 2021,
+  geometry = TRUE
+)
+glimpse(md_income_data)
+
+
+#read precinct shapefile 
+glimpse(md_income_data)
+
+uncleaned_precincts_shape <- st_read("data/Maryland_Election_Boundaries_-_Precincts_2022/Maryland_Election_Boundaries_-_Precincts_2022.shp")
+
+precincts_shape <- uncleaned_precincts_shape |>
+  clean_names()|>
+   mutate(
+    name = str_extract(name, "\\d{1,2}-\\d{3}"),  # Extract the district-precinct code (e.g., "29-002")
+    district = str_extract(name, "^\\d{1,2}"),  # Extract the district number (e.g., "29", "5", "12")
+    precinct_code = str_pad(district, width = 3, side = "left", pad = "0"),  # Pad district with leading zeros
+    name = str_replace(name, "^\\d{1,2}", precinct_code)  # Replace original district with padded district
+  ) |>
+  select(name, geometry)|>  # Keep only the formatted precinct_column
+rename(election_district_precinct = name)
+
+#join precinct spatial data to election data
+geometry_precincts_combined <- precincts_shape |>
+  left_join(precincts_combined, join_by(election_district_precinct)) 
+
+#join last dataframe with maryland income dataframe
+#make same type
+md_income_shape <- st_transform(md_income_data, st_crs(geometry_precincts_combined))
+
+#join precinct data to county spatial data
+
+joined_data <- st_join(precincts_shape, md_income_shape)|>
+ rename(median_income = estimate)
+
+
+election_economic_analysis <- left_join(joined_data, precincts_combined, by = "election_district_precinct")
+
+election_economic_analysis <- election_economic_analysis |>
+   st_drop_geometry() |>
+  clean_names()|>
+   rename(census_tract = name)|>
+  mutate(median_income_group = case_when(
+    median_income <= 50000 ~ "$50,000 or less",
+     median_income <= 100000 ~ "$50,000 to $100,000",
+    TRUE ~ "Over $100,000"
+  ))|>
+  select(year,election_district_precinct,census_tract,county_name,median_income_group,candidate_name,total)
 
 ```
+
+```{r}
+# 2020 economic data
+  election_economic_analysis_2020 <- election_economic_analysis |>
+  filter(year == 2020) 
+
+election_economic_analysis_2020
+```
+
+
+```{r}
+# 2020 trump votes 
+trump_votes_by_income_2020 <- election_economic_analysis_2020|>
+  filter(candidate_name == "Donald J. Trump")|>
+  group_by(median_income_group,county_name,election_district_precinct)
+  
+trump_votes_by_income_2020
+```
+
+
+```{r}
+# 2020 biden votes
+biden_votes_by_income_2020 <- election_economic_analysis_2020|>
+  filter(candidate_name == "Joe Biden")|>
+  distinct(year,county_name, election_district_precinct, median_income_group, total, .keep_all = TRUE)|>
+  group_by(election_district_precinct, median_income_group)
+  summarise(
+    biden_votes =sum(total)
+  )
+ 
+
+biden_votes_by_income_2020
+
+```
+
+
+```{r}
+# 2024 economic data
+  election_economic_analysis_2024 <- election_economic_analysis |>
+  filter(year == 2024) 
+
+election_economic_analysis_2024
+```
+
+
+```{r}
+# 2020 trump votes
+trump_votes_by_income_2024 <- election_economic_analysis_2024|>
+  filter(candidate_name == "Donald J. Trump and JD Vance")
+  
+ 
+
+trump_votes_by_income_2024
+```
+
+
+```{r}
+# 2020 harris votes
+harris_votes_by_income_2024 <- election_economic_analysis_2024|>
+  filter(candidate_name == "Kamala D. Harris and Tim Walz")
+
+harris_votes_by_income_2024
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -187,6 +357,104 @@ In this notebook, we are answering five questions about the data.
 
 * **Analysis summary**: 
 ```{r}
+##demographics based on 2020 census data per Maryland Planning Board https://planning.maryland.gov/Redistricting/Pages/2020/precinct.aspx
+
+precinct_population <- read_csv("data/precinct_population_data.csv") |>
+  clean_names() |>
+  select(
+    precinct_name, voting_district,
+    white, black, native_american, asian, pacific_islander, other,
+    two_or_more, hispanic_latino
+  )|>
+  rename(county_name = precinct_name)|>
+  mutate(
+    election_district_precinct = (paste0("0", voting_district)),
+    county_name = str_remove(county_name, " Precinct.*"),  # Remove everything after ' Precinct'
+    county_name = case_when(county_name == "Baltimore County " ~ "Baltimore",
+                            TRUE ~ county_name),
+    county_name = case_when(county_name == "St. Mary's" ~ "Saint Mary's",
+                            TRUE ~ county_name),
+    county_name = paste0(county_name, " County"),  # Add 'County' at the end
+    county_name = case_when(county_name == "Baltimore City County" ~ "Baltimore City",
+                            TRUE ~ county_name),
+  )
+  
+
+
+precinct_population_2020 <- precincts2020 |>
+  left_join(precinct_population, join_by(county_name, election_district_precinct))|>
+  mutate(
+    total_of_age_voters =  (white + black + native_american + asian + pacific_islander + other + 
+    two_or_more + hispanic_latino),
+    pct_white = (white/total_of_age_voters)*100,
+    pct_black =(black/total_of_age_voters)*100,
+    pct_asian = (asian/total_of_age_voters)*100,
+    pct_hispanic = (hispanic_latino/total_of_age_voters )*100
+    )|>
+  select(county_name, election_district_precinct, total, candidate_name, pct_white, pct_black,pct_asian,pct_hispanic, total_of_age_voters)|>
+rename(total_votes = total)
+  
+  
+
+precinct_population_2024 <- precincts2024 |>
+  left_join(precinct_population, join_by(county_name, election_district_precinct))|>
+  mutate(
+    total_of_age_voters =  (white + black + native_american + asian + pacific_islander + other + 
+    two_or_more + hispanic_latino),
+    pct_white = (white/total_of_age_voters)*100,
+    pct_black =(black/total_of_age_voters)*100,
+    pct_asian = (asian/total_of_age_voters)*100,
+    pct_hispanic = (hispanic_latino/total_of_age_voters )*100)|>
+  select(county_name, election_district_precinct, candidate_name, total, pct_white, pct_black,pct_asian,pct_hispanic, total_of_age_voters)|>
+  rename(total_votes = total)
+
+
+trump_votes_by_race_2020 <- precinct_population_2020 |>
+  filter(candidate_name == "Donald J. Trump")|>
+  mutate(
+    trump_voters_pct = (total_votes/total_of_age_voters)*100
+  )
+
+trump_votes_by_race_2024 <- precinct_population_2024 |>
+  filter(candidate_name == "Donald J. Trump and JD Vance")|>
+ mutate(
+    trump_voters_pct = (total_votes/total_of_age_voters)*100
+  )
+
+
+biden_votes_by_race_2020 <- precinct_population_2020 |>
+  filter(candidate_name == "Joe Biden")|>
+ mutate(
+    biden_voters_pct = (total_votes/total_of_age_voters)*100
+  )
+
+harris_votes_by_race_2024 <- precinct_population_2024 |>
+  filter(candidate_name == "Kamala D. Harris and Tim Walz")|>
+   mutate(
+    harris_voters_pct = (total_votes/total_of_age_voters)*100
+  )
+
+
+#combine ?
+
+
+
+
+#assign value to precincts like majority white/black/hispanic/etc  voters, then group by and summarize to count how many majority white counties had higher percentages of voting for trump
+
+
+
+
+#white voters 
+
+
+
+
+
+#black voters
+
+
+#hispanic voters
 
 ```
 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Maryland Election Boundaries - Precincts 2022</title>
+                <onlink>https://geodata.md.gov/imap/rest/services/Boundaries/MD_ElectionBoundaries/FeatureServer/2</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Precinct (voting district) polygon boundaries for 2022 collected by the Maryland Department of Planning (Planning) from counties (including Baltimore City) or digitized by Planning in coordination with counties, with precinct numbers reformatted as necessary for statewide consistency (see VTD field specifications below). All data are reprojected to WGS 1984 Web Mercator (auxiliary sphere) consistent with MD iMap standards, but precincts are otherwise delineated as received from counties. Planning may complete minor future adjustments to ensure precincts are edge matched with Census block boundaries.Fields include: JURSCODE (Jurisdiction Code) – MdProperty View jurisdiction code (four-letter county or Baltimore City code) COUNTY (County) – The US Census Bureau’s five-digit geographic identifier for each county in Maryland (including Baltimore City), which is includes the Maryland state code (24) followed by a three-digit county code. COUNTYNAME (County Name) – County name in text format VTD (Voting District Identifier) – Voting district identifier comprised of a five-digit county code (see “COUNTY” field) followed by a six-digit precinct identifier. The six-digit precinct identifier contains a two-digit election district number followed by a dash followed by a three-digit precinct number. This field is NULL for precinct names that could not be formatted according to these specifications. LABEL (Precinct Label) – Includes either the final six digits of the VTD field (precinct identifier) or the precinct name as provided by the county if a six-digit precinct identifier could not be derived from the source data. May be blank or NULL. Precinct labels are not unique across counties. NAME (Full Precinct Name) - Full precinct name, including the County Name and Precinct Label AGG_SRC (Aggregator Source) - Includes the aggregator organization credited with data aggregation, feature class name, and vintage date DATE_AGGREGATED (Date Aggregated) – Date the data were aggregated (YYMMDD) GIS_SRC (GIS Source) – The original source of the GIS spatial and attribute information the aggregator obtained, typically formatted as a shapefile or feature class name SRC_DATE (GIS Source Date) - The date (YYYYMMDD) the GIS data were obtained by the data aggregator. If the month or day is unknown, the date is YYYY0000This dataset includes historical precinct data from 2022. For the latest precinct information, please contact the Local Board of Elections: https://elections.maryland.&amp;lt;wbr&amp;gt;&amp;lt;/wbr&amp;gt;gov/about/county_boards.html.This is a MD iMAP hosted service. Find more information at https://imap.maryland.gov.Feature Service Link:https://geodata.md.gov/imap/rest/services/Boundaries/MD_ElectionBoundaries/FeatureServer/2</abstract>
+            <purpose>Precinct (voting district) polygon boundaries for 2022 collected by the Maryland Department of Planning (Planning) from counties (including Baltimore City) or digitized by Planning in coordination with counties, with precinct numbers reformatted as necessary for statewide consistency (see VTD field specifications below).</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Election</themekey>
+                <themekey>Boundaries</themekey>
+                <themekey>Congress</themekey>
+                <themekey>Redistricting</themekey>
+                <themekey>Legislature</themekey>
+                <themekey>MDP</themekey>
+                <themekey>Vector</themekey>
+                <themekey>Dynamic</themekey>
+                <themekey>Maryland</themekey>
+                <themekey>MD iMAP</themekey>
+                <themekey>WMS</themekey>
+                <themekey>WFS</themekey>
+                <themekey>Precinct</themekey>
+            </theme>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>The Spatial Data, and the information therein, (collectively the &amp;quot;Data&amp;quot;) is provided &amp;quot;as is&amp;quot; without warranty of any kind, either expressed, implied, or statutory. The user assumes the entire risk as to quality and performance of the Data. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the State of Maryland be liable for direct, indirect, incidental, consequential or special damages of any kind. The State of Maryland does not accept liability for any damages or misrepresentation caused by inaccuracies in the Data or as a result to changes to the Data, nor is there responsibility assumed to maintain the Data in any manner or form. The Data can be freely distributed as long as the metadata entry is not modified or deleted. Any data derived from the Data must acknowledge the State of Maryland in the metadata.</useconst>
+        <datacred>MDiMap, MDP, Alfred Sundara, alfred.sundara@maryland.gov, MD Counties, Maryland Counties, Counties</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20230523</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
