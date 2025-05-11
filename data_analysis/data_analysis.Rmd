@@ -180,8 +180,40 @@ republican_changes <- vote_changes |>
 
 ```{r}
 
+#Total votes by precinct (2020 and 2024)
+voter_turnout_summary <- precincts_combined |>
+  group_by(year, election_district_precinct, county_name) |>
+  summarize(total_voter_turnout = sum(total,na.rm=TRUE), .groups="drop")
+
+#Seperate by year 
+voter_turnout_2020 <- voter_turnout_summary |>
+  filter(year == 2020) |>
+  select(election_district_precinct, county_name, total_turnout_2020 = total_voter_turnout)
+
+voter_turnout_2024 <- voter_turnout_summary |>
+  filter(year == 2024) |>
+  select(election_district_precinct, county_name, total_turnout_2024 = total_voter_turnout)
+
+#Join by precinct 
+voter_turnout_changes <- left_join(voter_turnout_2020,voter_turnout_2024, by = c("election_district_precinct", "county_name")) |>
+  mutate(change = total_turnout_2024 - total_turnout_2020, 
+         percent_change= (change/total_turnout_2020) * 100)
+
+#View largest increase and decrease 
+top_voter_increases <- voter_turnout_changes |>
+  arrange(desc(percent_change)) |>
+  slice_head(n=10)
+
+top_voter_decreases <- voter_turnout_changes |>
+  arrange(percent_change) |>
+  slice_head(n=10)
+  
+
 
 ```
+
+
+
 
 
 
@@ -375,34 +407,27 @@ harris_votes_by_income_2024
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Question 5
 
 * **Question**: How did voting behavior differ between races, genders and age groups? 
 
 * **Analysis summary**: 
-```{r}
-##demographics based on 2020 census data per Maryland Planning Board https://planning.maryland.gov/Redistricting/Pages/2020/precinct.aspx
 
-precinct_population <- read_csv("data/precinct_population_data.csv") |>
+In 2020, Trump won in about 532 Maryland precincts; 98.5% of those precincts have a white racial majority. He won in two majority Hispanic precincts.
+
+In 2020, Biden won in about 1429 Maryland precincts; 37% of those precincts have a white racial majority, 33.8% have Black racial majority and 26% have no racial majority. He won in 37 majority Hispanic precincts.
+
+In 2024, Trump won in about 481 Maryland precincts; 96% of those have a white racial majority. He won in one majority Hispanic precinct.
+
+In 2024, Harris won in about 1318 Maryland precincts; 36% of those have a white racial majority, 35.8% have a black majority and 25% have no racial majority. She won in 35 majority Hispanic precincts.
+```{r}
+
+
+#assign racial majority to precincts based on Maryland Planning Board data:  https://planning.maryland.gov/Redistricting/Pages/2020/precinct.aspx
+
+uncleaned_precinct_population <- read_csv("data/precinct_population_data.csv") 
+
+precinct_population<- uncleaned_precinct_population|>
   clean_names() |>
   select(
     precinct_name, voting_district,
@@ -420,86 +445,123 @@ precinct_population <- read_csv("data/precinct_population_data.csv") |>
     county_name = paste0(county_name, " County"),  # Add 'County' at the end
     county_name = case_when(county_name == "Baltimore City County" ~ "Baltimore City",
                             TRUE ~ county_name),
-  )
-  
-
-
-precinct_population_2020 <- precincts2020 |>
-  left_join(precinct_population, join_by(county_name, election_district_precinct))|>
-  mutate(
-    total_of_age_voters =  (white + black + native_american + asian + pacific_islander + other + 
+    total_population =  (white + black + native_american + asian + pacific_islander + other + 
     two_or_more + hispanic_latino),
-    pct_white = (white/total_of_age_voters)*100,
-    pct_black =(black/total_of_age_voters)*100,
-    pct_asian = (asian/total_of_age_voters)*100,
-    pct_hispanic = (hispanic_latino/total_of_age_voters )*100
-    )|>
-  select(county_name, election_district_precinct, total, candidate_name, pct_white, pct_black,pct_asian,pct_hispanic, total_of_age_voters)|>
-rename(total_votes = total)
+    pct_white = (white/total_population)*100,
+    pct_black =(black/total_population)*100,
+    pct_asian = (asian/total_population)*100,
+    pct_hispanic = (hispanic_latino/total_population )*100,
+    race = case_when( 
+      pct_white >= 50 ~ "Majority White",
+      pct_black >= 50 ~ "Majority Black",
+      pct_asian >= 50 ~ "Majority Asian",
+      pct_hispanic >= 50 ~"Majority Hispanic",
+       TRUE ~ "No Racial Majority"
+      ))|>
+  select(county_name, election_district_precinct,race)
   
-  
-
-precinct_population_2024 <- precincts2024 |>
-  left_join(precinct_population, join_by(county_name, election_district_precinct))|>
-  mutate(
-    total_of_age_voters =  (white + black + native_american + asian + pacific_islander + other + 
-    two_or_more + hispanic_latino),
-    pct_white = (white/total_of_age_voters)*100,
-    pct_black =(black/total_of_age_voters)*100,
-    pct_asian = (asian/total_of_age_voters)*100,
-    pct_hispanic = (hispanic_latino/total_of_age_voters )*100)|>
-  select(county_name, election_district_precinct, candidate_name, total, pct_white, pct_black,pct_asian,pct_hispanic, total_of_age_voters)|>
-  rename(total_votes = total)
-
-
-trump_votes_by_race_2020 <- precinct_population_2020 |>
+trump2020<- precincts2020 |>
   filter(candidate_name == "Donald J. Trump")|>
-  mutate(
-    trump_voters_pct = (total_votes/total_of_age_voters)*100
-  )
+  select(county_name, election_district_precinct,total)|>
+  rename(trump_total_votes=total)
+    
 
-trump_votes_by_race_2024 <- precinct_population_2024 |>
-  filter(candidate_name == "Donald J. Trump and JD Vance")|>
- mutate(
-    trump_voters_pct = (total_votes/total_of_age_voters)*100
-  )
-
-
-biden_votes_by_race_2020 <- precinct_population_2020 |>
+biden2020<- precincts2020 |>
   filter(candidate_name == "Joe Biden")|>
- mutate(
-    biden_voters_pct = (total_votes/total_of_age_voters)*100
-  )
+  select(county_name, election_district_precinct,total)|>
+  rename(biden_total_votes=total)
 
-harris_votes_by_race_2024 <- precinct_population_2024 |>
+election2020 <- trump2020|>
+  left_join(biden2020, join_by(county_name, election_district_precinct))|>
+  mutate(
+    # Replace NA vote counts with 0 -- ChatGPT
+    trump_total_votes = replace_na(trump_total_votes, 0),
+    biden_total_votes = replace_na(biden_total_votes, 0),
+    total_votes = biden_total_votes + trump_total_votes,
+    # Prevent divide-by-zero by using if_else -- ChatGPT
+    pct_trump = if_else(total_votes == 0, NA_real_, (trump_total_votes / total_votes) * 100),
+    pct_biden = if_else(total_votes == 0, NA_real_, (biden_total_votes / total_votes) * 100),
+    winner= case_when(
+      pct_trump>=50 ~ "Trump",
+      pct_biden>=50 ~"Biden",
+      TRUE ~ "No Majority Winner"
+    )
+  )|>
+  select(county_name,election_district_precinct,winner)
+  
+#add racial data to 2020 precinct election data
+  election_population_2020 <- precinct_population |>
+    left_join( election2020, join_by(county_name,election_district_precinct))|>
+    group_by(winner,race)|>
+    summarise(
+      precincts = n()
+    )|>
+    filter(!is.na(winner))|>
+    mutate(
+      total_precincts_won = sum(precincts)
+    )|>
+    arrange(desc(total_precincts_won))
+  
+  racial_analysis2020 <- election_population_2020|>
+    mutate(
+      precinct_pct = (precincts/ total_precincts_won)*100
+    )
+#run analysis
+  racial_analysis2020
+    
+# repeat for 2024
+trump2024<- precincts2024 |>
+  filter(candidate_name == "Donald J. Trump and JD Vance")|>
+  select(county_name, election_district_precinct,total)|>
+  rename(trump_total_votes=total)
+    
+harris2024 <- precincts2024 |>
   filter(candidate_name == "Kamala D. Harris and Tim Walz")|>
-   mutate(
-    harris_voters_pct = (total_votes/total_of_age_voters)*100
-  )
+  select(county_name, election_district_precinct,total)|>
+  rename(harris_total_votes=total)
 
-
-#combine ?
-
-
-
-
-#assign value to precincts like majority white/black/hispanic/etc  voters, then group by and summarize to count how many majority white counties had higher percentages of voting for trump
-
-
-
-
-#white voters 
-
-
-
-
-
-#black voters
-
-
-#hispanic voters
-
+election2024 <- trump2024|>
+  left_join(harris2024, join_by(county_name, election_district_precinct))|>
+  mutate(
+    # Replace NA vote counts with 0 -- Chat GPT
+    trump_total_votes = replace_na(trump_total_votes, 0),
+    harris_total_votes = replace_na(harris_total_votes, 0),
+    total_votes = harris_total_votes + trump_total_votes,
+    # Prevent divide-by-zero by using if_else -- Chat GPT
+    pct_trump = if_else(total_votes == 0, NA_real_, (trump_total_votes / total_votes) * 100),
+    pct_harris = if_else(total_votes == 0, NA_real_, (harris_total_votes / total_votes) * 100),
+    winner= case_when(
+      pct_trump>=50 ~ "Trump",
+      pct_harris>=50 ~"Harris",
+      TRUE ~ "No Majority Winner"
+    )
+  )|>
+  select(county_name,election_district_precinct,winner)
+  
+#add racial data to 2020 precinct election data
+  election_population_2024 <- precinct_population |>
+    left_join( election2024, join_by(county_name,election_district_precinct))|>
+    group_by(winner,race)|>
+    summarise(
+      precincts = n()
+    )|>
+    filter(!is.na(winner))|>
+    mutate(
+      total_precincts_won = sum(precincts)
+    )|>
+    arrange(desc(total_precincts_won))
+  
+  racial_analysis2024 <- election_population_2024|>
+    mutate(
+      precinct_pct = (precincts/ total_precincts_won)*100
+    )|>
+    arrange(desc(precinct_pct))
+  
+#run analysis
+    racial_analysis2024
+ 
 ```
+
 
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
