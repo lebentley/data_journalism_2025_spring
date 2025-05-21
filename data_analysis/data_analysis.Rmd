@@ -30,6 +30,7 @@ library(tidyverse)
 library(lubridate)
 library(tidycensus)
 library(janitor)
+library(ggplot2)
 ```
 ## Load and Clean Data
 ```{r}
@@ -224,7 +225,7 @@ top_voter_decreases <- voter_turnout_changes |>
 * **Question**: How did early voting and mail-in ballots influence precinct-level results? 
 
 
-* **Analysis summary**: 
+* **Analysis summary**: In order to figure out how mail-in ballots and early voting influence precinct-level results, I filtered the data by year and then summarized it, grouping by precinct, county name, party, early, provisional, and total amount of votes. I did this for both 2020 and 2024, then I calculated the percentage difference for early, mail-in, and provisional votes. Next, I changed the format in order to properly plot it and used ggplot to make a bar chart demonstrating the difference in mail-in and early votes based on party and year. You can see from the chart that Democrats make up a significantly higher number of mail-in votes, with the percentage in 2020 being nearly 60%. Republicans, on the other hand, make up a higher percentage of early votes. Ultimately, voting methods are somewhat split between party, meaning that precinct-level elections for these years would've received a higher number of main-ins from Democrats and a higher number of early votes from Republicans. 
 
 ```{r}
 #summarize votes by method in 2020
@@ -270,6 +271,36 @@ methods_combined <- methods_combined |>
     average_provisional = mean(provisional_percent, na.rm = TRUE),
     .groups = "drop"
   )
+
+#change data to long format 
+#I used chat gpt to help convert data table to the correct format
+methods_plotted <- methods_combined |>
+  select(year, party, average_early, average_mail) |>
+pivot_longer(
+    cols = starts_with("average_"),
+  names_to = "method",
+  values_to = "percent"
+) |>
+mutate(
+  method = recode(method, average_early = "early", average_mail = "mail-in")
+)
+
+#plot data based on year and party to show differences between 2024 and 2020
+#I used chatgpt to help with the ggplot, including the facet_wrap and geom_col functions, as well as changing to to percent format
+ggplot(methods_plotted, aes(x=party, y=percent, fill=method)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~year) +
+  labs(
+    title = "Early and Mail-In Votes Separated by Year and Party",
+    x = "party",
+    y = "average percent of votes",
+    fill = "voting method"
+  ) +
+
+scale_y_continuous (labels = scales::percent_format()) +
+  theme_minimal()
+
+
   
 print(methods_combined)
 ```
