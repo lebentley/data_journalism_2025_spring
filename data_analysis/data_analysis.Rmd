@@ -31,6 +31,7 @@ library(lubridate)
 library(tidycensus)
 library(janitor)
 library(ggplot2)
+library(sf)
 ```
 ## Load and Clean Data
 ```{r}
@@ -129,7 +130,7 @@ In this notebook, we are answering five questions about the data.
 
 * **Question**: Which precincts experienced the most significant change in party support? 
 
-* **Analysis summary**: 
+* **Analysis summary**:  To find out which precincts experienced the most significant change in party support, we filtered each dataset with 2020 and 2024 precincts to show only the precinct, county and party. Then, we joined the datasets together and calculated the democratic and republican percent changes for each. Through this analysis, we found that Baltimore County 009-029 had the largest republican percent change from 2020 to 2024 and Baltimore County 009-027 also had the largest democratic percent change from 2020 to 2024. Washington County and Harford County precincts also had large percent change in party support. Prince George's County 019-005 had the lowest democratic percent change and Washington County 013-002 had the lowest republican percent change.
 
 ```{r}
 #Summarize votes by party (2020)
@@ -177,7 +178,7 @@ republican_changes <- vote_changes |>
 
 * **Question**: How did voter turnout vary across precincts? What factors contributed to this? 
 
-* **Analysis summary**: 
+* **Analysis summary**: To find how voter turnout varied across precincts from 2020 to 2024, we calculated the total number of votes by precinct for each year. We then seperated these datasets by year and joined them by precinct. We then calculated the percent changes for both increasing and decreasing votes. From this, we only looked at the top 10 precincts from each election district. We found that Prince George's County and Washington County had the largest decrease in voter turnout from 2020 to 2024. Prince George's County had small numbers within the dataset, with only 3 voters shown -- so this number is not reflective of the other precinct changes. Harford County had the largest increase in voter turnout, along with various precincts in Baltimore County. 
 
 ```{r}
 
@@ -313,126 +314,228 @@ print(methods_combined)
 
 * **Question**: How did voting behavior differ between precincts based on economic status? 
 
-* **Analysis summary**: 
+* **Analysis summary**:  
+In order to analyze voting behavior based on economic status between the two years, I combined precinct and census tract spatial files to assign data to each precinct each year. From there I grouped by median income and election winner to determine the differences between each precinct. Overall, Donald Trump won more among precincts with mid-ranged median income precincts than the upper-range median income precincts, while the opposite was true for the Democratic candidates both years. 
+
+About 52% of the Maryland precincts that voted for Donald Trump in 2020 had a median income between 50,000 and 100,000. About 40% had a median income greater than $100,000, and about 7% earned 50,000 dollars or less.
+
+About 44.8% of the Maryland precincts that voted for Joe Biden in 2020 had a median income greater than 100,000. About 42% had a median income between 50,000 and 100,000, and about 13% earned 50,000 dollars or less.
+
+
+About 50% of the Maryland precincts that voted for Donald Trump in 2024 had a median income between 50,000 and 100,000. About 42.8% had a median income greater than $100,000, and about 7% earned 50,000 dollars or less.
+
+About 47.7% of the Maryland precincts that voted for Kamala Harris in 2024 had a median income greater than 100,000. About 39% had a median income between 50,000 and 100,000, and about 13% earned 50,000 dollars or less.
+
+
+
 ```{r}
-# get census income data by tract
-md_income_data <- get_acs(
+#load precinct geography, load census geography, assign precinct economic status values to precincts
+precincts_geometry <- st_read("data/tl_2020_24_vtd20/tl_2020_24_vtd20.shp")|>
+  clean_names()|>
+ mutate(
+  vtdst20 = str_replace(vtdst20, "^\\d+", ~str_pad(.x, width = 3, side = "left", pad = "0"))
+)|>
+mutate(
+    countyfp20 = case_when(
+      countyfp20 == "001" ~ "Allegany County",
+      countyfp20 == "003" ~ "Anne Arundel County",
+      countyfp20 == "005" ~ "Baltimore County",
+      countyfp20 == "009" ~ "Calvert County",
+      countyfp20 == "011" ~ "Caroline County",
+      countyfp20 == "013" ~ "Carroll County",
+      countyfp20 == "015" ~ "Cecil County",
+      countyfp20 == "017" ~ "Charles County",
+      countyfp20 == "019" ~ "Dorchester County",
+      countyfp20 == "021" ~ "Frederick County",
+      countyfp20 == "023" ~ "Garrett County",
+      countyfp20 == "025" ~ "Harford County",
+      countyfp20 == "027" ~ "Howard County",
+      countyfp20 == "029" ~ "Kent County",
+      countyfp20 == "031" ~ "Montgomery County",
+      countyfp20 == "033" ~ "Prince George's County",
+      countyfp20 == "035" ~ "Queen Anne's County",
+      countyfp20 == "037" ~ "St. Mary's County",
+      countyfp20 == "039" ~ "Somerset County",
+      countyfp20 == "041" ~ "Talbot County",
+      countyfp20 == "043" ~ "Washington County",
+      countyfp20 == "045" ~ "Wicomico County",
+      countyfp20 == "047" ~ "Worcester County",
+      countyfp20 == "510" ~ "Baltimore City",
+      TRUE ~ NA_character_
+    ))|>
+  rename(election_district_precinct = vtdst20,
+         county_name = countyfp20)|>
+  select(
+    county_name, election_district_precinct, geoid20,geometry
+  )
+
+
+#load census tracts, income data
+median_income <- get_acs(
   geography = "tract",
   variables = "B19013_001",
   state = "MD",
-  year = 2021,
-  geometry = TRUE
-)
-glimpse(md_income_data)
+  year = 2020,
+  geometry = TRUE,
+  ) |> 
+  clean_names()
+  
+
+precincts_geometry <- precincts_geometry |>
+  st_transform(crs=5070)
+
+median_income <- median_income|>
+  st_transform(crs=5070)
+
+#join tracts and precincts
+intersections <- st_intersection(median_income,precincts_geometry)
+
+intersections <-intersections |>
+  mutate(intersection_area = st_area(geometry))
 
 
-#read precinct shapefile 
-glimpse(md_income_data)
+max_overlap <- intersections |>
+  group_by(county_name, election_district_precinct) |>
+  slice_max(order_by = intersection_area, n = 1, with_ties = FALSE) |>
+  ungroup()
 
-uncleaned_precincts_shape <- st_read("data/Maryland_Election_Boundaries_-_Precincts_2022/Maryland_Election_Boundaries_-_Precincts_2022.shp")
-
-precincts_shape <- uncleaned_precincts_shape |>
-  clean_names()|>
-   mutate(
-    name = str_extract(name, "\\d{1,2}-\\d{3}"),  # Extract the district-precinct code (e.g., "29-002")
-    district = str_extract(name, "^\\d{1,2}"),  # Extract the district number (e.g., "29", "5", "12")
-    precinct_code = str_pad(district, width = 3, side = "left", pad = "0"),  # Pad district with leading zeros
-    name = str_replace(name, "^\\d{1,2}", precinct_code)  # Replace original district with padded district
-  ) |>
-  select(name, geometry)|>  # Keep only the formatted precinct_column
-rename(election_district_precinct = name)
-
-#join precinct spatial data to election data
-geometry_precincts_combined <- precincts_shape |>
-  left_join(precincts_combined, join_by(election_district_precinct)) 
-
-#join last dataframe with maryland income dataframe
-#make same type
-md_income_shape <- st_transform(md_income_data, st_crs(geometry_precincts_combined))
-
-#join precinct data to county spatial data
-
-joined_data <- st_join(precincts_shape, md_income_shape)|>
- rename(median_income = estimate)
+precincts_with_tract_data <- precincts_geometry |>
+  left_join(st_drop_geometry(max_overlap), by = c("county_name", "election_district_precinct"))
 
 
-election_economic_analysis <- left_join(joined_data, precincts_combined, by = "election_district_precinct")
+precinct_median_incomes_2020 <- precincts2020 |>
+  left_join(st_drop_geometry(max_overlap), by = c("county_name", "election_district_precinct"))|>
+  rename(median_income = estimate)|>
+  mutate(
+    median_income_group = case_when(
+  median_income <= 50000 ~ "$50,000 or less",
+  median_income <= 100000 ~ "$50,000 to $100,000",
+  TRUE ~ "Over $100,000"
+  ))
 
-election_economic_analysis <- election_economic_analysis |>
-   st_drop_geometry() |>
-  clean_names()|>
-   rename(census_tract = name)|>
-  mutate(median_income_group = case_when(
-    median_income <= 50000 ~ "$50,000 or less",
-     median_income <= 100000 ~ "$50,000 to $100,000",
-    TRUE ~ "Over $100,000"
-  ))|>
-  select(year,election_district_precinct,census_tract,county_name,median_income_group,candidate_name,total)
 
-```
+precinct_median_incomes_2024 <- precincts2024 |>
+  left_join(st_drop_geometry(max_overlap), by = c("county_name", "election_district_precinct"))|>
+  rename(median_income = estimate)|>
+  mutate(
+    median_income_group = case_when(
+  median_income <= 50000 ~ "$50,000 or less",
+  median_income <= 100000 ~ "$50,000 to $100,000",
+  TRUE ~ "Over $100,000"
+  ))
 
-```{r}
-# 2020 economic data
-  election_economic_analysis_2020 <- election_economic_analysis |>
-  filter(year == 2020) 
 
-election_economic_analysis_2020
+  
 ```
 
 
 ```{r}
-# 2020 trump votes 
-trump_votes_by_income_2020 <- election_economic_analysis_2020|>
+#find winners, analyze precinct voting based on precinct economic status
+econ_trump2020<- precinct_median_incomes_2020 |>
   filter(candidate_name == "Donald J. Trump")|>
-  group_by(median_income_group,county_name,election_district_precinct)
-  
-trump_votes_by_income_2020
-```
-
-
-```{r}
-# 2020 biden votes
-biden_votes_by_income_2020 <- election_economic_analysis_2020|>
+  select(county_name, election_district_precinct,total,median_income_group)|>
+  rename(trump_total_votes=total)
+    
+econ_biden2020<- precinct_median_incomes_2020 |>
   filter(candidate_name == "Joe Biden")|>
-  distinct(year,county_name, election_district_precinct, median_income_group, total, .keep_all = TRUE)|>
-  group_by(election_district_precinct, median_income_group)
-  summarise(
-    biden_votes =sum(total)
-  )
- 
+  select(county_name, election_district_precinct,total,median_income_group)|>
+  rename(biden_total_votes=total)
 
-biden_votes_by_income_2020
-
-```
-
-
-```{r}
-# 2024 economic data
-  election_economic_analysis_2024 <- election_economic_analysis |>
-  filter(year == 2024) 
-
-election_economic_analysis_2024
-```
-
-
-```{r}
-# 2020 trump votes
-trump_votes_by_income_2024 <- election_economic_analysis_2024|>
-  filter(candidate_name == "Donald J. Trump and JD Vance")
+econ_election2020 <- econ_trump2020|>
+  left_join(econ_biden2020, join_by(county_name, election_district_precinct,median_income_group))|>
+  mutate(
+    # Replace NA vote counts with 0 -- ChatGPT
+    trump_total_votes = replace_na(trump_total_votes, 0),
+    biden_total_votes = replace_na(biden_total_votes, 0),
+    total_votes = biden_total_votes + trump_total_votes,
+    # Prevent divide-by-zero by using if_else -- ChatGPT
+    pct_trump = if_else(total_votes == 0, NA_real_, (trump_total_votes / total_votes) * 100),
+    pct_biden = if_else(total_votes == 0, NA_real_, (biden_total_votes / total_votes) * 100),
+    winner= case_when(
+      pct_trump>=50 ~ "Trump",
+      pct_biden>=50 ~"Biden",
+      TRUE ~ "No Majority Winner"
+    )
+  )|>
+  select(county_name,election_district_precinct,winner,median_income_group)|>
+  group_by(winner,median_income_group)|>
+    summarise(
+      precincts = n()
+    )|>
+    filter(!is.na(winner))|>
+    mutate(
+      total_precincts_won = sum(precincts)
+    )|>
+    arrange(desc(total_precincts_won))
   
- 
+  econ_analysis2020 <- econ_election2020|>
+    mutate(
+      precinct_pct = (precincts/ total_precincts_won)*100
+    )|>
+    select(winner, median_income_group,precincts,precinct_pct)
 
-trump_votes_by_income_2024
+econ_analysis2020
+
+
+
+#2024
+
+econ_trump2024<- precinct_median_incomes_2024 |>
+  filter(candidate_name == "Donald J. Trump and JD Vance")|>
+  select(county_name, election_district_precinct,total,median_income_group)|>
+  rename(trump_total_votes=total)
+    
+econ_harris2024<- precinct_median_incomes_2024 |>
+  filter(candidate_name == "Kamala D. Harris and Tim Walz")|>
+  select(county_name, election_district_precinct,total,median_income_group)|>
+  rename(harris_total_votes=total)
+
+econ_election2024 <- econ_trump2024|>
+  left_join(econ_harris2024, join_by(county_name, election_district_precinct,median_income_group))|>
+  mutate(
+    # Replace NA vote counts with 0 -- ChatGPT
+    trump_total_votes = replace_na(trump_total_votes, 0),
+    harris_total_votes = replace_na(harris_total_votes, 0),
+    total_votes = harris_total_votes + trump_total_votes,
+    # Prevent divide-by-zero by using if_else -- ChatGPT
+    pct_trump = if_else(total_votes == 0, NA_real_, (trump_total_votes / total_votes) * 100),
+    pct_biden = if_else(total_votes == 0, NA_real_, (harris_total_votes / total_votes) * 100),
+    winner= case_when(
+      pct_trump>=50 ~ "Trump",
+      pct_biden>=50 ~"Harris",
+      TRUE ~ "No Majority Winner"
+    )
+  )|>
+  select(county_name,election_district_precinct,winner,median_income_group)|>
+  group_by(winner,median_income_group)|>
+    summarise(
+      precincts = n()
+    )|>
+    filter(!is.na(winner))|>
+    mutate(
+      total_precincts_won = sum(precincts)
+    )|>
+    arrange(desc(total_precincts_won))
+  
+  econ_analysis2024 <- econ_election2024|>
+    mutate(
+      precinct_pct = (precincts/ total_precincts_won)*100
+    )|>
+    select(winner, median_income_group,precincts,precinct_pct)
+
+econ_analysis2024
 ```
 
 
-```{r}
-# 2020 harris votes
-harris_votes_by_income_2024 <- election_economic_analysis_2024|>
-  filter(candidate_name == "Kamala D. Harris and Tim Walz")
 
-harris_votes_by_income_2024
-```
+
+
+
+
+
+
+
+
 
 
 
